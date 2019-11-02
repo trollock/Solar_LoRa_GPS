@@ -1,0 +1,17 @@
+\t (00:00:01) allegro 16.6 S019 (v16-6-112BG) Windows 32
+\t (00:00:01)     Journal start - Mon Aug 01 21:44:38 2016
+\t (00:00:01)         Host=LTA0190588A User=a0190588 Pid=8548 CPUs=4
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Database opened: C:/kht/work/CC1350_launchpad/LAUNCHXL-CC1350_1_2/Cadence/Allegro/LAUNCHXL-CC1350.brd
+\i (00:00:08) trapsize 383
+\i (00:00:08) trapsize 373
+\i (00:00:08) trapsize 385
+\i (00:00:09) trapsize 389
+\i (00:00:09) trapsize 444
+\i (00:00:09) generaledit 
+\i (00:02:27) opencd C:/kht/work/BOOSTXL-CC2650MA/Cadence/Allegro/BOOSTXL-CC2650MA.brd 
+\t (00:02:27) Opening existing design...
+\i (00:02:28) trapsize 3398
+\t (00:02:28)     Journal end - Mon Aug 01 21:47:05 2016

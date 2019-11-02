@@ -1,0 +1,1199 @@
+
+***DEBUG 0.002000 : Start processing import for: C:/Apps/Layout/PCBdesigns/CC1350_launchpad/LAUNCHXL-CC1350_1_0_0/LAUNCHXL-CC1350_1_0_0_Cadence/Allegro/LAUNCHXL-CC1350.adfi
+***DEBUG 0.002000 : ADFI requires ADS Board Link functionality. It is adviced to enable the ADS Board Link AEL add-on.
+
+***DEBUG 0.042000 : Parsing ADFI xml document: C:\Apps\CC13xxEM-7XD-7793\ADS\R1_3_0\simulation\adfi_work\LAUNCHXL-CC1350_lib_8\LAUNCHXL-CC1350.adfi started
+***DEBUG 2.156000 : Parsing ADFI xml document: C:\Apps\CC13xxEM-7XD-7793\ADS\R1_3_0\simulation\adfi_work\LAUNCHXL-CC1350_lib_8\LAUNCHXL-CC1350.adfi done
+***DEBUG 2.157000 : Building library and technology setup started
+***DEBUG 2.619000 : Building library and technology setup done
+***DEBUG 2.632000 : Performing hierarchical import for: LAUNCHXL-CC1350
+***DEBUG 2.650000 : Start processing component: LAUNCHXL-CC1350_lib_8:C24:layout
+***DEBUG 2.712000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C24:layout
+***DEBUG 2.717000 : Processing abl shapes done
+***DEBUG 2.718000 : Process pin list for: C24
+***DEBUG 2.734000 : Process port list for: C24
+***DEBUG 2.735000 : Process component definition for: C24
+***DEBUG 2.805000 : Start create new black box symbol: LAUNCHXL-CC1350_lib_8:C24:symbol
+***DEBUG 2.816000 : End Symbol processing, start parameter processing
+***DEBUG 2.818000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 2.819000 : Move origin to: (236.234,215.566)
+***DEBUG 2.892000 : Update netnames on pins for connectivity off: C24
+***DEBUG 2.893000 : Update netnames through layout pins for: C24
+***DEBUG 2.895000 : Set net : N1419286 on layout pin.
+***DEBUG 2.896000 : Update netnames on instance pins for: C24
+***DEBUG 2.896000 : Update netnames on pins done
+***DEBUG 2.896000 : Update connectivity done
+***DEBUG 2.896000 : Start path to trace conversion: C24
+***DEBUG 2.897000 : End path to trace conversion: C24
+***DEBUG 3.033000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C24:schematic
+***DEBUG 3.194000 : Start processing component: LAUNCHXL-CC1350_lib_8:C15:layout
+***DEBUG 3.267000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C15:layout
+***DEBUG 3.269000 : Processing abl shapes done
+***DEBUG 3.269000 : Process pin list for: C15
+***DEBUG 3.271000 : Process port list for: C15
+***DEBUG 3.272000 : Process component definition for: C15
+***DEBUG 3.344000 : Start create new black box symbol: LAUNCHXL-CC1350_lib_8:C15:symbol
+***DEBUG 3.346000 : End Symbol processing, start parameter processing
+***DEBUG 3.347000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 3.347000 : Move origin to: (223,216.4)
+***DEBUG 3.420000 : Update netnames on pins for connectivity off: C15
+***DEBUG 3.420000 : Update netnames through layout pins for: C15
+***DEBUG 3.420000 : Set net : N1414078 on layout pin.
+***DEBUG 3.420000 : Update netnames on instance pins for: C15
+***DEBUG 3.420000 : Update netnames on pins done
+***DEBUG 3.420000 : Update connectivity done
+***DEBUG 3.420000 : Start path to trace conversion: C15
+***DEBUG 3.421000 : End path to trace conversion: C15
+***DEBUG 3.551000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C15:schematic
+***DEBUG 3.702000 : Start processing component: LAUNCHXL-CC1350_lib_8:C3:layout
+***DEBUG 3.778000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C3:layout
+***DEBUG 3.783000 : Processing abl shapes done
+***DEBUG 3.784000 : Process pin list for: C3
+***DEBUG 3.787000 : Process port list for: C3
+***DEBUG 3.789000 : Process component definition for: C3
+***DEBUG 3.884000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C3:symbol
+***DEBUG 3.886000 : End Symbol processing, start parameter processing
+***DEBUG 3.887000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 3.888000 : Move origin to: (234.2,229.7)
+***DEBUG 3.954000 : Update netnames on pins for connectivity off: C3
+***DEBUG 3.954000 : Update netnames through layout pins for: C3
+***DEBUG 3.955000 : Set net : VDDS on layout pin.
+***DEBUG 3.955000 : Set net : GND on layout pin.
+***DEBUG 3.955000 : Update netnames on instance pins for: C3
+***DEBUG 3.956000 : Update netnames on pins done
+***DEBUG 3.956000 : Update connectivity done
+***DEBUG 3.956000 : Start path to trace conversion: C3
+***DEBUG 3.957000 : End path to trace conversion: C3
+***DEBUG 4.099000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C3:schematic
+***DEBUG 4.229000 : Start processing component: LAUNCHXL-CC1350_lib_8:C4:layout
+***DEBUG 4.292000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C4:layout
+***DEBUG 4.298000 : Processing abl shapes done
+***DEBUG 4.299000 : Process pin list for: C4
+***DEBUG 4.302000 : Process port list for: C4
+***DEBUG 4.304000 : Process component definition for: C4
+***DEBUG 4.389000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C4:symbol
+***DEBUG 4.391000 : End Symbol processing, start parameter processing
+***DEBUG 4.392000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 4.393000 : Move origin to: (234.3,234.5)
+***DEBUG 4.459000 : Update netnames on pins for connectivity off: C4
+***DEBUG 4.459000 : Update netnames through layout pins for: C4
+***DEBUG 4.460000 : Set net : VDDS on layout pin.
+***DEBUG 4.460000 : Set net : GND on layout pin.
+***DEBUG 4.460000 : Update netnames on instance pins for: C4
+***DEBUG 4.460000 : Update netnames on pins done
+***DEBUG 4.461000 : Update connectivity done
+***DEBUG 4.461000 : Start path to trace conversion: C4
+***DEBUG 4.461000 : End path to trace conversion: C4
+***DEBUG 4.600000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C4:schematic
+***DEBUG 4.739000 : Start processing component: LAUNCHXL-CC1350_lib_8:C5:layout
+***DEBUG 4.802000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C5:layout
+***DEBUG 4.810000 : Processing abl shapes done
+***DEBUG 4.810000 : Process pin list for: C5
+***DEBUG 4.812000 : Process port list for: C5
+***DEBUG 4.812000 : Process component definition for: C5
+***DEBUG 4.883000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C5:symbol
+***DEBUG 4.886000 : End Symbol processing, start parameter processing
+***DEBUG 4.888000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 4.889000 : Move origin to: (224.6,232)
+***DEBUG 4.956000 : Update netnames on pins for connectivity off: C5
+***DEBUG 4.956000 : Update netnames through layout pins for: C5
+***DEBUG 4.956000 : Set net : VDDS on layout pin.
+***DEBUG 4.957000 : Set net : GND on layout pin.
+***DEBUG 4.957000 : Update netnames on instance pins for: C5
+***DEBUG 4.957000 : Update netnames on pins done
+***DEBUG 4.957000 : Update connectivity done
+***DEBUG 4.957000 : Start path to trace conversion: C5
+***DEBUG 4.957000 : End path to trace conversion: C5
+***DEBUG 5.075000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C5:schematic
+***DEBUG 5.210000 : Start processing component: LAUNCHXL-CC1350_lib_8:C9:layout
+***DEBUG 5.285000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C9:layout
+***DEBUG 5.287000 : Processing abl shapes done
+***DEBUG 5.287000 : Process pin list for: C9
+***DEBUG 5.289000 : Process port list for: C9
+***DEBUG 5.289000 : Process component definition for: C9
+***DEBUG 5.359000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C9:symbol
+***DEBUG 5.362000 : End Symbol processing, start parameter processing
+***DEBUG 5.364000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 5.365000 : Move origin to: (225.1,228.8)
+***DEBUG 5.436000 : Update netnames on pins for connectivity off: C9
+***DEBUG 5.436000 : Update netnames through layout pins for: C9
+***DEBUG 5.437000 : Set net : VDDR on layout pin.
+***DEBUG 5.438000 : Set net : GND on layout pin.
+***DEBUG 5.438000 : Update netnames on instance pins for: C9
+***DEBUG 5.438000 : Update netnames on pins done
+***DEBUG 5.438000 : Update connectivity done
+***DEBUG 5.438000 : Start path to trace conversion: C9
+***DEBUG 5.439000 : End path to trace conversion: C9
+***DEBUG 5.579000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C9:schematic
+***DEBUG 5.713000 : Start processing component: LAUNCHXL-CC1350_lib_8:C11:layout
+***DEBUG 5.782000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C11:layout
+***DEBUG 5.786000 : Processing abl shapes done
+***DEBUG 5.787000 : Process pin list for: C11
+***DEBUG 5.790000 : Process port list for: C11
+***DEBUG 5.790000 : Process component definition for: C11
+***DEBUG 5.859000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C11:symbol
+***DEBUG 5.860000 : End Symbol processing, start parameter processing
+***DEBUG 5.861000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 5.861000 : Move origin to: (225.8,221.6)
+***DEBUG 5.927000 : Update netnames on pins for connectivity off: C11
+***DEBUG 5.927000 : Update netnames through layout pins for: C11
+***DEBUG 5.928000 : Set net : N1013859 on layout pin.
+***DEBUG 5.928000 : Set net : GND on layout pin.
+***DEBUG 5.928000 : Update netnames on instance pins for: C11
+***DEBUG 5.928000 : Update netnames on pins done
+***DEBUG 5.929000 : Update connectivity done
+***DEBUG 5.929000 : Start path to trace conversion: C11
+***DEBUG 5.929000 : End path to trace conversion: C11
+***DEBUG 6.066000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C11:schematic
+***DEBUG 6.201000 : Start processing component: LAUNCHXL-CC1350_lib_8:C12:layout
+***DEBUG 6.268000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C12:layout
+***DEBUG 6.270000 : Processing abl shapes done
+***DEBUG 6.270000 : Process pin list for: C12
+***DEBUG 6.272000 : Process port list for: C12
+***DEBUG 6.273000 : Progress: 12% done.
+***DEBUG 6.278000 : Process component definition for: C12
+***DEBUG 6.349000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C12:symbol
+***DEBUG 6.350000 : End Symbol processing, start parameter processing
+***DEBUG 6.351000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 6.352000 : Move origin to: (222.6,220.1)
+***DEBUG 6.430000 : Update netnames on pins for connectivity off: C12
+***DEBUG 6.430000 : Update netnames through layout pins for: C12
+***DEBUG 6.431000 : Set net : N1013899 on layout pin.
+***DEBUG 6.431000 : Set net : GND on layout pin.
+***DEBUG 6.431000 : Update netnames on instance pins for: C12
+***DEBUG 6.431000 : Update netnames on pins done
+***DEBUG 6.431000 : Update connectivity done
+***DEBUG 6.431000 : Start path to trace conversion: C12
+***DEBUG 6.431000 : End path to trace conversion: C12
+***DEBUG 6.561000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C12:schematic
+***DEBUG 6.705000 : Start processing component: LAUNCHXL-CC1350_lib_8:C13:layout
+***DEBUG 6.774000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C13:layout
+***DEBUG 6.778000 : Processing abl shapes done
+***DEBUG 6.779000 : Process pin list for: C13
+***DEBUG 6.783000 : Process port list for: C13
+***DEBUG 6.784000 : Process component definition for: C13
+***DEBUG 6.858000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C13:symbol
+***DEBUG 6.861000 : End Symbol processing, start parameter processing
+***DEBUG 6.863000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 6.863000 : Move origin to: (220.8,218.3)
+***DEBUG 6.925000 : Update netnames on pins for connectivity off: C13
+***DEBUG 6.925000 : Update netnames through layout pins for: C13
+***DEBUG 6.925000 : Set net : N1013927 on layout pin.
+***DEBUG 6.925000 : Set net : GND on layout pin.
+***DEBUG 6.925000 : Update netnames on instance pins for: C13
+***DEBUG 6.925000 : Update netnames on pins done
+***DEBUG 6.925000 : Update connectivity done
+***DEBUG 6.925000 : Start path to trace conversion: C13
+***DEBUG 6.926000 : End path to trace conversion: C13
+***DEBUG 7.050000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C13:schematic
+***DEBUG 7.184000 : Start processing component: LAUNCHXL-CC1350_lib_8:C14:layout
+***DEBUG 7.250000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C14:layout
+***DEBUG 7.253000 : Progress: 14% done.
+***DEBUG 7.258000 : Processing abl shapes done
+***DEBUG 7.259000 : Process pin list for: C14
+***DEBUG 7.261000 : Process port list for: C14
+***DEBUG 7.261000 : Process component definition for: C14
+***DEBUG 7.342000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C14:symbol
+***DEBUG 7.343000 : End Symbol processing, start parameter processing
+***DEBUG 7.344000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 7.345000 : Move origin to: (220.6,216.4)
+***DEBUG 7.411000 : Update netnames on pins for connectivity off: C14
+***DEBUG 7.411000 : Update netnames through layout pins for: C14
+***DEBUG 7.412000 : Set net : N1414078 on layout pin.
+***DEBUG 7.412000 : Set net : GND on layout pin.
+***DEBUG 7.412000 : Update netnames on instance pins for: C14
+***DEBUG 7.412000 : Update netnames on pins done
+***DEBUG 7.412000 : Update connectivity done
+***DEBUG 7.412000 : Start path to trace conversion: C14
+***DEBUG 7.412000 : End path to trace conversion: C14
+***DEBUG 7.535000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C14:schematic
+***DEBUG 7.664000 : Start processing component: LAUNCHXL-CC1350_lib_8:C16:layout
+***DEBUG 7.743000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C16:layout
+***DEBUG 7.750000 : Progress: 16% done.
+***DEBUG 7.756000 : Processing abl shapes done
+***DEBUG 7.756000 : Process pin list for: C16
+***DEBUG 7.760000 : Process port list for: C16
+***DEBUG 7.760000 : Process component definition for: C16
+***DEBUG 7.839000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C16:symbol
+***DEBUG 7.840000 : End Symbol processing, start parameter processing
+***DEBUG 7.841000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 7.841000 : Move origin to: (224.6,230.8)
+***DEBUG 7.902000 : Update netnames on pins for connectivity off: C16
+***DEBUG 7.902000 : Update netnames through layout pins for: C16
+***DEBUG 7.902000 : Set net : VDDR on layout pin.
+***DEBUG 7.902000 : Set net : GND on layout pin.
+***DEBUG 7.902000 : Update netnames on instance pins for: C16
+***DEBUG 7.902000 : Update netnames on pins done
+***DEBUG 7.903000 : Update connectivity done
+***DEBUG 7.903000 : Start path to trace conversion: C16
+***DEBUG 7.903000 : End path to trace conversion: C16
+***DEBUG 8.020000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C16:schematic
+***DEBUG 8.162000 : Start processing component: LAUNCHXL-CC1350_lib_8:C17:layout
+***DEBUG 8.231000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C17:layout
+***DEBUG 8.236000 : Processing abl shapes done
+***DEBUG 8.237000 : Progress: 18% done.
+***DEBUG 8.244000 : Process pin list for: C17
+***DEBUG 8.249000 : Process port list for: C17
+***DEBUG 8.250000 : Process component definition for: C17
+***DEBUG 8.331000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C17:symbol
+***DEBUG 8.335000 : End Symbol processing, start parameter processing
+***DEBUG 8.337000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 8.338000 : Move origin to: (234,223.3)
+***DEBUG 8.406000 : Update netnames on pins for connectivity off: C17
+***DEBUG 8.406000 : Update netnames through layout pins for: C17
+***DEBUG 8.406000 : Set net : N1014101 on layout pin.
+***DEBUG 8.406000 : Set net : GND on layout pin.
+***DEBUG 8.406000 : Update netnames on instance pins for: C17
+***DEBUG 8.406000 : Update netnames on pins done
+***DEBUG 8.407000 : Update connectivity done
+***DEBUG 8.407000 : Start path to trace conversion: C17
+***DEBUG 8.407000 : End path to trace conversion: C17
+***DEBUG 8.536000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C17:schematic
+***DEBUG 8.682000 : Start processing component: LAUNCHXL-CC1350_lib_8:C18:layout
+***DEBUG 8.754000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C18:layout
+***DEBUG 8.757000 : Processing abl shapes done
+***DEBUG 8.757000 : Process pin list for: C18
+***DEBUG 8.759000 : Process port list for: C18
+***DEBUG 8.760000 : Progress: 20% done.
+***DEBUG 8.764000 : Process component definition for: C18
+***DEBUG 8.832000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C18:symbol
+***DEBUG 8.834000 : End Symbol processing, start parameter processing
+***DEBUG 8.836000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 8.838000 : Move origin to: (234,225.8)
+***DEBUG 8.902000 : Update netnames on pins for connectivity off: C18
+***DEBUG 8.902000 : Update netnames through layout pins for: C18
+***DEBUG 8.903000 : Set net : N1014113 on layout pin.
+***DEBUG 8.903000 : Set net : GND on layout pin.
+***DEBUG 8.903000 : Update netnames on instance pins for: C18
+***DEBUG 8.903000 : Update netnames on pins done
+***DEBUG 8.903000 : Update connectivity done
+***DEBUG 8.903000 : Start path to trace conversion: C18
+***DEBUG 8.903000 : End path to trace conversion: C18
+***DEBUG 9.032000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C18:schematic
+***DEBUG 9.158000 : Start processing component: LAUNCHXL-CC1350_lib_8:C19:layout
+***DEBUG 9.223000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C19:layout
+***DEBUG 9.228000 : Processing abl shapes done
+***DEBUG 9.229000 : Process pin list for: C19
+***DEBUG 9.232000 : Process port list for: C19
+***DEBUG 9.234000 : Process component definition for: C19
+***DEBUG 9.313000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C19:symbol
+***DEBUG 9.314000 : End Symbol processing, start parameter processing
+***DEBUG 9.315000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 9.316000 : Move origin to: (234.2,235.6)
+***DEBUG 9.378000 : Update netnames on pins for connectivity off: C19
+***DEBUG 9.378000 : Update netnames through layout pins for: C19
+***DEBUG 9.378000 : Set net : N1393569 on layout pin.
+***DEBUG 9.379000 : Set net : GND on layout pin.
+***DEBUG 9.379000 : Update netnames on instance pins for: C19
+***DEBUG 9.379000 : Update netnames on pins done
+***DEBUG 9.379000 : Update connectivity done
+***DEBUG 9.379000 : Start path to trace conversion: C19
+***DEBUG 9.380000 : End path to trace conversion: C19
+***DEBUG 9.516000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C19:schematic
+***DEBUG 9.668000 : Start processing component: LAUNCHXL-CC1350_lib_8:C21:layout
+***DEBUG 9.744000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C21:layout
+***DEBUG 9.750000 : Progress: 22% done.
+***DEBUG 9.759000 : Processing abl shapes done
+***DEBUG 9.759000 : Process pin list for: C21
+***DEBUG 9.764000 : Process port list for: C21
+***DEBUG 9.766000 : Process component definition for: C21
+***DEBUG 9.846000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C21:symbol
+***DEBUG 9.849000 : End Symbol processing, start parameter processing
+***DEBUG 9.851000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 9.852000 : Move origin to: (228.4,221.6)
+***DEBUG 9.919000 : Update netnames on pins for connectivity off: C21
+***DEBUG 9.919000 : Update netnames through layout pins for: C21
+***DEBUG 9.920000 : Set net : N1419138 on layout pin.
+***DEBUG 9.921000 : Set net : GND on layout pin.
+***DEBUG 9.921000 : Update netnames on instance pins for: C21
+***DEBUG 9.921000 : Update netnames on pins done
+***DEBUG 9.921000 : Update connectivity done
+***DEBUG 9.921000 : Start path to trace conversion: C21
+***DEBUG 9.921000 : End path to trace conversion: C21
+***DEBUG 10.048000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C21:schematic
+***DEBUG 10.206000 : Start processing component: LAUNCHXL-CC1350_lib_8:C22:layout
+***DEBUG 10.275000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C22:layout
+***DEBUG 10.282000 : Progress: 24% done.
+***DEBUG 10.289000 : Processing abl shapes done
+***DEBUG 10.290000 : Process pin list for: C22
+***DEBUG 10.294000 : Process port list for: C22
+***DEBUG 10.297000 : Process component definition for: C22
+***DEBUG 10.375000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C22:symbol
+***DEBUG 10.378000 : End Symbol processing, start parameter processing
+***DEBUG 10.380000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 10.381000 : Move origin to: (223.9,222.2)
+***DEBUG 10.446000 : Update netnames on pins for connectivity off: C22
+***DEBUG 10.446000 : Update netnames through layout pins for: C22
+***DEBUG 10.446000 : Set net : N1013855 on layout pin.
+***DEBUG 10.446000 : Set net : N1013899 on layout pin.
+***DEBUG 10.446000 : Update netnames on instance pins for: C22
+***DEBUG 10.446000 : Update netnames on pins done
+***DEBUG 10.447000 : Update connectivity done
+***DEBUG 10.447000 : Start path to trace conversion: C22
+***DEBUG 10.447000 : End path to trace conversion: C22
+***DEBUG 10.583000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C22:schematic
+***DEBUG 10.722000 : Start processing component: LAUNCHXL-CC1350_lib_8:C58:layout
+***DEBUG 10.785000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C58:layout
+***DEBUG 10.787000 : Progress: 26% done.
+***DEBUG 10.792000 : Processing abl shapes done
+***DEBUG 10.793000 : Process pin list for: C58
+***DEBUG 10.796000 : Process port list for: C58
+***DEBUG 10.797000 : Process component definition for: C58
+***DEBUG 10.872000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C58:symbol
+***DEBUG 10.873000 : End Symbol processing, start parameter processing
+***DEBUG 10.874000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 10.875000 : Move origin to: (228.7,226.5)
+***DEBUG 10.935000 : Update netnames on pins for connectivity off: C58
+***DEBUG 10.935000 : Update netnames through layout pins for: C58
+***DEBUG 10.935000 : Set net : N1403554 on layout pin.
+***DEBUG 10.935000 : Set net : GND on layout pin.
+***DEBUG 10.935000 : Update netnames on instance pins for: C58
+***DEBUG 10.935000 : Update netnames on pins done
+***DEBUG 10.935000 : Update connectivity done
+***DEBUG 10.935000 : Start path to trace conversion: C58
+***DEBUG 10.936000 : End path to trace conversion: C58
+***DEBUG 11.068000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C58:schematic
+***DEBUG 11.223000 : Start processing component: LAUNCHXL-CC1350_lib_8:C60:layout
+***DEBUG 11.287000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C60:layout
+***DEBUG 11.289000 : Processing abl shapes done
+***DEBUG 11.289000 : Progress: 28% done.
+***DEBUG 11.293000 : Process pin list for: C60
+***DEBUG 11.294000 : Process port list for: C60
+***DEBUG 11.295000 : Process component definition for: C60
+***DEBUG 11.364000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C60:symbol
+***DEBUG 11.367000 : End Symbol processing, start parameter processing
+***DEBUG 11.369000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 11.370000 : Move origin to: (230.3,222.2)
+***DEBUG 11.436000 : Update netnames on pins for connectivity off: C60
+***DEBUG 11.436000 : Update netnames through layout pins for: C60
+***DEBUG 11.436000 : Set net : N1419146 on layout pin.
+***DEBUG 11.437000 : Set net : N1419182 on layout pin.
+***DEBUG 11.437000 : Update netnames on instance pins for: C60
+***DEBUG 11.437000 : Update netnames on pins done
+***DEBUG 11.437000 : Update connectivity done
+***DEBUG 11.437000 : Start path to trace conversion: C60
+***DEBUG 11.437000 : End path to trace conversion: C60
+***DEBUG 11.577000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C60:schematic
+***DEBUG 11.741000 : Start processing component: LAUNCHXL-CC1350_lib_8:C61:layout
+***DEBUG 11.815000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C61:layout
+***DEBUG 11.819000 : Processing abl shapes done
+***DEBUG 11.820000 : Progress: 30% done.
+***DEBUG 11.825000 : Process pin list for: C61
+***DEBUG 11.827000 : Process port list for: C61
+***DEBUG 11.827000 : Process component definition for: C61
+***DEBUG 11.902000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C61:symbol
+***DEBUG 11.904000 : End Symbol processing, start parameter processing
+***DEBUG 11.905000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 11.905000 : Move origin to: (231.7,220.1)
+***DEBUG 11.964000 : Update netnames on pins for connectivity off: C61
+***DEBUG 11.964000 : Update netnames through layout pins for: C61
+***DEBUG 11.965000 : Set net : N1419182 on layout pin.
+***DEBUG 11.965000 : Set net : GND on layout pin.
+***DEBUG 11.965000 : Update netnames on instance pins for: C61
+***DEBUG 11.965000 : Update netnames on pins done
+***DEBUG 11.965000 : Update connectivity done
+***DEBUG 11.965000 : Start path to trace conversion: C61
+***DEBUG 11.965000 : End path to trace conversion: C61
+***DEBUG 12.096000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C61:schematic
+***DEBUG 12.241000 : Start processing component: LAUNCHXL-CC1350_lib_8:C62:layout
+***DEBUG 12.302000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C62:layout
+***DEBUG 12.305000 : Processing abl shapes done
+***DEBUG 12.305000 : Process pin list for: C62
+***DEBUG 12.307000 : Process port list for: C62
+***DEBUG 12.307000 : Progress: 32% done.
+***DEBUG 12.311000 : Process component definition for: C62
+***DEBUG 12.383000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C62:symbol
+***DEBUG 12.384000 : End Symbol processing, start parameter processing
+***DEBUG 12.386000 : Item definition for design: CAPC1005X60N updated.
+***DEBUG 12.387000 : Move origin to: (234.3,218.8)
+***DEBUG 12.445000 : Update netnames on pins for connectivity off: C62
+***DEBUG 12.445000 : Update netnames through layout pins for: C62
+***DEBUG 12.446000 : Set net : N1419210 on layout pin.
+***DEBUG 12.446000 : Set net : GND on layout pin.
+***DEBUG 12.446000 : Update netnames on instance pins for: C62
+***DEBUG 12.446000 : Update netnames on pins done
+***DEBUG 12.446000 : Update connectivity done
+***DEBUG 12.446000 : Start path to trace conversion: C62
+***DEBUG 12.446000 : End path to trace conversion: C62
+***DEBUG 12.582000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C62:schematic
+***DEBUG 12.733000 : Start processing component: LAUNCHXL-CC1350_lib_8:C63:layout
+***DEBUG 12.809000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C63:layout
+***DEBUG 12.812000 : Processing abl shapes done
+***DEBUG 12.812000 : Process pin list for: C63
+***DEBUG 12.814000 : Process port list for: C63
+***DEBUG 12.815000 : Process component definition for: C63
+***DEBUG 12.887000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C63:symbol
+***DEBUG 12.890000 : End Symbol processing, start parameter processing
+***DEBUG 12.892000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 12.893000 : Move origin to: (226.6,226.5)
+***DEBUG 12.960000 : Update netnames on pins for connectivity off: C63
+***DEBUG 12.961000 : Update netnames through layout pins for: C63
+***DEBUG 12.961000 : Set net : N1417883 on layout pin.
+***DEBUG 12.961000 : Set net : N1465309 on layout pin.
+***DEBUG 12.961000 : Update netnames on instance pins for: C63
+***DEBUG 12.961000 : Update netnames on pins done
+***DEBUG 12.961000 : Update connectivity done
+***DEBUG 12.961000 : Start path to trace conversion: C63
+***DEBUG 12.962000 : End path to trace conversion: C63
+***DEBUG 13.096000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C63:schematic
+***DEBUG 13.243000 : Start processing component: LAUNCHXL-CC1350_lib_8:C64:layout
+***DEBUG 13.310000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C64:layout
+***DEBUG 13.315000 : Progress: 34% done.
+***DEBUG 13.329000 : Processing abl shapes done
+***DEBUG 13.330000 : Process pin list for: C64
+***DEBUG 13.332000 : Process port list for: C64
+***DEBUG 13.333000 : Process component definition for: C64
+***DEBUG 13.412000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C64:symbol
+***DEBUG 13.415000 : End Symbol processing, start parameter processing
+***DEBUG 13.417000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 13.418000 : Move origin to: (227.6,226.5)
+***DEBUG 13.479000 : Update netnames on pins for connectivity off: C64
+***DEBUG 13.479000 : Update netnames through layout pins for: C64
+***DEBUG 13.480000 : Set net : N1418253 on layout pin.
+***DEBUG 13.480000 : Set net : N1420906 on layout pin.
+***DEBUG 13.480000 : Update netnames on instance pins for: C64
+***DEBUG 13.480000 : Update netnames on pins done
+***DEBUG 13.480000 : Update connectivity done
+***DEBUG 13.480000 : Start path to trace conversion: C64
+***DEBUG 13.480000 : End path to trace conversion: C64
+***DEBUG 13.609000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C64:schematic
+***DEBUG 13.743000 : Start processing component: LAUNCHXL-CC1350_lib_8:C65:layout
+***DEBUG 13.806000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C65:layout
+***DEBUG 13.808000 : Progress: 36% done.
+***DEBUG 13.812000 : Processing abl shapes done
+***DEBUG 13.812000 : Process pin list for: C65
+***DEBUG 13.814000 : Process port list for: C65
+***DEBUG 13.815000 : Process component definition for: C65
+***DEBUG 13.886000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C65:symbol
+***DEBUG 13.887000 : End Symbol processing, start parameter processing
+***DEBUG 13.888000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 13.888000 : Move origin to: (225.5,226.5)
+***DEBUG 13.947000 : Update netnames on pins for connectivity off: C65
+***DEBUG 13.947000 : Update netnames through layout pins for: C65
+***DEBUG 13.947000 : Set net : N1403554 on layout pin.
+***DEBUG 13.947000 : Set net : GND on layout pin.
+***DEBUG 13.947000 : Update netnames on instance pins for: C65
+***DEBUG 13.947000 : Update netnames on pins done
+***DEBUG 13.948000 : Update connectivity done
+***DEBUG 13.948000 : Start path to trace conversion: C65
+***DEBUG 13.948000 : End path to trace conversion: C65
+***DEBUG 14.078000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C65:schematic
+***DEBUG 14.234000 : Start processing component: LAUNCHXL-CC1350_lib_8:C67:layout
+***DEBUG 14.308000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C67:layout
+***DEBUG 14.314000 : Processing abl shapes done
+***DEBUG 14.315000 : Progress: 38% done.
+***DEBUG 14.338000 : Process pin list for: C67
+***DEBUG 14.343000 : Process port list for: C67
+***DEBUG 14.344000 : Process component definition for: C67
+***DEBUG 14.413000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C67:symbol
+***DEBUG 14.415000 : End Symbol processing, start parameter processing
+***DEBUG 14.416000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 14.416000 : Move origin to: (236.24,215.56)
+***DEBUG 14.479000 : Update netnames on pins for connectivity off: C67
+***DEBUG 14.479000 : Update netnames through layout pins for: C67
+***DEBUG 14.480000 : Set net : N1419286 on layout pin.
+***DEBUG 14.481000 : Set net : N1466981 on layout pin.
+***DEBUG 14.481000 : Update netnames on instance pins for: C67
+***DEBUG 14.481000 : Update netnames on pins done
+***DEBUG 14.481000 : Update connectivity done
+***DEBUG 14.481000 : Start path to trace conversion: C67
+***DEBUG 14.481000 : End path to trace conversion: C67
+***DEBUG 14.622000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C67:schematic
+***DEBUG 14.777000 : Start processing component: LAUNCHXL-CC1350_lib_8:C68:layout
+***DEBUG 14.853000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C68:layout
+***DEBUG 14.855000 : Processing abl shapes done
+***DEBUG 14.855000 : Progress: 40% done.
+***DEBUG 14.864000 : Process pin list for: C68
+***DEBUG 14.867000 : Process port list for: C68
+***DEBUG 14.867000 : Process component definition for: C68
+***DEBUG 14.945000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C68:symbol
+***DEBUG 14.949000 : End Symbol processing, start parameter processing
+***DEBUG 14.951000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 14.952000 : Move origin to: (235,215.7)
+***DEBUG 15.019000 : Update netnames on pins for connectivity off: C68
+***DEBUG 15.019000 : Update netnames through layout pins for: C68
+***DEBUG 15.019000 : Set net : N1419286 on layout pin.
+***DEBUG 15.020000 : Set net : GND on layout pin.
+***DEBUG 15.020000 : Update netnames on instance pins for: C68
+***DEBUG 15.020000 : Update netnames on pins done
+***DEBUG 15.021000 : Update connectivity done
+***DEBUG 15.021000 : Start path to trace conversion: C68
+***DEBUG 15.021000 : End path to trace conversion: C68
+***DEBUG 15.155000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C68:schematic
+***DEBUG 15.301000 : Start processing component: LAUNCHXL-CC1350_lib_8:C69:layout
+***DEBUG 15.369000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:C69:layout
+***DEBUG 15.372000 : Processing abl shapes done
+***DEBUG 15.372000 : Process pin list for: C69
+***DEBUG 15.374000 : Process port list for: C69
+***DEBUG 15.374000 : Progress: 42% done.
+***DEBUG 15.384000 : Process component definition for: C69
+***DEBUG 15.459000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:C69:symbol
+***DEBUG 15.461000 : End Symbol processing, start parameter processing
+***DEBUG 15.463000 : Item definition for design: CAPC1005X60L updated.
+***DEBUG 15.463000 : Move origin to: (223,216.4)
+***DEBUG 15.527000 : Update netnames on pins for connectivity off: C69
+***DEBUG 15.527000 : Update netnames through layout pins for: C69
+***DEBUG 15.528000 : Set net : N1414078 on layout pin.
+***DEBUG 15.528000 : Set net : N1466589 on layout pin.
+***DEBUG 15.528000 : Update netnames on instance pins for: C69
+***DEBUG 15.528000 : Update netnames on pins done
+***DEBUG 15.528000 : Update connectivity done
+***DEBUG 15.528000 : Start path to trace conversion: C69
+***DEBUG 15.529000 : End path to trace conversion: C69
+***DEBUG 15.663000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:C69:schematic
+***DEBUG 15.800000 : Start processing component: LAUNCHXL-CC1350_lib_8:L11:layout
+***DEBUG 15.876000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L11:layout
+***DEBUG 15.881000 : Processing abl shapes done
+***DEBUG 15.882000 : Process pin list for: L11
+***DEBUG 15.886000 : Process port list for: L11
+***DEBUG 15.887000 : Process component definition for: L11
+***DEBUG 15.968000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L11:symbol
+***DEBUG 15.969000 : End Symbol processing, start parameter processing
+***DEBUG 15.970000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 15.970000 : Move origin to: (229.65,222.85)
+***DEBUG 16.030000 : Update netnames on pins for connectivity off: L11
+***DEBUG 16.030000 : Update netnames through layout pins for: L11
+***DEBUG 16.030000 : Set net : N1419146 on layout pin.
+***DEBUG 16.030000 : Set net : GND on layout pin.
+***DEBUG 16.030000 : Update netnames on instance pins for: L11
+***DEBUG 16.030000 : Update netnames on pins done
+***DEBUG 16.030000 : Update connectivity done
+***DEBUG 16.030000 : Start path to trace conversion: L11
+***DEBUG 16.031000 : End path to trace conversion: L11
+***DEBUG 16.157000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L11:schematic
+***DEBUG 16.306000 : Start processing component: LAUNCHXL-CC1350_lib_8:L12:layout
+***DEBUG 16.381000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L12:layout
+***DEBUG 16.386000 : Progress: 44% done.
+***DEBUG 16.395000 : Processing abl shapes done
+***DEBUG 16.397000 : Process pin list for: L12
+***DEBUG 16.402000 : Process port list for: L12
+***DEBUG 16.404000 : Process component definition for: L12
+***DEBUG 16.480000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L12:symbol
+***DEBUG 16.481000 : End Symbol processing, start parameter processing
+***DEBUG 16.482000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 16.483000 : Move origin to: (224.6,221.5)
+***DEBUG 16.542000 : Update netnames on pins for connectivity off: L12
+***DEBUG 16.542000 : Update netnames through layout pins for: L12
+***DEBUG 16.542000 : Set net : N1013899 on layout pin.
+***DEBUG 16.543000 : Set net : N1013859 on layout pin.
+***DEBUG 16.543000 : Update netnames on instance pins for: L12
+***DEBUG 16.543000 : Update netnames on pins done
+***DEBUG 16.543000 : Update connectivity done
+***DEBUG 16.543000 : Start path to trace conversion: L12
+***DEBUG 16.543000 : End path to trace conversion: L12
+***DEBUG 16.679000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L12:schematic
+***DEBUG 16.845000 : Start processing component: LAUNCHXL-CC1350_lib_8:L13:layout
+***DEBUG 16.921000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L13:layout
+***DEBUG 16.923000 : Progress: 46% done.
+***DEBUG 16.926000 : Processing abl shapes done
+***DEBUG 16.927000 : Process pin list for: L13
+***DEBUG 16.928000 : Process port list for: L13
+***DEBUG 16.929000 : Process component definition for: L13
+***DEBUG 16.999000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L13:symbol
+***DEBUG 17.002000 : End Symbol processing, start parameter processing
+***DEBUG 17.004000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 17.005000 : Move origin to: (222,219.5)
+***DEBUG 17.071000 : Update netnames on pins for connectivity off: L13
+***DEBUG 17.071000 : Update netnames through layout pins for: L13
+***DEBUG 17.072000 : Set net : N1013899 on layout pin.
+***DEBUG 17.072000 : Set net : N1013927 on layout pin.
+***DEBUG 17.072000 : Update netnames on instance pins for: L13
+***DEBUG 17.072000 : Update netnames on pins done
+***DEBUG 17.072000 : Update connectivity done
+***DEBUG 17.072000 : Start path to trace conversion: L13
+***DEBUG 17.072000 : End path to trace conversion: L13
+***DEBUG 17.202000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L13:schematic
+***DEBUG 17.360000 : Start processing component: LAUNCHXL-CC1350_lib_8:L14:layout
+***DEBUG 17.433000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L14:layout
+***DEBUG 17.435000 : Progress: 48% done.
+***DEBUG 17.438000 : Processing abl shapes done
+***DEBUG 17.438000 : Process pin list for: L14
+***DEBUG 17.440000 : Process port list for: L14
+***DEBUG 17.441000 : Process component definition for: L14
+***DEBUG 17.513000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L14:symbol
+***DEBUG 17.517000 : End Symbol processing, start parameter processing
+***DEBUG 17.520000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 17.521000 : Move origin to: (220.2,217.7)
+***DEBUG 17.586000 : Update netnames on pins for connectivity off: L14
+***DEBUG 17.586000 : Update netnames through layout pins for: L14
+***DEBUG 17.587000 : Set net : N1013927 on layout pin.
+***DEBUG 17.587000 : Set net : N1414078 on layout pin.
+***DEBUG 17.587000 : Update netnames on instance pins for: L14
+***DEBUG 17.587000 : Update netnames on pins done
+***DEBUG 17.587000 : Update connectivity done
+***DEBUG 17.587000 : Start path to trace conversion: L14
+***DEBUG 17.588000 : End path to trace conversion: L14
+***DEBUG 17.723000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L14:schematic
+***DEBUG 17.878000 : Start processing component: LAUNCHXL-CC1350_lib_8:L21:layout
+***DEBUG 17.955000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L21:layout
+***DEBUG 17.960000 : Progress: 50% done.
+***DEBUG 17.968000 : Processing abl shapes done
+***DEBUG 17.969000 : Process pin list for: L21
+***DEBUG 17.973000 : Process port list for: L21
+***DEBUG 17.974000 : Process component definition for: L21
+***DEBUG 18.048000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L21:symbol
+***DEBUG 18.049000 : End Symbol processing, start parameter processing
+***DEBUG 18.050000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 18.051000 : Move origin to: (229.6,221.5)
+***DEBUG 18.115000 : Update netnames on pins for connectivity off: L21
+***DEBUG 18.115000 : Update netnames through layout pins for: L21
+***DEBUG 18.115000 : Set net : N1419138 on layout pin.
+***DEBUG 18.116000 : Set net : N1419182 on layout pin.
+***DEBUG 18.116000 : Update netnames on instance pins for: L21
+***DEBUG 18.116000 : Update netnames on pins done
+***DEBUG 18.117000 : Update connectivity done
+***DEBUG 18.117000 : Start path to trace conversion: L21
+***DEBUG 18.117000 : End path to trace conversion: L21
+***DEBUG 18.247000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L21:schematic
+***DEBUG 18.394000 : Start processing component: LAUNCHXL-CC1350_lib_8:L25:layout
+***DEBUG 18.466000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L25:layout
+***DEBUG 18.472000 : Progress: 52% done.
+***DEBUG 18.478000 : Processing abl shapes done
+***DEBUG 18.479000 : Process pin list for: L25
+***DEBUG 18.484000 : Process port list for: L25
+***DEBUG 18.486000 : Process component definition for: L25
+***DEBUG 18.562000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L25:symbol
+***DEBUG 18.567000 : End Symbol processing, start parameter processing
+***DEBUG 18.569000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 18.570000 : Move origin to: (232.4,219.4)
+***DEBUG 18.636000 : Update netnames on pins for connectivity off: L25
+***DEBUG 18.636000 : Update netnames through layout pins for: L25
+***DEBUG 18.637000 : Set net : N1419182 on layout pin.
+***DEBUG 18.637000 : Set net : N1419210 on layout pin.
+***DEBUG 18.637000 : Update netnames on instance pins for: L25
+***DEBUG 18.637000 : Update netnames on pins done
+***DEBUG 18.637000 : Update connectivity done
+***DEBUG 18.637000 : Start path to trace conversion: L25
+***DEBUG 18.637000 : End path to trace conversion: L25
+***DEBUG 18.772000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L25:schematic
+***DEBUG 18.931000 : Start processing component: LAUNCHXL-CC1350_lib_8:L26:layout
+***DEBUG 18.999000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L26:layout
+***DEBUG 19.004000 : Processing abl shapes done
+***DEBUG 19.005000 : Progress: 54% done.
+***DEBUG 19.010000 : Process pin list for: L26
+***DEBUG 19.015000 : Process port list for: L26
+***DEBUG 19.016000 : Process component definition for: L26
+***DEBUG 19.099000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L26:symbol
+***DEBUG 19.103000 : End Symbol processing, start parameter processing
+***DEBUG 19.105000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 19.106000 : Move origin to: (234.3,217.5)
+***DEBUG 19.173000 : Update netnames on pins for connectivity off: L26
+***DEBUG 19.173000 : Update netnames through layout pins for: L26
+***DEBUG 19.174000 : Set net : N1419210 on layout pin.
+***DEBUG 19.174000 : Set net : N1419286 on layout pin.
+***DEBUG 19.174000 : Update netnames on instance pins for: L26
+***DEBUG 19.174000 : Update netnames on pins done
+***DEBUG 19.174000 : Update connectivity done
+***DEBUG 19.174000 : Start path to trace conversion: L26
+***DEBUG 19.174000 : End path to trace conversion: L26
+***DEBUG 19.302000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L26:schematic
+***DEBUG 19.475000 : Start processing component: LAUNCHXL-CC1350_lib_8:L27:layout
+***DEBUG 19.544000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L27:layout
+***DEBUG 19.550000 : Processing abl shapes done
+***DEBUG 19.550000 : Progress: 56% done.
+***DEBUG 19.557000 : Process pin list for: L27
+***DEBUG 19.563000 : Process port list for: L27
+***DEBUG 19.565000 : Process component definition for: L27
+***DEBUG 19.637000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L27:symbol
+***DEBUG 19.641000 : End Symbol processing, start parameter processing
+***DEBUG 19.643000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 19.644000 : Move origin to: (224,223.4)
+***DEBUG 19.710000 : Update netnames on pins for connectivity off: L27
+***DEBUG 19.710000 : Update netnames through layout pins for: L27
+***DEBUG 19.710000 : Set net : N1013855 on layout pin.
+***DEBUG 19.710000 : Set net : GND on layout pin.
+***DEBUG 19.710000 : Update netnames on instance pins for: L27
+***DEBUG 19.710000 : Update netnames on pins done
+***DEBUG 19.710000 : Update connectivity done
+***DEBUG 19.710000 : Start path to trace conversion: L27
+***DEBUG 19.710000 : End path to trace conversion: L27
+***DEBUG 19.841000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L27:schematic
+***DEBUG 20.007000 : Start processing component: LAUNCHXL-CC1350_lib_8:L28:layout
+***DEBUG 20.078000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L28:layout
+***DEBUG 20.080000 : Processing abl shapes done
+***DEBUG 20.081000 : Process pin list for: L28
+***DEBUG 20.082000 : Process port list for: L28
+***DEBUG 20.083000 : Process component definition for: L28
+***DEBUG 20.147000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L28:symbol
+***DEBUG 20.149000 : End Symbol processing, start parameter processing
+***DEBUG 20.150000 : Item definition for design: INDC1005X60N updated.
+***DEBUG 20.151000 : Move origin to: (226.6,227.4)
+***DEBUG 20.214000 : Update netnames on pins for connectivity off: L28
+***DEBUG 20.215000 : Update netnames through layout pins for: L28
+***DEBUG 20.215000 : Set net : N1417883 on layout pin.
+***DEBUG 20.216000 : Set net : N1403554 on layout pin.
+***DEBUG 20.216000 : Update netnames on instance pins for: L28
+***DEBUG 20.216000 : Update netnames on pins done
+***DEBUG 20.216000 : Update connectivity done
+***DEBUG 20.216000 : Start path to trace conversion: L28
+***DEBUG 20.217000 : End path to trace conversion: L28
+***DEBUG 20.344000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L28:schematic
+***DEBUG 20.504000 : Progress: 58% done.
+***DEBUG 20.510000 : Start processing component: LAUNCHXL-CC1350_lib_8:L29:layout
+***DEBUG 20.583000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L29:layout
+***DEBUG 20.586000 : Processing abl shapes done
+***DEBUG 20.586000 : Process pin list for: L29
+***DEBUG 20.588000 : Process port list for: L29
+***DEBUG 20.589000 : Process component definition for: L29
+***DEBUG 20.657000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L29:symbol
+***DEBUG 20.660000 : End Symbol processing, start parameter processing
+***DEBUG 20.662000 : Item definition for design: INDC1005X60N updated.
+***DEBUG 20.663000 : Move origin to: (227.6,227.4)
+***DEBUG 20.730000 : Update netnames on pins for connectivity off: L29
+***DEBUG 20.730000 : Update netnames through layout pins for: L29
+***DEBUG 20.731000 : Set net : N1418253 on layout pin.
+***DEBUG 20.731000 : Set net : N1403554 on layout pin.
+***DEBUG 20.731000 : Update netnames on instance pins for: L29
+***DEBUG 20.731000 : Update netnames on pins done
+***DEBUG 20.731000 : Update connectivity done
+***DEBUG 20.731000 : Start path to trace conversion: L29
+***DEBUG 20.732000 : End path to trace conversion: L29
+***DEBUG 20.865000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L29:schematic
+***DEBUG 21.016000 : Start processing component: LAUNCHXL-CC1350_lib_8:L30:layout
+***DEBUG 21.084000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L30:layout
+***DEBUG 21.089000 : Progress: 60% done.
+***DEBUG 21.096000 : Processing abl shapes done
+***DEBUG 21.097000 : Process pin list for: L30
+***DEBUG 21.101000 : Process port list for: L30
+***DEBUG 21.103000 : Process component definition for: L30
+***DEBUG 21.184000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L30:symbol
+***DEBUG 21.186000 : End Symbol processing, start parameter processing
+***DEBUG 21.187000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 21.187000 : Move origin to: (225.835,222.865)
+***DEBUG 21.246000 : Update netnames on pins for connectivity off: L30
+***DEBUG 21.246000 : Update netnames through layout pins for: L30
+***DEBUG 21.246000 : Set net : N1013859 on layout pin.
+***DEBUG 21.246000 : Set net : N1013855 on layout pin.
+***DEBUG 21.246000 : Update netnames on instance pins for: L30
+***DEBUG 21.246000 : Update netnames on pins done
+***DEBUG 21.246000 : Update connectivity done
+***DEBUG 21.246000 : Start path to trace conversion: L30
+***DEBUG 21.247000 : End path to trace conversion: L30
+***DEBUG 21.374000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L30:schematic
+***DEBUG 21.517000 : Start processing component: LAUNCHXL-CC1350_lib_8:L31:layout
+***DEBUG 21.582000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:L31:layout
+***DEBUG 21.587000 : Progress: 62% done.
+***DEBUG 21.594000 : Processing abl shapes done
+***DEBUG 21.594000 : Process pin list for: L31
+***DEBUG 21.599000 : Process port list for: L31
+***DEBUG 21.600000 : Process component definition for: L31
+***DEBUG 21.671000 : Reuse standard symbol for: LAUNCHXL-CC1350_lib_8:L31:symbol
+***DEBUG 21.673000 : End Symbol processing, start parameter processing
+***DEBUG 21.674000 : Item definition for design: INDC1005X60L updated.
+***DEBUG 21.674000 : Move origin to: (228.93,223.43)
+***DEBUG 21.737000 : Update netnames on pins for connectivity off: L31
+***DEBUG 21.737000 : Update netnames through layout pins for: L31
+***DEBUG 21.738000 : Set net : N1419146 on layout pin.
+***DEBUG 21.738000 : Set net : N1419138 on layout pin.
+***DEBUG 21.738000 : Update netnames on instance pins for: L31
+***DEBUG 21.738000 : Update netnames on pins done
+***DEBUG 21.738000 : Update connectivity done
+***DEBUG 21.739000 : Start path to trace conversion: L31
+***DEBUG 21.739000 : End path to trace conversion: L31
+***DEBUG 21.875000 : Create discrete component schematic: LAUNCHXL-CC1350_lib_8:L31:schematic
+***DEBUG 22.022000 : Start processing component: LAUNCHXL-CC1350_lib_8:P11:layout
+***DEBUG 22.093000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:P11:layout
+***DEBUG 22.101000 : Progress: 64% done.
+***DEBUG 22.107000 : Processing abl shapes done
+***DEBUG 22.108000 : Process pin list for: P11
+***DEBUG 22.115000 : Process port list for: P11
+***DEBUG 22.117000 : Progress: 66% done.
+***DEBUG 22.123000 : Process component definition for: P11
+***DEBUG 22.189000 : Start create black box symbol: LAUNCHXL-CC1350_lib_8:P11:symbol
+***DEBUG 22.192000 : End Symbol processing, start parameter processing
+***DEBUG 22.193000 : Item definition for design: MURATA_MM58292700RJ4_A2N updated.
+***DEBUG 22.194000 : Move origin to: (226.4,218.8)
+***DEBUG 22.252000 : Update netnames on pins for connectivity off: P11
+***DEBUG 22.252000 : Update netnames through layout pins for: P11
+***DEBUG 22.253000 : Set net : N1466589 on layout pin.
+***DEBUG 22.253000 : Set net : GND on layout pin.
+***DEBUG 22.253000 : Set net : GND#ffff on layout pin.
+***DEBUG 22.253000 : Set net : GND#fffe on layout pin.
+***DEBUG 22.253000 : Update netnames on instance pins for: P11
+***DEBUG 22.253000 : Update netnames on pins done
+***DEBUG 22.253000 : Update connectivity done
+***DEBUG 22.253000 : Start path to trace conversion: P11
+***DEBUG 22.254000 : End path to trace conversion: P11
+***DEBUG 22.386000 : Create general component schematic: LAUNCHXL-CC1350_lib_8:P11:schematic
+***DEBUG 22.386000 : Add pins and associated wire labels in schematic.
+***DEBUG 22.389000 : Add wire label in schematic for instance pin: N1466589
+***DEBUG 22.395000 : Add wire label in schematic for instance pin: GND
+***DEBUG 22.398000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 22.402000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 22.467000 : Generic schematic generation for: MURATA_MM58292700RJ4_A2N done.
+***DEBUG 22.471000 : Start processing component: LAUNCHXL-CC1350_lib_8:P12:layout
+***DEBUG 22.538000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:P12:layout
+***DEBUG 22.545000 : Progress: 68% done.
+***DEBUG 22.550000 : Processing abl shapes done
+***DEBUG 22.552000 : Process pin list for: P12
+***DEBUG 22.558000 : Process port list for: P12
+***DEBUG 22.565000 : Process component definition for: P12
+***DEBUG 22.635000 : Start create black box symbol: LAUNCHXL-CC1350_lib_8:P12:symbol
+***DEBUG 22.644000 : End Symbol processing, start parameter processing
+***DEBUG 22.646000 : Item definition for design: MURATA_MM58292700RJ4_A2N updated.
+***DEBUG 22.648000 : Move origin to: (238,218.3)
+***DEBUG 22.715000 : Update netnames on pins for connectivity off: P12
+***DEBUG 22.715000 : Update netnames through layout pins for: P12
+***DEBUG 22.715000 : Set net : N1466981 on layout pin.
+***DEBUG 22.716000 : Set net : GND on layout pin.
+***DEBUG 22.716000 : Set net : GND#ffff on layout pin.
+***DEBUG 22.716000 : Set net : GND#fffe on layout pin.
+***DEBUG 22.716000 : Update netnames on instance pins for: P12
+***DEBUG 22.716000 : Update netnames on pins done
+***DEBUG 22.717000 : Update connectivity done
+***DEBUG 22.717000 : Start path to trace conversion: P12
+***DEBUG 22.717000 : End path to trace conversion: P12
+***DEBUG 22.842000 : Create general component schematic: LAUNCHXL-CC1350_lib_8:P12:schematic
+***DEBUG 22.842000 : Add pins and associated wire labels in schematic.
+***DEBUG 22.845000 : Add wire label in schematic for instance pin: N1466981
+***DEBUG 22.849000 : Add wire label in schematic for instance pin: GND
+***DEBUG 22.852000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 22.856000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 22.920000 : Generic schematic generation for: MURATA_MM58292700RJ4_A2N done.
+***DEBUG 22.923000 : Start processing component: LAUNCHXL-CC1350_lib_8:U11:layout
+***DEBUG 22.986000 : Processing abl shapes for cell view :LAUNCHXL-CC1350_lib_8:U11:layout using file: U11_shapes.xml
+***DEBUG 22.992000 : Processing abl shapes done
+***DEBUG 22.992000 : Progress: 70% done.
+***DEBUG 22.995000 : Process pin list for: U11
+***DEBUG 23.000000 : Process port list for: U11
+***DEBUG 23.002000 : Process component definition for: U11
+***DEBUG 23.068000 : Start create black box symbol: LAUNCHXL-CC1350_lib_8:U11:symbol
+***DEBUG 23.085000 : End Symbol processing, start parameter processing
+***DEBUG 23.087000 : Item definition for design: SW_XMSSJE3G0PA003_A2N updated.
+***DEBUG 23.090000 : Move origin to: (226.5,223.9)
+***DEBUG 23.156000 : Update netnames on pins for connectivity off: U11
+***DEBUG 23.156000 : Update netnames through layout pins for: U11
+***DEBUG 23.156000 : Set net : N1013859 on layout pin.
+***DEBUG 23.157000 : Set net : N1419138 on layout pin.
+***DEBUG 23.157000 : Set net : N1013855 on layout pin.
+***DEBUG 23.157000 : Set net : N1419146 on layout pin.
+***DEBUG 23.157000 : Set net : N1465309 on layout pin.
+***DEBUG 23.157000 : Set net : N1420906 on layout pin.
+***DEBUG 23.158000 : Set net : DIO1_RF_SW on layout pin.
+***DEBUG 23.158000 : Set net : VDDS on layout pin.
+***DEBUG 23.158000 : Set net : GND on layout pin.
+***DEBUG 23.158000 : Set net : GND#ffff on layout pin.
+***DEBUG 23.158000 : Update netnames on instance pins for: U11
+***DEBUG 23.158000 : Update netnames on pins done
+***DEBUG 23.159000 : Update connectivity done
+***DEBUG 23.159000 : Start path to trace conversion: U11
+***DEBUG 23.160000 : End path to trace conversion: U11
+***DEBUG 23.294000 : Create general component schematic: LAUNCHXL-CC1350_lib_8:U11:schematic
+***DEBUG 23.294000 : Add pins and associated wire labels in schematic.
+***DEBUG 23.297000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 23.301000 : Add wire label in schematic for instance pin: GND
+***DEBUG 23.305000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 23.308000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 23.312000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 23.316000 : Add wire label in schematic for instance pin: DIO1_RF_SW
+***DEBUG 23.320000 : Add wire label in schematic for instance pin: N1420906
+***DEBUG 23.324000 : Add wire label in schematic for instance pin: N1465309
+***DEBUG 23.327000 : Add wire label in schematic for instance pin: VDDS
+***DEBUG 23.331000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 23.398000 : Generic schematic generation for: SW_XMSSJE3G0PA003_A2N done.
+***DEBUG 23.402000 : Start processing component: LAUNCHXL-CC1350_lib_8:Y1:layout
+***DEBUG 23.468000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:Y1:layout
+***DEBUG 23.472000 : Progress: 72% done.
+***DEBUG 23.476000 : Processing abl shapes done
+***DEBUG 23.477000 : Process pin list for: Y1
+***DEBUG 23.480000 : Process port list for: Y1
+***DEBUG 23.481000 : Process component definition for: Y1
+***DEBUG 23.553000 : Start create black box symbol: LAUNCHXL-CC1350_lib_8:Y1:symbol
+***DEBUG 23.558000 : End Symbol processing, start parameter processing
+***DEBUG 23.561000 : Item definition for design: XTAL_FC_135N updated.
+***DEBUG 23.562000 : Move origin to: (232.5,223.3)
+***DEBUG 23.625000 : Update netnames on pins for connectivity off: Y1
+***DEBUG 23.625000 : Update netnames through layout pins for: Y1
+***DEBUG 23.626000 : Set net : N1014101 on layout pin.
+***DEBUG 23.626000 : Set net : N1014113 on layout pin.
+***DEBUG 23.626000 : Update netnames on instance pins for: Y1
+***DEBUG 23.626000 : Update netnames on pins done
+***DEBUG 23.626000 : Update connectivity done
+***DEBUG 23.626000 : Start path to trace conversion: Y1
+***DEBUG 23.626000 : End path to trace conversion: Y1
+***DEBUG 23.760000 : Create general component schematic: LAUNCHXL-CC1350_lib_8:Y1:schematic
+***DEBUG 23.760000 : Add pins and associated wire labels in schematic.
+***DEBUG 23.763000 : Add wire label in schematic for instance pin: N1014101
+***DEBUG 23.766000 : Add wire label in schematic for instance pin: N1014113
+***DEBUG 23.831000 : Generic schematic generation for: XTAL_FC_135N done.
+***DEBUG 23.836000 : Start processing component: LAUNCHXL-CC1350_lib_8:Y2:layout
+***DEBUG 23.908000 : Processing abl shapes from string for cell view: LAUNCHXL-CC1350_lib_8:Y2:layout
+***DEBUG 23.917000 : Progress: 74% done.
+***DEBUG 23.922000 : Processing abl shapes done
+***DEBUG 23.922000 : Process pin list for: Y2
+***DEBUG 23.929000 : Process port list for: Y2
+***DEBUG 23.930000 : Progress: 76% done.
+***DEBUG 23.937000 : Process component definition for: Y2
+***DEBUG 24.011000 : Start create black box symbol: LAUNCHXL-CC1350_lib_8:Y2:symbol
+***DEBUG 24.014000 : End Symbol processing, start parameter processing
+***DEBUG 24.015000 : Item definition for design: OSCCC250X320X60_4L updated.
+***DEBUG 24.016000 : Move origin to: (222,228.2)
+***DEBUG 24.080000 : Update netnames on pins for connectivity off: Y2
+***DEBUG 24.080000 : Update netnames through layout pins for: Y2
+***DEBUG 24.081000 : Set net : N1013277 on layout pin.
+***DEBUG 24.081000 : Set net : N1018952 on layout pin.
+***DEBUG 24.082000 : Set net : GND on layout pin.
+***DEBUG 24.082000 : Set net : GND#ffff on layout pin.
+***DEBUG 24.082000 : Update netnames on instance pins for: Y2
+***DEBUG 24.082000 : Update netnames on pins done
+***DEBUG 24.083000 : Update connectivity done
+***DEBUG 24.083000 : Start path to trace conversion: Y2
+***DEBUG 24.083000 : End path to trace conversion: Y2
+***DEBUG 24.224000 : Create general component schematic: LAUNCHXL-CC1350_lib_8:Y2:schematic
+***DEBUG 24.224000 : Add pins and associated wire labels in schematic.
+***DEBUG 24.226000 : Add wire label in schematic for instance pin: N1018952
+***DEBUG 24.230000 : Add wire label in schematic for instance pin: GND
+***DEBUG 24.234000 : Add wire label in schematic for instance pin: N1013277
+***DEBUG 24.237000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 24.303000 : Generic schematic generation for: OSCCC250X320X60_4L done.
+***DEBUG 24.309000 : Start processing component: LAUNCHXL-CC1350_lib_8:LAUNCHXL_CC1350_adfi:layout
+***DEBUG 24.382000 : Processing abl shapes for cell view :LAUNCHXL-CC1350_lib_8:LAUNCHXL_CC1350_adfi:layout using file: LAUNCHXL-CC1350_adfi_shapes.xml
+***DEBUG 24.466000 : Processing abl shapes done
+***DEBUG 24.466000 : Process Instances for: LAUNCHXL_CC1350_adfi
+***DEBUG 25.198000 : Progress: 78% done.
+***DEBUG 25.201000 : Progress: 80% done.
+***DEBUG 25.205000 : Progress: 82% done.
+***DEBUG 25.208000 : Progress: 84% done.
+***DEBUG 25.213000 : Progress: 86% done.
+***DEBUG 25.217000 : Progress: 88% done.
+***DEBUG 25.221000 : Progress: 90% done.
+***DEBUG 25.226000 : Progress: 92% done.
+***DEBUG 25.231000 : Progress: 94% done.
+***DEBUG 25.236000 : Progress: 96% done.
+***DEBUG 25.241000 : Process pin list for: LAUNCHXL_CC1350_adfi
+***DEBUG 25.337000 : Process port list for: LAUNCHXL_CC1350_adfi
+***DEBUG 25.348000 : Process component definition for: LAUNCHXL_CC1350_adfi
+***DEBUG 25.420000 : Start create black box symbol: LAUNCHXL-CC1350_lib_8:LAUNCHXL_CC1350_adfi:symbol
+***DEBUG 25.520000 : End Symbol processing, start parameter processing
+***DEBUG 25.521000 : Item definition for design: LAUNCHXL_CC1350 updated.
+***DEBUG 25.671000 : Update netnames on pins for connectivity off: LAUNCHXL_CC1350_adfi
+***DEBUG 25.687000 : Update netnames through layout pins for: LAUNCHXL_CC1350_adfi
+***DEBUG 25.688000 : Set net : DIO1_RF_SW on layout pin.
+***DEBUG 25.692000 : Set net : GND on layout pin.
+***DEBUG 25.703000 : Set net : GND#ffff on layout pin.
+***DEBUG 25.708000 : Set net : GND#fffe on layout pin.
+***DEBUG 25.709000 : Set net : N1013277 on layout pin.
+***DEBUG 25.710000 : Set net : N1013855 on layout pin.
+***DEBUG 25.711000 : Set net : N1013859 on layout pin.
+***DEBUG 25.713000 : Set net : N1013899 on layout pin.
+***DEBUG 25.714000 : Set net : N1013927 on layout pin.
+***DEBUG 25.715000 : Set net : N1014101 on layout pin.
+***DEBUG 25.716000 : Set net : N1014113 on layout pin.
+***DEBUG 25.717000 : Set net : N1018952 on layout pin.
+***DEBUG 25.717000 : Set net : N1393569 on layout pin.
+***DEBUG 25.719000 : Set net : N1403554 on layout pin.
+***DEBUG 25.720000 : Set net : N1403554#ffff on layout pin.
+***DEBUG 25.721000 : Set net : N1414078 on layout pin.
+***DEBUG 25.723000 : Set net : N1417883 on layout pin.
+***DEBUG 25.724000 : Set net : N1418253 on layout pin.
+***DEBUG 25.725000 : Set net : N1419138 on layout pin.
+***DEBUG 25.726000 : Set net : N1419146 on layout pin.
+***DEBUG 25.728000 : Set net : N1419182 on layout pin.
+***DEBUG 25.728000 : Set net : N1419210 on layout pin.
+***DEBUG 25.730000 : Set net : N1419286 on layout pin.
+***DEBUG 25.730000 : Set net : N1420906 on layout pin.
+***DEBUG 25.731000 : Set net : N1465309 on layout pin.
+***DEBUG 25.732000 : Set net : N1466589 on layout pin.
+***DEBUG 25.732000 : Set net : N1466981 on layout pin.
+***DEBUG 25.733000 : Set net : VDDS on layout pin.
+***DEBUG 25.733000 : Update netnames on instance pins for: LAUNCHXL_CC1350_adfi
+***DEBUG 25.738000 : Set net : N1014101#ffff on instPin of Y1 from Y1.1
+***DEBUG 25.799000 : Set net : GND#fffd on instPin of C19 from C19.2
+***DEBUG 25.805000 : Set net : VDDR on instPin of C16 from C16.1
+***DEBUG 25.815000 : Set net : VDDR#ffff on instPin of C9 from C9.1
+***DEBUG 25.818000 : Set net : VDDS#ffff on instPin of C5 from C5.1
+***DEBUG 25.821000 : Set net : VDDS#fffe on instPin of C4 from C4.1
+***DEBUG 25.823000 : Set net : VDDS#fffd on instPin of C3 from C3.1
+***DEBUG 25.824000 : Set net : GND#fffc on instPin of C3 from C3.2
+***DEBUG 25.827000 : Update netnames on pins done
+***DEBUG 25.885000 : Update connectivity done
+***DEBUG 26.139000 : Set EM Cosim Partitioning for design: LAUNCHXL_CC1350_adfi
+***DEBUG 26.188000 : Start path to trace conversion: LAUNCHXL_CC1350_adfi
+***DEBUG 26.195000 : End path to trace conversion: LAUNCHXL_CC1350_adfi
+***DEBUG 26.335000 : Create general component schematic: LAUNCHXL-CC1350_lib_8:LAUNCHXL_CC1350_adfi:schematic
+***DEBUG 26.335000 : Collect instance info for schematic in layout.
+***DEBUG 26.621000 : Add instances and wire labels in schematic.
+***DEBUG 26.628000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 26.629000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.630000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.630000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 26.631000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 26.631000 : Add wire label in schematic for instance pin: DIO1_RF_SW
+***DEBUG 26.632000 : Add wire label in schematic for instance pin: N1420906
+***DEBUG 26.633000 : Add wire label in schematic for instance pin: N1465309
+***DEBUG 26.633000 : Add wire label in schematic for instance pin: VDDS
+***DEBUG 26.634000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 26.642000 : Add wire label in schematic for instance pin: N1018952
+***DEBUG 26.642000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.643000 : Add wire label in schematic for instance pin: N1013277
+***DEBUG 26.644000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.651000 : Add wire label in schematic for instance pin: N1466589
+***DEBUG 26.651000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.652000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.653000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.660000 : Add wire label in schematic for instance pin: N1466981
+***DEBUG 26.661000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 26.661000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 26.662000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 26.669000 : Add wire label in schematic for instance pin: N1014101#ffff
+***DEBUG 26.670000 : Add wire label in schematic for instance pin: N1014113
+***DEBUG 26.677000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 26.678000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 26.684000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 26.685000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 26.692000 : Add wire label in schematic for instance pin: N1418253
+***DEBUG 26.693000 : Add wire label in schematic for instance pin: N1403554
+***DEBUG 26.699000 : Add wire label in schematic for instance pin: N1417883
+***DEBUG 26.700000 : Add wire label in schematic for instance pin: N1403554#ffff
+***DEBUG 26.707000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.708000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 26.715000 : Add wire label in schematic for instance pin: N1419210
+***DEBUG 26.716000 : Add wire label in schematic for instance pin: N1419286
+***DEBUG 26.723000 : Add wire label in schematic for instance pin: N1419182
+***DEBUG 26.724000 : Add wire label in schematic for instance pin: N1419210
+***DEBUG 26.731000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 26.732000 : Add wire label in schematic for instance pin: N1419182
+***DEBUG 26.739000 : Add wire label in schematic for instance pin: N1013927
+***DEBUG 26.740000 : Add wire label in schematic for instance pin: N1414078
+***DEBUG 26.747000 : Add wire label in schematic for instance pin: N1013899
+***DEBUG 26.748000 : Add wire label in schematic for instance pin: N1013927
+***DEBUG 26.755000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 26.756000 : Add wire label in schematic for instance pin: N1013899
+***DEBUG 26.763000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 26.764000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 26.771000 : Add wire label in schematic for instance pin: N1414078
+***DEBUG 26.772000 : Add wire label in schematic for instance pin: N1466589
+***DEBUG 26.779000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.780000 : Add wire label in schematic for instance pin: N1419286
+***DEBUG 26.787000 : Add wire label in schematic for instance pin: N1419286
+***DEBUG 26.788000 : Add wire label in schematic for instance pin: N1466981
+***DEBUG 26.795000 : Add wire label in schematic for instance pin: N1403554#ffff
+***DEBUG 26.796000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.803000 : Add wire label in schematic for instance pin: N1418253
+***DEBUG 26.804000 : Add wire label in schematic for instance pin: N1420906
+***DEBUG 26.811000 : Add wire label in schematic for instance pin: N1417883
+***DEBUG 26.812000 : Add wire label in schematic for instance pin: N1465309
+***DEBUG 26.820000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 26.820000 : Add wire label in schematic for instance pin: N1419210
+***DEBUG 26.827000 : Add wire label in schematic for instance pin: N1419182
+***DEBUG 26.829000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.836000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 26.837000 : Add wire label in schematic for instance pin: N1419182
+***DEBUG 26.844000 : Add wire label in schematic for instance pin: N1403554
+***DEBUG 26.845000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 26.854000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 26.854000 : Add wire label in schematic for instance pin: N1013899
+***DEBUG 26.862000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.863000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 26.870000 : Add wire label in schematic for instance pin: N1393569
+***DEBUG 26.871000 : Add wire label in schematic for instance pin: GND#fffd
+***DEBUG 26.879000 : Add wire label in schematic for instance pin: N1014113
+***DEBUG 26.880000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 26.887000 : Add wire label in schematic for instance pin: N1014101#ffff
+***DEBUG 26.888000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 26.896000 : Add wire label in schematic for instance pin: VDDR
+***DEBUG 26.897000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.904000 : Add wire label in schematic for instance pin: N1414078
+***DEBUG 26.905000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.913000 : Add wire label in schematic for instance pin: N1013927
+***DEBUG 26.914000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.922000 : Add wire label in schematic for instance pin: N1013899
+***DEBUG 26.923000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.931000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 26.932000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 26.940000 : Add wire label in schematic for instance pin: VDDR#ffff
+***DEBUG 26.941000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.948000 : Add wire label in schematic for instance pin: VDDS#ffff
+***DEBUG 26.950000 : Add wire label in schematic for instance pin: GND
+***DEBUG 26.957000 : Add wire label in schematic for instance pin: VDDS#fffe
+***DEBUG 26.958000 : Add wire label in schematic for instance pin: GND#fffd
+***DEBUG 26.966000 : Add wire label in schematic for instance pin: VDDS#fffd
+***DEBUG 26.967000 : Add wire label in schematic for instance pin: GND#fffc
+***DEBUG 26.975000 : Add wire label in schematic for instance pin: N1414078
+***DEBUG 26.984000 : Add wire label in schematic for instance pin: N1419286
+***DEBUG 26.985000 : Add pins and associated wire labels in schematic.
+***DEBUG 27.032000 : Add wire label in schematic for instance pin: DIO1_RF_SW
+***DEBUG 27.034000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.036000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.038000 : Add wire label in schematic for instance pin: GND
+***DEBUG 27.040000 : Add wire label in schematic for instance pin: GND
+***DEBUG 27.042000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.044000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 27.046000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.048000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 27.050000 : Add wire label in schematic for instance pin: GND
+***DEBUG 27.052000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.054000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 27.056000 : Add wire label in schematic for instance pin: GND
+***DEBUG 27.058000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.060000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.062000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.064000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 27.066000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 27.068000 : Add wire label in schematic for instance pin: GND#fffe
+***DEBUG 27.070000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.072000 : Add wire label in schematic for instance pin: GND#ffff
+***DEBUG 27.074000 : Add wire label in schematic for instance pin: N1013277
+***DEBUG 27.076000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 27.078000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 27.080000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 27.083000 : Add wire label in schematic for instance pin: N1013855
+***DEBUG 27.085000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 27.087000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 27.089000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 27.091000 : Add wire label in schematic for instance pin: N1013859
+***DEBUG 27.093000 : Add wire label in schematic for instance pin: N1013899
+***DEBUG 27.096000 : Add wire label in schematic for instance pin: N1013899
+***DEBUG 27.098000 : Add wire label in schematic for instance pin: N1013899
+***DEBUG 27.100000 : Add wire label in schematic for instance pin: N1013899
+***DEBUG 27.102000 : Add wire label in schematic for instance pin: N1013927
+***DEBUG 27.104000 : Add wire label in schematic for instance pin: N1013927
+***DEBUG 27.107000 : Add wire label in schematic for instance pin: N1013927
+***DEBUG 27.110000 : Add wire label in schematic for instance pin: N1014101
+***DEBUG 27.112000 : Add wire label in schematic for instance pin: N1014113
+***DEBUG 27.114000 : Add wire label in schematic for instance pin: N1018952
+***DEBUG 27.116000 : Add wire label in schematic for instance pin: N1393569
+***DEBUG 27.118000 : Add wire label in schematic for instance pin: N1403554
+***DEBUG 27.120000 : Add wire label in schematic for instance pin: N1403554#ffff
+***DEBUG 27.123000 : Add wire label in schematic for instance pin: N1403554#ffff
+***DEBUG 27.125000 : Add wire label in schematic for instance pin: N1403554
+***DEBUG 27.127000 : Add wire label in schematic for instance pin: N1403554
+***DEBUG 27.129000 : Add wire label in schematic for instance pin: N1414078
+***DEBUG 27.131000 : Add wire label in schematic for instance pin: N1414078
+***DEBUG 27.134000 : Add wire label in schematic for instance pin: N1414078
+***DEBUG 27.136000 : Add wire label in schematic for instance pin: N1417883
+***DEBUG 27.138000 : Add wire label in schematic for instance pin: N1417883
+***DEBUG 27.140000 : Add wire label in schematic for instance pin: N1417883
+***DEBUG 27.143000 : Add wire label in schematic for instance pin: N1418253
+***DEBUG 27.145000 : Add wire label in schematic for instance pin: N1418253
+***DEBUG 27.147000 : Add wire label in schematic for instance pin: N1418253
+***DEBUG 27.149000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 27.152000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 27.155000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 27.157000 : Add wire label in schematic for instance pin: N1419138
+***DEBUG 27.159000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 27.161000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 27.164000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 27.166000 : Add wire label in schematic for instance pin: N1419146
+***DEBUG 27.169000 : Add wire label in schematic for instance pin: N1419182
+***DEBUG 27.171000 : Add wire label in schematic for instance pin: N1419182
+***DEBUG 27.174000 : Add wire label in schematic for instance pin: N1419182
+***DEBUG 27.176000 : Add wire label in schematic for instance pin: N1419182
+***DEBUG 27.178000 : Add wire label in schematic for instance pin: N1419210
+***DEBUG 27.181000 : Add wire label in schematic for instance pin: N1419210
+***DEBUG 27.183000 : Add wire label in schematic for instance pin: N1419210
+***DEBUG 27.186000 : Add wire label in schematic for instance pin: N1419286
+***DEBUG 27.188000 : Add wire label in schematic for instance pin: N1419286
+***DEBUG 27.190000 : Add wire label in schematic for instance pin: N1419286
+***DEBUG 27.193000 : Add wire label in schematic for instance pin: N1420906
+***DEBUG 27.196000 : Add wire label in schematic for instance pin: N1420906
+***DEBUG 27.198000 : Add wire label in schematic for instance pin: N1465309
+***DEBUG 27.201000 : Add wire label in schematic for instance pin: N1465309
+***DEBUG 27.203000 : Add wire label in schematic for instance pin: N1466589
+***DEBUG 27.206000 : Add wire label in schematic for instance pin: N1466589
+***DEBUG 27.208000 : Add wire label in schematic for instance pin: N1466981
+***DEBUG 27.210000 : Add wire label in schematic for instance pin: N1466981
+***DEBUG 27.213000 : Add wire label in schematic for instance pin: VDDS
+***DEBUG 27.293000 : Generic schematic generation for: LAUNCHXL_CC1350 done.
+***INFO: 
+ADS DFI import done.

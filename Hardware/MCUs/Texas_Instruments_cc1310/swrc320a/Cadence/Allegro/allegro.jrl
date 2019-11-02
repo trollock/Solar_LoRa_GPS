@@ -1,0 +1,70 @@
+\t (00:00:06) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:06)     Journal start - Wed Oct 28 09:36:01 2015
+\t (00:00:06)         Host=LTA0190524 User=a0190524 Pid=9728 CPUs=4
+\t (00:00:06) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+   (00:00:06) Momentum Allegro Integration (Version 5.1.2)
+\t (00:00:10) Opening existing design...
+\d (00:00:11) Design opened: C:/Apps/Layout/PCBdesigns/CC1350_launchpad/LAUNCHXL-CC1350_1_0_0/LAUNCHXL-CC1350_1_0_0_Cadence/Allegro/LAUNCHXL-CC1350.brd
+\i (00:00:11) trapsize 24
+\i (00:00:11) trapsize 24
+   (00:00:12) Please reload your design if the ADFI menu items remain missing.
+\i (00:00:12) etchedit 
+\i (00:00:14) zoom out 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out 240.038 214.533
+\i (00:00:14) trapsize 48
+\i (00:00:14) zoom out 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out 240.038 214.532
+\i (00:00:14) trapsize 97
+\i (00:00:15) zoom out 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 240.038 214.533
+\i (00:00:15) trapsize 193
+\t (00:00:16) Pick to complete the window.
+\i (00:00:18) Esc 
+\i (00:00:19) prepopup 171.529 258.275
+\i (00:00:20) cancel 
+\i (00:00:20) etchedit 
+\i (00:00:47) roam start
+\i (00:00:47) roam x -144
+\i (00:00:47) roam y -32
+\i (00:00:47) roam x -160
+\i (00:00:47) roam y -16
+\i (00:00:47) roam x -80
+\i (00:00:47) roam y -16
+\i (00:00:48) roam x -16
+\i (00:00:48) roam y -16
+\i (00:00:48) roam x -64
+\i (00:00:48) roam y -32
+\i (00:00:48) roam x -48
+\i (00:00:48) roam y -32
+\i (00:00:48) roam x -16
+\i (00:00:48) roam x 32
+\i (00:00:48) roam y -16
+\i (00:00:48) roam x 48
+\i (00:00:48) roam x 48
+\i (00:00:48) roam x 16
+\i (00:00:48) roam x 16
+\i (00:00:49) roam end
+\i (00:01:29) roam start
+\i (00:01:29) roam y 48
+\i (00:01:29) roam y 32
+\i (00:01:29) roam y 16
+\i (00:01:30) roam y 16
+\i (00:01:30) roam end
+\i (00:01:43) roam start
+\i (00:01:43) roam x -64
+\i (00:01:43) roam y -16
+\i (00:01:43) roam x -64
+\i (00:01:43) roam x -16
+\i (00:01:44) roam x 48
+\i (00:01:44) roam x 192
+\i (00:01:44) roam x 16
+\i (00:01:45) roam end
+\i (00:03:06) opencd C:/Apps/Layout/PCBdesigns/CC1310_CC1190_launchpad/LAUNCHPAD_CC1310_CC1190_1_0_0/LAUNCHXL-CC1310_CC1190_1_0_0_Cadence/Allegro/LAUNCHXL-CC1310_CC1190.brd 
+\t (00:03:06) Opening existing design...
+\i (00:03:06) trapsize 110
+\t (00:03:06)     Journal end - Wed Oct 28 09:39:01 2015

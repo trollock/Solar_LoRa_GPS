@@ -1,0 +1,34 @@
+\t (00:00:01) allegro 16.6 S019 (v16-6-112BG) Windows 32
+\t (00:00:01)     Journal start - Tue Nov 22 14:39:17 2016
+\t (00:00:01)         Host=LTA0190588A User=a0190588 Pid=13952 CPUs=4
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Database opened: C:/kht/work/CC1350_launchpad/LAUNCHXL-CC1350_1_3/Cadence/Allegro/LAUNCHXL-CC1350.brd
+\i (00:00:09) trapsize 185
+\i (00:00:09) trapsize 180
+\i (00:00:09) trapsize 186
+\i (00:00:09) trapsize 188
+\i (00:00:09) trapsize 213
+\i (00:00:10) generaledit 
+\i (00:00:11) trapsize 353
+\i (00:00:13) trapsize 141
+\i (00:00:18) artwork 
+\i (00:00:20) setwindow form.film_control
+\i (00:00:20) FORM film_control cancel  
+\i (00:00:20) setwindow pcb
+\i (00:00:20) generaledit 
+\i (00:00:23) nctape_full 
+\i (00:00:29) setwindow form.nc_drill
+\i (00:00:29) FORM nc_drill browse  
+\i (00:00:31) fillin "drill.drl"
+\i (00:00:32) FORM nc_drill execute  
+\w (00:00:32) WARNING(SPMHMF-269): Design contains slot holes that can not be drilled. They can be processed by NC Route instead.
+\t (00:00:32) Starting NC Drill...
+\i (00:00:35) FORM nc_drill close  
+\i (00:00:35) setwindow pcb
+\i (00:00:35) generaledit 
+\i (00:00:36) exit 
+\e (00:00:36) Do you want to save the changes you made to LAUNCHXL-CC1350.brd?
+\i (00:00:37) fillin yes 
+\t (00:00:38)     Journal end - Tue Nov 22 14:39:54 2016

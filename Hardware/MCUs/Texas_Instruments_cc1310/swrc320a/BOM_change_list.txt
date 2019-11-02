@@ -1,0 +1,34 @@
+1.0.0: Initial prototypes
+
+1.0.1: Some RF BOM changes
+C62 changed from 2 pF to 3.6 pF
+C58, C63, C64, C65 changed from 100 pF to 12 pF
+L25 changed from 2 nH to 1.5 nH
+L26 changed from 2.4 nH to 2.2 nH
+L28, L29 changed from 33 nH to 10 nH
+
+1.1.0: Split in EU and US variants, changed to new 0402 footprint, first mass production
+C59 from DNM to 1 pF
+C70 from 10 nF to 100 nF
+C51 removed
+R61, R62, R63, R65 accuracy relaxed from 1% to 5%
+R12 replaced by C71 (10 pF)
+R67 from 0R to DNM
+R69 from DNM to 0R
+
+Difference between EU and US:
+EU variant uses L32=5.1nH and C71=10pF, US variant uses L32=7.5nH and C71=3 pF
+
+1.1.1: Added M1-M14 jumpers
+1.1.2: Updated MANUFACTURER SELECT to Vishay/Murata
+
+1.2.0: Changes to silkscreen, R60 moved away from U4 and C30 due to input from CM on manufacturability. R69 changed from 0603 to 0402 in BOM to fit with footprint.
+
+1.3.0: 
+C72, C73 added
+C12 changed to 3.6 pF
+C13 changed to 5.6 pF
+L30 removed
+C13 changed to 5.6 pF
+L14 changed to 7.5 nH
+

@@ -1,0 +1,79 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Without Nets Report                                        )
+(                                                                     )
+(    Drawing          : LAUNCHXL-CC1350.brd                           )
+(    Software Version : 16.6S019                                      )
+(    Date/Time        : Tue Nov 22 13:56:42 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total shapes not on a net: 22
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (228.240 211.910)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (223.955 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (223.101 206.179)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (221.956 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (221.102 206.179)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (219.954 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (219.100 206.179)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (217.955 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (217.102 206.179)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (215.956 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (215.103 206.179)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (213.955 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (213.101 206.179)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (211.956 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (211.102 206.179)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (209.954 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (207.102 206.179)  Net: Dummy Net
+	Point on shape: (209.100 206.179)  Net: Dummy Net
+	Point on shape: (205.102 206.179)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (207.954 201.534)  Net: Dummy Net
+
+    Layer = TOP
+	Point on shape: (226.100 201.180)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (225.954 201.534)  Net: Dummy Net
+
+    To suppress in report attach OK_UNASSIGNED_SHAPE property to shape.

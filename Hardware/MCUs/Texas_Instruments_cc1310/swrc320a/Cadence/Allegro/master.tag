@@ -1,0 +1,1 @@
+LAUNCHXL-CC1350.brd

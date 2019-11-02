@@ -1,0 +1,179 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\launchxl-cc1350.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (Board_sim_option "VHDL_flow")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "C:\KHT\WORK\CC1350_LAUNCHPAD\LAUNCHXL-CC1350_1_2\CADENCE\ALLEGRO")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\LAUNCHXL-CC1350.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (Sort User)
+    (File ".\launchxl-cc1350.prp"
+      (Type "Report")
+      (DisplayName "LAUNCHXL-CC1350.PRP"))
+    (File
+       "c:\kht\work\cc1350_launchpad\launchxl-cc1350_1_2\cadence\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File
+       "c:\kht\work\cc1350_launchpad\launchxl-cc1350_1_2\cadence\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File
+       "c:\kht\work\cc1350_launchpad\launchxl-cc1350_1_2\cadence\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\SYMBOLS\CAPACITOR.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "X:\SYMBOLS\RESISTOR.OLB")
+      (DeviceIndex "0"))
+    (LABEL_Pb-free_V1
+      (FullPartName "LABEL_Pb-free_V1.Normal")
+      (LibraryName "X:\SYMBOLS\PCB.OLB")
+      (DeviceIndex "0"))
+    (CE_LABEL
+      (FullPartName "CE_LABEL.Normal")
+      (LibraryName "X:\SYMBOLS\PCB.OLB")
+      (DeviceIndex "0"))
+    (MECH_SHUNT_JUMPER_V1
+      (FullPartName "MECH_SHUNT_JUMPER_V1.Normal")
+      (LibraryName "X:\SYMBOLS\MECHANIC.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "X:\SYMBOLS\INDUCTOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (IC_SWITCH_XMSSJE3G0PA-00
+      (FullPartName "IC_SWITCH_XMSSJE3G0PA-00.Normal")
+      (LibraryName "X:\SYMBOLS\IC_SWITCH.OLB")
+      (DeviceIndex "0"))
+    (ANTENNA_PCB
+      (FullPartName "ANTENNA_PCB.Normal")
+      (LibraryName "X:\SYMBOLS\MECHANIC.OLB")
+      (DeviceIndex "0"))
+    (ANTENNA
+      (FullPartName "ANTENNA.Normal")
+      (LibraryName "X:\SYMBOLS\MECHANIC.OLB")
+      (DeviceIndex "0"))
+    (IC_RF_CC13XX_7X7_QFN48_V2
+      (FullPartName "IC_RF_CC13XX_7X7_QFN48_V2A.Normal")
+      (LibraryName "X:\SYMBOLS\IC_RF.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\kht\work\CC1350_launchpad\LAUNCHXL-CC1350_1_3\Cadence\launchxl-cc1350.dsn")
+      (Path "Design Resources"
+         "C:\kht\work\CC1350_launchpad\LAUNCHXL-CC1350_1_3\Cadence\launchxl-cc1350.dsn"
+         "CC1350_LaunchPad")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\kht\work\CC1350_launchpad\LAUNCHXL-CC1350_1_3\Cadence\launchxl-cc1350.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 942"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 50 1388 50 672")
+        (Scroll "563 424")
+        (Zoom "146")
+        (Occurrence "/"))
+      (Path
+         "C:\KHT\WORK\CC1350_LAUNCHPAD\LAUNCHXL-CC1350_1_3\CADENCE\LAUNCHXL-CC1350.DSN")
+      (Schematic "CC1350_LaunchPad")
+      (Page "1_CC1350RF"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1325 175 776")
+        (Scroll "0 0")
+        (Zoom "73")
+        (Occurrence "/"))
+      (Path
+         "C:\KHT\WORK\CC1350_LAUNCHPAD\LAUNCHXL-CC1350_1_3\CADENCE\LAUNCHXL-CC1350.DSN")
+      (Schematic "CC1350_LaunchPad")
+      (Page "2_Peripherals"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1350 200 801")
+        (Scroll "58 290")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\KHT\WORK\CC1350_LAUNCHPAD\LAUNCHXL-CC1350_1_3\CADENCE\LAUNCHXL-CC1350.DSN")
+      (Schematic "CC1350_LaunchPad")
+      (Page "3_Debugger Interface"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 225 1375 225 826")
+        (Scroll "58 290")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\KHT\WORK\CC1350_LAUNCHPAD\LAUNCHXL-CC1350_1_3\CADENCE\LAUNCHXL-CC1350.DSN")
+      (Schematic "CC1350_LaunchPad")
+      (Page "4_XDS110"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 250 1400 250 851")
+        (Scroll "58 290")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\KHT\WORK\CC1350_LAUNCHPAD\LAUNCHXL-CC1350_1_3\CADENCE\LAUNCHXL-CC1350.DSN")
+      (Schematic "CC1350_LaunchPad")
+      (Page "5_Mech"))) =======
+  (Path "Outputs")
+  (Select "Design Resources"
+     "C:\Apps\Layout\PCBdesigns\CC1350_launchpad\LAUNCHXL-CC1350_1_0_0\LAUNCHXL-CC1350_1_0_0_Cadence\launchxl-cc1350.dsn")
+  (MPSSessionName "a0190588")
+  (ISPCBBASICLICENSE "false"))

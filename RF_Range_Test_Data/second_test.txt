@@ -1,0 +1,11 @@
+Lat: 477702394 Long: 89854224 (degrees * 10^-7) Alt: 479164 (mm) SIV: 7
+Lat: 477702913 Long: 89854318 (degrees * 10^-7) Alt: 484401 (mm) SIV: 7
+Lat: 477702717 Long: 89854610 (degrees * 10^-7) Alt: 487475 (mm) SIV: 5
+Lat: 477702832 Long: 89854051 (degrees * 10^-7) Alt: 494796 (mm) SIV: 6
+Lat: 477702550 Long: 89854333 (degrees * 10^-7) Alt: 492316 (mm) SIV: 7
+Lat: 477703074SparkFun Ublox Example
+Lat: 477704396 Long: 89854691 (degrees * 10^-7) Alt: 488421 (mm) SIV: 7
+Lat: 477704503 Long: 89854791 (degrees * 10^-7) Alt: 485768 (mm) SIV: 7
+Lat: 477704627 Long: 89854637 (degrees * 10^-7) Alt: 483622 (mm) SIV: 7
+Lat: 477704716 Long: 89853798 (degrees * 10^-7) Alt: 490468 (mm) SIV: 7
+Lat: 477704856 Long: 89853603 (degrees * 10^-7) Alt: 494043 (mm) SIV: 7
