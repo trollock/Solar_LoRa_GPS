@@ -9,20 +9,6 @@
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1365,6 +1351,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="TrisolX_Solar_Cells">
+<packages>
+<package name="TRISOLX_8X16">
+<wire x1="-0.5" y1="-0.5" x2="-0.5" y2="17.3" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="17.3" x2="8" y2="17.3" width="0.127" layer="21"/>
+<wire x1="8" y1="17.3" x2="8.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.127" layer="21"/>
+<smd name="P$2" x="3.8" y="5.25" dx="7" dy="2" layer="1"/>
+<pad name="P$3" x="0.5" y="-1.25" drill="0.4"/>
+<wire x1="0" y1="0" x2="0" y2="16.7" width="0.0762" layer="21"/>
+<wire x1="0" y1="16.7" x2="7.45" y2="16.7" width="0.0762" layer="21"/>
+<wire x1="7.45" y1="16.7" x2="8" y2="0" width="0.0762" layer="21"/>
+<wire x1="8" y1="0" x2="0" y2="0" width="0.0762" layer="21"/>
+<wire x1="0.5" y1="5.5" x2="0.5" y2="10.75" width="0.254" layer="1"/>
+<rectangle x1="0.3" y1="10.4" x2="7.3" y2="12.4" layer="1"/>
+<rectangle x1="0.2" y1="10.3" x2="7.4" y2="12.5" layer="29"/>
+<rectangle x1="0.3" y1="10.4" x2="7.3" y2="12.4" layer="31"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1650,6 +1656,8 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-13495" x="-23.5" y="-74" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-23.5" y="-74.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
+<element name="U$1" library="TrisolX_Solar_Cells" package="TRISOLX_8X16" value="TRISOLX_8X16" x="9" y="2.5" smashed="yes" rot="MR0"/>
+<element name="U$2" library="TrisolX_Solar_Cells" package="TRISOLX_8X16" value="TRISOLX_8X16" x="-44" y="-73.5" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">

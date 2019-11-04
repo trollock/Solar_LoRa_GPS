@@ -9,20 +9,6 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -5004,6 +4990,69 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="TrisolX_Solar_Cells">
+<packages>
+<package name="TRISOLX_8X16">
+<wire x1="-0.5" y1="-0.5" x2="-0.5" y2="17.3" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="17.3" x2="8" y2="17.3" width="0.127" layer="21"/>
+<wire x1="8" y1="17.3" x2="8.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.127" layer="21"/>
+<smd name="P$2" x="3.8" y="5.25" dx="7" dy="2" layer="1"/>
+<pad name="P$3" x="0.5" y="-1.25" drill="0.4"/>
+<wire x1="0" y1="0" x2="0" y2="16.7" width="0.0762" layer="21"/>
+<wire x1="0" y1="16.7" x2="7.45" y2="16.7" width="0.0762" layer="21"/>
+<wire x1="7.45" y1="16.7" x2="8" y2="0" width="0.0762" layer="21"/>
+<wire x1="8" y1="0" x2="0" y2="0" width="0.0762" layer="21"/>
+<wire x1="0.5" y1="5.5" x2="0.5" y2="10.75" width="0.254" layer="1"/>
+<rectangle x1="0.3" y1="10.4" x2="7.3" y2="12.4" layer="1"/>
+<rectangle x1="0.2" y1="10.3" x2="7.4" y2="12.5" layer="29"/>
+<rectangle x1="0.3" y1="10.4" x2="7.3" y2="12.4" layer="31"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SOLARCELL_SINGLE">
+<description>&lt;h3&gt;Single Solar Cell&lt;/h3&gt;
+&lt;p&gt;Used by the CPC1822 - a monolithic photovoltaic string of solar cells with switching circuitry. When operating in sunlight or a bright artificial light environment the optical energy will activate the cell array and generate a voltage at the output. The solar cells are capable of generating a floating source voltage and current sufficient to drive and power CMOS ICs, logic gates and/or provide “trickle charge” for battery applications.&lt;/p&gt;</description>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="3.302" x2="1.016" y2="5.842" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="3.302" x2="-1.524" y2="4.064" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="3.302" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="3.302" x2="3.556" y2="5.842" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="3.302" x2="1.016" y2="4.064" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="3.302" x2="1.778" y2="3.302" width="0.1524" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="C" x="5.08" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="-2.794" size="1.778" layer="95" font="vector" align="top-center">&gt;Name</text>
+<text x="0" y="-4.826" size="1.778" layer="96" font="vector" align="top-center">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TRISOLX_8X16">
+<gates>
+<gate name="G$1" symbol="SOLARCELL_SINGLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TRISOLX_8X16">
+<connects>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="C" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5045,6 +5094,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$3" library="SparkFun-Capacitors" deviceset="2.4PF" device="-0402" value="2.4 pF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402-1/16W-1%" value="100K"/>
+<part name="U$1" library="TrisolX_Solar_Cells" deviceset="TRISOLX_8X16" device=""/>
+<part name="U$2" library="TrisolX_Solar_Cells" deviceset="TRISOLX_8X16" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5056,9 +5107,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="162.56" y1="132.08" x2="53.34" y2="132.08" width="0.1524" layer="95" style="longdash"/>
 <wire x1="53.34" y1="132.08" x2="53.34" y2="180.34" width="0.1524" layer="95" style="longdash"/>
 <text x="55.88" y="175.26" size="2.54" layer="94">MCU Power Switch</text>
-<text x="2.54" y="71.12" size="2.54" layer="94">Solar MPPT DC-DC</text>
+<text x="2.54" y="71.12" size="2.54" layer="94">GNSS / GLONASS Receiver</text>
 <text x="165.1" y="175.26" size="2.54" layer="94">MCU / Radiotransceiver</text>
-<text x="2.54" y="175.26" size="2.54" layer="94">GNSS Receiver</text>
+<text x="2.54" y="175.26" size="2.54" layer="94">Solar MPPT DC-DC</text>
 <text x="5.08" y="106.68" size="2.54" layer="94">Solar Cells</text>
 <text x="55.88" y="127" size="2.54" layer="94">433 MHz Matching Network</text>
 <wire x1="53.34" y1="76.2" x2="53.34" y2="132.08" width="0.1524" layer="95" style="longdash"/>
@@ -5193,6 +5244,14 @@ Max Planck Institute for Animal Behavior</text>
 <instance part="R1" gate="G$1" x="167.64" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.116" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="169.164" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="U$1" gate="G$1" x="25.4" y="104.14" smashed="yes">
+<attribute name="NAME" x="25.4" y="101.346" size="1.778" layer="95" font="vector" align="top-center"/>
+<attribute name="VALUE" x="25.4" y="99.314" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U$2" gate="G$1" x="15.24" y="93.98" smashed="yes">
+<attribute name="NAME" x="15.24" y="91.186" size="1.778" layer="95" font="vector" align="top-center"/>
+<attribute name="VALUE" x="15.24" y="89.154" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
