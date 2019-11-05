@@ -13012,6 +13012,372 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-GPS">
+<description>&lt;h3&gt;SparkFun GPS, Antennas&lt;/h3&gt;
+This library contains GPS modules, GPS antennas, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="UBLOX_ZOE_M8-0-10">
+<description>&lt;h3&gt;UBLOX ZOE-M8Q-0-10&lt;/h3&gt;
+&lt;p&gt;The ZOE-M8G and ZOE-M8Q are u-blox’s super small, highly integrated GNSS SiP (System in Package) modules
+based on the high performing u-blox M8 concurrent positioning engine. The ultra-miniature form factor integrates
+a complete GNSS receiver including SAW filter, LNA and TCXO. The ZOE-M8Q is
+the 3 V variant.&lt;/p&gt; 
+
+&lt;p&gt;&lt;b&gt;Phyical Characteristics&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LGA&lt;/li&gt;
+&lt;li&gt;51 Pins&lt;/li&gt;
+&lt;li&gt;4.5mm X 4.5mm X 1mm&lt;/li&gt;
+&lt;li&gt;51 Pins&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-2.246" y1="-2.246" x2="2.254" y2="-2.246" width="0.05" layer="51"/>
+<wire x1="2.254" y1="-2.246" x2="2.254" y2="2.254" width="0.05" layer="51"/>
+<wire x1="2.254" y1="2.254" x2="-2.246" y2="2.254" width="0.05" layer="51"/>
+<wire x1="-2.246" y1="2.254" x2="-2.246" y2="-2.246" width="0.05" layer="51"/>
+<circle x="-2.738" y="2.754" radius="0.254" width="0" layer="21"/>
+<text x="-2.246" y="3.135" size="1" layer="25">&gt;NAME</text>
+<text x="-2.373" y="-3.865" size="1" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.996" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="3" x="-0.996" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="4" x="-0.496" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="5" x="0.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="6" x="0.504" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="7" x="1.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="8" x="1.504" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="9" x="2.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<wire x1="-1.746" y1="-2.346" x2="1.754" y2="-2.346" width="0.1" layer="21"/>
+<wire x1="2.354" y1="-1.746" x2="2.354" y2="1.754" width="0.1" layer="21"/>
+<wire x1="-2.346" y1="-1.746" x2="-2.346" y2="1.754" width="0.1" layer="21"/>
+<wire x1="-1.746" y1="2.354" x2="1.754" y2="2.354" width="0.1" layer="21"/>
+<smd name="2" x="-1.496" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="10" x="2.004" y="1.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="11" x="2.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="12" x="2.004" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="13" x="2.004" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="14" x="2.004" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="15" x="2.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="16" x="2.004" y="-1.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="17" x="2.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="18" x="1.504" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="19" x="1.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="20" x="0.504" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="21" x="0.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="22" x="-0.496" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="23" x="-0.996" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="24" x="-1.496" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="25" x="-1.996" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="26" x="-1.996" y="-1.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="27" x="-1.996" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="28" x="-1.996" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="29" x="-1.996" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="30" x="-1.996" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="31" x="-1.996" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="32" x="-1.996" y="1.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="33" x="-0.996" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="34" x="-0.496" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="35" x="0.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="36" x="0.504" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="37" x="1.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="38" x="1.004" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="39" x="1.004" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="40" x="1.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="41" x="0.504" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="42" x="0.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="43" x="-0.496" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="44" x="-0.996" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="45" x="-0.996" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="46" x="-0.996" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="47" x="-0.996" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="48" x="-0.496" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="49" x="0.504" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="50" x="0.504" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="51" x="-0.496" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<circle x="-1.9965" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="-1.4965" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9965" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4965" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="0.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="0.5035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="1.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="1.5035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9965" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="-1.4965" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9965" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4965" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="0.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="0.5035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="1.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="1.5035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="-1.4961" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="-0.9961" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="-0.4961" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="0.0039" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="0.5039" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="1.0039" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="1.5039" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="-1.4978" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="-0.9978" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="-0.4978" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="0.0022" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="0.5022" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="1.0022" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="1.5022" radius="0.15" width="0" layer="29"/>
+<circle x="1.0052" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="0.5052" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="0.0052" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4948" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9948" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="1.0032" y="-0.9982" radius="0.15" width="0" layer="29"/>
+<circle x="0.5024" y="-0.9966" radius="0.15" width="0" layer="29"/>
+<circle x="0.0027" y="-0.9972" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4964" y="-0.9972" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9973" y="-0.9973" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9952" y="-0.498" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4951" y="-0.4989" radius="0.15" width="0" layer="29"/>
+<circle x="0.5039" y="-0.4989" radius="0.15" width="0" layer="29"/>
+<circle x="1.002" y="-0.4999" radius="0.15" width="0" layer="29"/>
+<circle x="1.0018" y="0.0029" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9983" y="0.0042" radius="0.15" width="0" layer="29"/>
+<circle x="0.501" y="0.5051" radius="0.15" width="0" layer="29"/>
+<circle x="-0.499" y="0.5035" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9973" y="0.5051" radius="0.15" width="0" layer="29"/>
+<wire x1="2.413" y1="-2.413" x2="2.413" y2="2.413" width="0.0508" layer="39"/>
+<wire x1="2.413" y1="2.413" x2="-2.413" y2="2.413" width="0.0508" layer="39"/>
+<wire x1="-2.413" y1="2.413" x2="-2.413" y2="-2.413" width="0.0508" layer="39"/>
+<wire x1="-2.413" y1="-2.413" x2="2.413" y2="-2.413" width="0.0508" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="U-BLOX_ZOE-M8-0-10">
+<description>&lt;h3&gt;UBLOX ZOE-M8-0-10&lt;/h3&gt;
+
+&lt;p&gt;The ZOE-M8G and ZOE-M8Q are u-blox’s super small, highly integrated GNSS SiP (System in Package) modules
+based on the high performing u-blox M8 concurrent positioning engine. The ultra-miniature form factor integrates
+a complete GNSS receiver including SAW filter, LNA and TCXO. ZOE-M8Q is
+the 3 V variant.&lt;/p&gt;</description>
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-22.86" x2="17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<pin name="VCC" x="-20.32" y="22.86" length="middle" direction="pwr"/>
+<pin name="GND" x="-20.32" y="-20.32" length="middle" direction="pwr"/>
+<pin name="SDA/CS" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="SCL/CLK" x="22.86" y="20.32" length="middle" rot="R180"/>
+<pin name="D_SEL" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="RXD/MOSI" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="TXD/MISO" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="RTC_0" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="RTC_1" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="TIMEPULSE" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="!SAFEBOOT" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="LNA_EN" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="P1015" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="P1014" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="PI013/!EXTINT" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="!RESET" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="SQI_G" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<text x="-15.24" y="27.94" size="2.54" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-27.94" size="2.54" layer="96">&gt;Value</text>
+<pin name="RF_IN" x="-20.32" y="5.08" length="middle"/>
+<pin name="V_CORE" x="-20.32" y="17.78" length="middle" direction="pwr"/>
+<pin name="V_DCDC_OUT" x="-20.32" y="15.24" length="middle" direction="pwr"/>
+<pin name="V_BCKP" x="-20.32" y="20.32" length="middle" direction="pwr"/>
+<pin name="SQI_O" x="22.86" y="-17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="NC" x="22.86" y="-20.32" length="middle" direction="nc" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UBLOX_ZOE_M8Q-0-10" prefix="U">
+<description>&lt;h3&gt;UBLOX ZOE-M8Q-0-10&lt;/h3&gt;
+&lt;p&gt;u-blox ZOE-M8 standard precision GNSS SiP (System in Package) modules feature the high performance u-blox M8
+GNSS engine. ZOE-M8’s ultra-miniature form factor integrates a complete GNSS receiver including SAW filter, LNA
+and TCXO.&lt;/p&gt;
+&lt;p&gt;Handles  all &lt;b&gt;GNSS systems&lt;/b&gt;  and can simulatenously use up to three of them, with accuracy ranging from 2.5m to 4m.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPS&lt;/li&gt;
+&lt;li&gt;GLONASS&lt;/li&gt;
+&lt;li&gt;BeiDou&lt;/li&gt;
+&lt;li&gt;Galileo&lt;/li&gt;
+&lt;/ul&gt;
+
+This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&gt; augmentation systems.</description>
+<gates>
+<gate name="G$1" symbol="U-BLOX_ZOE-M8-0-10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UBLOX_ZOE_M8-0-10">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="20"/>
+<connect gate="G$1" pin="!SAFEBOOT" pad="34"/>
+<connect gate="G$1" pin="D_SEL" pad="48"/>
+<connect gate="G$1" pin="GND" pad="1 3 5 7 8 9 10 11 12 17 23 37 38 39 40 41 44 49" route="any"/>
+<connect gate="G$1" pin="LNA_EN" pad="35"/>
+<connect gate="G$1" pin="NC" pad="6 13 14 15 28 42 51"/>
+<connect gate="G$1" pin="P1014" pad="50"/>
+<connect gate="G$1" pin="P1015" pad="36"/>
+<connect gate="G$1" pin="PI013/!EXTINT" pad="43"/>
+<connect gate="G$1" pin="RF_IN" pad="4"/>
+<connect gate="G$1" pin="RTC_0" pad="18"/>
+<connect gate="G$1" pin="RTC_1" pad="19"/>
+<connect gate="G$1" pin="RXD/MOSI" pad="22"/>
+<connect gate="G$1" pin="SCL/CLK" pad="32"/>
+<connect gate="G$1" pin="SDA/CS" pad="2"/>
+<connect gate="G$1" pin="SQI_G" pad="29 31 46 47"/>
+<connect gate="G$1" pin="SQI_O" pad="30 45"/>
+<connect gate="G$1" pin="TIMEPULSE" pad="33"/>
+<connect gate="G$1" pin="TXD/MISO" pad="21"/>
+<connect gate="G$1" pin="VCC" pad="24 25"/>
+<connect gate="G$1" pin="V_BCKP" pad="16"/>
+<connect gate="G$1" pin="V_CORE" pad="27"/>
+<connect gate="G$1" pin="V_DCDC_OUT" pad="26"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14251" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-RF">
+<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
+In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="RFM95/96/97/98W">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="-4" y="6" radius="0.5" width="0.127" layer="21"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
+<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="21"/>
+<smd name="!RESET" x="-7.5" y="-3" dx="3" dy="1" layer="1"/>
+<smd name="3.3V" x="7.5" y="1" dx="3" dy="1" layer="1"/>
+<smd name="ANT" x="7.5" y="-7" dx="3" dy="1" layer="1"/>
+<smd name="DIO0" x="7.5" y="3" dx="3" dy="1" layer="1"/>
+<smd name="DIO1" x="7.5" y="5" dx="3" dy="1" layer="1"/>
+<smd name="DIO2" x="7.5" y="7" dx="3" dy="1" layer="1"/>
+<smd name="DIO3" x="7.5" y="-3" dx="3" dy="1" layer="1"/>
+<smd name="DIO4" x="7.5" y="-1" dx="3" dy="1" layer="1"/>
+<smd name="DIO5" x="-7.5" y="-5" dx="3" dy="1" layer="1"/>
+<smd name="GND@1" x="-7.5" y="7" dx="3" dy="1" layer="1"/>
+<smd name="GND@2" x="-7.5" y="-7" dx="3" dy="1" layer="1"/>
+<smd name="GND@3" x="7.5" y="-5" dx="3" dy="1" layer="1"/>
+<smd name="MISO" x="-7.5" y="5" dx="3" dy="1" layer="1"/>
+<smd name="MOSI" x="-7.5" y="3" dx="3" dy="1" layer="1"/>
+<smd name="NSS" x="-7.5" y="-1" dx="3" dy="1" layer="1"/>
+<smd name="SCK" x="-7.5" y="1" dx="3" dy="1" layer="1"/>
+<circle x="-8.636" y="8.255" radius="0.359209375" width="0" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RFM95W">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-12.668" y1="17.812" x2="12.748" y2="17.812" width="0.254" layer="94"/>
+<wire x1="12.748" y1="17.812" x2="12.748" y2="-15.208" width="0.254" layer="94"/>
+<wire x1="12.748" y1="-15.208" x2="-12.668" y2="-15.208" width="0.254" layer="94"/>
+<wire x1="-12.668" y1="-15.208" x2="-12.668" y2="17.812" width="0.254" layer="94"/>
+<pin name="!RESET" x="-15.24" y="12.7" visible="pin" length="short"/>
+<pin name="3.3V" x="-15.24" y="15.24" visible="pin" length="short"/>
+<pin name="ANT" x="-15.24" y="-7.62" visible="pin" length="short"/>
+<pin name="DIO0" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="DIO1" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="DIO2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="DIO3" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="DIO4" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="DIO5" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="MISO" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="MOSI" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="NSS" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="SCK" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<text x="-12.668" y="18.32" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RFM95W" prefix="U">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;These devices also support high performance (G)FSK
+modes for systems including WMBus, IEEE802.15.4g. The
+RFM95/96/97/98(W) deliver exceptional phase noise,
+selectivity, receiver linearity and IIP3 for significantly
+lower current consumption than competing devices&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RFM95W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RFM95/96/97/98W">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="!RESET"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="DIO0" pad="DIO0"/>
+<connect gate="G$1" pin="DIO1" pad="DIO1"/>
+<connect gate="G$1" pin="DIO2" pad="DIO2"/>
+<connect gate="G$1" pin="DIO3" pad="DIO3"/>
+<connect gate="G$1" pin="DIO4" pad="DIO4"/>
+<connect gate="G$1" pin="DIO5" pad="DIO5"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="NSS" pad="NSS"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13959" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13056,6 +13422,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET_PCH" device="-SI2309DS" package3d_urn="urn:adsk.eagle:package:38446/1" value="1.1A/60V/600mΩ"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATSAMD21E18A-U" device=""/>
+<part name="U2" library="SparkFun-GPS" deviceset="UBLOX_ZOE_M8Q-0-10" device=""/>
+<part name="U4" library="SparkFun-RF" deviceset="RFM95W" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13194,6 +13562,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U1" gate="G$1" x="198.12" y="76.2" smashed="yes">
 <attribute name="NAME" x="170.18" y="104.14" size="2.54" layer="95"/>
 <attribute name="VALUE" x="170.18" y="45.72" size="2.54" layer="96"/>
+</instance>
+<instance part="U2" gate="G$1" x="116.84" y="33.02" smashed="yes">
+<attribute name="NAME" x="101.6" y="60.96" size="2.54" layer="95"/>
+<attribute name="VALUE" x="101.6" y="5.08" size="2.54" layer="96"/>
+</instance>
+<instance part="U4" gate="G$1" x="43.18" y="40.64" smashed="yes">
+<attribute name="NAME" x="30.512" y="58.96" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
