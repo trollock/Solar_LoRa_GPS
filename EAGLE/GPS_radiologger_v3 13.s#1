@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16355,6 +16355,130 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-RF">
+<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
+In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="RFM95/96/97/98W">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="-4" y="6" radius="0.5" width="0.127" layer="21"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
+<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="21"/>
+<smd name="!RESET" x="-7.5" y="-3" dx="3" dy="1" layer="1"/>
+<smd name="3.3V" x="7.5" y="1" dx="3" dy="1" layer="1"/>
+<smd name="ANT" x="7.5" y="-7" dx="3" dy="1" layer="1"/>
+<smd name="DIO0" x="7.5" y="3" dx="3" dy="1" layer="1"/>
+<smd name="DIO1" x="7.5" y="5" dx="3" dy="1" layer="1"/>
+<smd name="DIO2" x="7.5" y="7" dx="3" dy="1" layer="1"/>
+<smd name="DIO3" x="7.5" y="-3" dx="3" dy="1" layer="1"/>
+<smd name="DIO4" x="7.5" y="-1" dx="3" dy="1" layer="1"/>
+<smd name="DIO5" x="-7.5" y="-5" dx="3" dy="1" layer="1"/>
+<smd name="GND@1" x="-7.5" y="7" dx="3" dy="1" layer="1"/>
+<smd name="GND@2" x="-7.5" y="-7" dx="3" dy="1" layer="1"/>
+<smd name="GND@3" x="7.5" y="-5" dx="3" dy="1" layer="1"/>
+<smd name="MISO" x="-7.5" y="5" dx="3" dy="1" layer="1"/>
+<smd name="MOSI" x="-7.5" y="3" dx="3" dy="1" layer="1"/>
+<smd name="NSS" x="-7.5" y="-1" dx="3" dy="1" layer="1"/>
+<smd name="SCK" x="-7.5" y="1" dx="3" dy="1" layer="1"/>
+<circle x="-8.636" y="8.255" radius="0.359209375" width="0" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RFM95W">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-12.668" y1="17.812" x2="12.748" y2="17.812" width="0.254" layer="94"/>
+<wire x1="12.748" y1="17.812" x2="12.748" y2="-15.208" width="0.254" layer="94"/>
+<wire x1="12.748" y1="-15.208" x2="-12.668" y2="-15.208" width="0.254" layer="94"/>
+<wire x1="-12.668" y1="-15.208" x2="-12.668" y2="17.812" width="0.254" layer="94"/>
+<pin name="!RESET" x="-15.24" y="12.7" visible="pin" length="short"/>
+<pin name="3.3V" x="-15.24" y="15.24" visible="pin" length="short"/>
+<pin name="ANT" x="-15.24" y="-7.62" visible="pin" length="short"/>
+<pin name="DIO0" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="DIO1" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="DIO2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="DIO3" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="DIO4" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="DIO5" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="MISO" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="MOSI" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="NSS" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="SCK" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<text x="-12.668" y="18.32" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RFM95W" prefix="U">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;These devices also support high performance (G)FSK
+modes for systems including WMBus, IEEE802.15.4g. The
+RFM95/96/97/98(W) deliver exceptional phase noise,
+selectivity, receiver linearity and IIP3 for significantly
+lower current consumption than competing devices&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RFM95W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RFM95/96/97/98W">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="!RESET"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="DIO0" pad="DIO0"/>
+<connect gate="G$1" pin="DIO1" pad="DIO1"/>
+<connect gate="G$1" pin="DIO2" pad="DIO2"/>
+<connect gate="G$1" pin="DIO3" pad="DIO3"/>
+<connect gate="G$1" pin="DIO4" pad="DIO4"/>
+<connect gate="G$1" pin="DIO5" pad="DIO5"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="NSS" pad="NSS"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13959" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -19957,139 +20081,13 @@ DIN A3, landscape with extra doc field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-RF">
-<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
-In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="RFM95/96/97/98W">
-<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
-
-&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
-LoRaTM    long range modem that provides ultra-long range
-spread spectrum communication and high interference
-immunity whilst minimising current consumption. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<circle x="-4" y="6" radius="0.5" width="0.127" layer="21"/>
-<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
-<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="21"/>
-<smd name="!RESET" x="-7.5" y="-3" dx="3" dy="1" layer="1"/>
-<smd name="3.3V" x="7.5" y="1" dx="3" dy="1" layer="1"/>
-<smd name="ANT" x="7.5" y="-7" dx="3" dy="1" layer="1"/>
-<smd name="DIO0" x="7.5" y="3" dx="3" dy="1" layer="1"/>
-<smd name="DIO1" x="7.5" y="5" dx="3" dy="1" layer="1"/>
-<smd name="DIO2" x="7.5" y="7" dx="3" dy="1" layer="1"/>
-<smd name="DIO3" x="7.5" y="-3" dx="3" dy="1" layer="1"/>
-<smd name="DIO4" x="7.5" y="-1" dx="3" dy="1" layer="1"/>
-<smd name="DIO5" x="-7.5" y="-5" dx="3" dy="1" layer="1"/>
-<smd name="GND@1" x="-7.5" y="7" dx="3" dy="1" layer="1"/>
-<smd name="GND@2" x="-7.5" y="-7" dx="3" dy="1" layer="1"/>
-<smd name="GND@3" x="7.5" y="-5" dx="3" dy="1" layer="1"/>
-<smd name="MISO" x="-7.5" y="5" dx="3" dy="1" layer="1"/>
-<smd name="MOSI" x="-7.5" y="3" dx="3" dy="1" layer="1"/>
-<smd name="NSS" x="-7.5" y="-1" dx="3" dy="1" layer="1"/>
-<smd name="SCK" x="-7.5" y="1" dx="3" dy="1" layer="1"/>
-<circle x="-8.636" y="8.255" radius="0.359209375" width="0" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RFM95W">
-<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
-
-&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
-LoRaTM    long range modem that provides ultra-long range
-spread spectrum communication and high interference
-immunity whilst minimising current consumption. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-12.668" y1="17.812" x2="12.748" y2="17.812" width="0.254" layer="94"/>
-<wire x1="12.748" y1="17.812" x2="12.748" y2="-15.208" width="0.254" layer="94"/>
-<wire x1="12.748" y1="-15.208" x2="-12.668" y2="-15.208" width="0.254" layer="94"/>
-<wire x1="-12.668" y1="-15.208" x2="-12.668" y2="17.812" width="0.254" layer="94"/>
-<pin name="!RESET" x="-15.24" y="12.7" visible="pin" length="short"/>
-<pin name="3.3V" x="-15.24" y="15.24" visible="pin" length="short"/>
-<pin name="ANT" x="-15.24" y="-7.62" visible="pin" length="short"/>
-<pin name="DIO0" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="DIO1" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="DIO2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="DIO3" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="DIO4" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="DIO5" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="-15.24" y="-12.7" visible="pin" length="short"/>
-<pin name="MISO" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="MOSI" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="NSS" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="SCK" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
-<text x="-12.668" y="18.32" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RFM95W" prefix="U">
-<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
-
-&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
-LoRaTM    long range modem that provides ultra-long range
-spread spectrum communication and high interference
-immunity whilst minimising current consumption. &lt;/p&gt;
-
-&lt;p&gt;These devices also support high performance (G)FSK
-modes for systems including WMBus, IEEE802.15.4g. The
-RFM95/96/97/98(W) deliver exceptional phase noise,
-selectivity, receiver linearity and IIP3 for significantly
-lower current consumption than competing devices&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RFM95W" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RFM95/96/97/98W">
-<connects>
-<connect gate="G$1" pin="!RESET" pad="!RESET"/>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="ANT" pad="ANT"/>
-<connect gate="G$1" pin="DIO0" pad="DIO0"/>
-<connect gate="G$1" pin="DIO1" pad="DIO1"/>
-<connect gate="G$1" pin="DIO2" pad="DIO2"/>
-<connect gate="G$1" pin="DIO3" pad="DIO3"/>
-<connect gate="G$1" pin="DIO4" pad="DIO4"/>
-<connect gate="G$1" pin="DIO5" pad="DIO5"/>
-<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3"/>
-<connect gate="G$1" pin="MISO" pad="MISO"/>
-<connect gate="G$1" pin="MOSI" pad="MOSI"/>
-<connect gate="G$1" pin="NSS" pad="NSS"/>
-<connect gate="G$1" pin="SCK" pad="SCK"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-13959" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.000153125" drill="0.00030625">
-</class>
-<class number="1" name="vcc" width="0.000253125" drill="0">
+<class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
 <parts>
@@ -20126,6 +20124,7 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET_PCH" device="-SI2309DS" package3d_urn="urn:adsk.eagle:package:38446/1" value="1.1A/60V/600mΩ"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATSAMD21E18A-U" device=""/>
+<part name="U4" library="SparkFun-RF" deviceset="RFM95W" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="10 uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="10 uF"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH_MILL"/>
@@ -20159,7 +20158,6 @@ lower current consumption than competing devices&lt;/p&gt;
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_04" device="1.27MM_NO_SILK"/>
 <part name="Y2" library="SparkFun-GPS" deviceset="GPS_CHIP_ANTENNA" device="W3011"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U4" library="SparkFun-RF" deviceset="RFM95W" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20317,6 +20315,9 @@ Sercom 4 -  only 2 ports on XTAL pins</text>
 <attribute name="NAME" x="50.8" y="76.2" size="2.54" layer="95"/>
 <attribute name="VALUE" x="66.04" y="15.24" size="2.54" layer="96"/>
 </instance>
+<instance part="U4" gate="G$1" x="337.82" y="81.28" smashed="yes">
+<attribute name="NAME" x="325.152" y="99.6" size="1.778" layer="95"/>
+</instance>
 <instance part="C3" gate="G$1" x="20.32" y="48.26" smashed="yes">
 <attribute name="NAME" x="21.844" y="48.641" size="1.778" layer="95"/>
 <attribute name="VALUE" x="21.844" y="43.561" size="1.778" layer="96"/>
@@ -20430,9 +20431,6 @@ Sercom 4 -  only 2 ports on XTAL pins</text>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="20.32" y="81.28" smashed="yes">
 <attribute name="VALUE" x="20.32" y="84.074" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="U4" gate="G$1" x="320.04" y="81.28" smashed="yes">
-<attribute name="NAME" x="307.372" y="99.6" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>

@@ -4162,9 +4162,6 @@ design rules under a new name.</description>
 <wire x1="15.744" y1="-12.726" x2="-15.97" y2="-71.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.13" y1="-71.59" x2="-15.97" y2="-71.75" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TXO/MISO">
-<contactref element="U2" pad="21"/>
-</signal>
 <signal name="D_SEL">
 <contactref element="U2" pad="48"/>
 </signal>
@@ -4188,9 +4185,6 @@ design rules under a new name.</description>
 <contactref element="U2" pad="20"/>
 <contactref element="J4" pad="1"/>
 <wire x1="18.244" y1="-13.726" x2="-10.25" y2="2.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="RXI/MOSI">
-<contactref element="U2" pad="22"/>
 </signal>
 <signal name="ANT">
 <contactref element="U2" pad="4"/>

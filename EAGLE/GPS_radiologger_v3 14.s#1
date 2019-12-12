@@ -20431,8 +20431,8 @@ Sercom 4 -  only 2 ports on XTAL pins</text>
 <instance part="SUPPLY11" gate="G$1" x="20.32" y="81.28" smashed="yes">
 <attribute name="VALUE" x="20.32" y="84.074" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U4" gate="G$1" x="320.04" y="81.28" smashed="yes">
-<attribute name="NAME" x="307.372" y="99.6" size="1.778" layer="95"/>
+<instance part="U4" gate="G$1" x="322.58" y="83.82" smashed="yes">
+<attribute name="NAME" x="309.912" y="102.14" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -21102,13 +21102,6 @@ Sercom 4 -  only 2 ports on XTAL pins</text>
 <pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="TXO/MISO" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="TXD/MISO"/>
-<wire x1="254" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
-<label x="256.54" y="73.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="D_SEL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="D_SEL"/>
@@ -21160,13 +21153,6 @@ Sercom 4 -  only 2 ports on XTAL pins</text>
 <pinref part="J4" gate="J1" pin="1"/>
 <wire x1="157.48" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
 <label x="160.02" y="81.28" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="RXI/MOSI" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="RXD/MOSI"/>
-<wire x1="254" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
-<label x="256.54" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ANT" class="0">
