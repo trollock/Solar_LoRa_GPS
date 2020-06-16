@@ -1,0 +1,272 @@
+  [
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 5.5,
+    "latitude": 47.7704219,
+    "longitude": 8.9856542,
+    "raw": "HHkwGwVbGh4CJga2",
+    "siv": 6,
+    "time": "2019-12-16T09:31:46.184116972Z",
+    "transbat": 4.37
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 5.37,
+    "latitude": 47.7704244,
+    "longitude": 8.9856542,
+    "raw": "HHkwNAVbGh4CGQe2",
+    "siv": 7,
+    "time": "2019-12-16T09:32:19.258441969Z",
+    "transbat": 4.37
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 5.31,
+    "latitude": 47.7704182,
+    "longitude": 8.9854103,
+    "raw": "HHkv9gVbEJcCEwe1",
+    "siv": 7,
+    "time": "2019-12-16T09:32:52.20662997Z",
+    "transbat": 4.36
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 8.72,
+    "latitude": 47.7704212,
+    "longitude": 8.9858171,
+    "raw": "HHkwFAVbIHsDaAa1",
+    "siv": 6,
+    "time": "2019-12-16T09:33:25.140818515Z",
+    "transbat": 4.36
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 5.99,
+    "latitude": 47.7702674,
+    "longitude": 8.985754,
+    "raw": "HHkqEgVbHgQCVwO1",
+    "siv": 3,
+    "time": "2019-12-16T09:33:58.194092979Z",
+    "transbat": 4.36
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 99.99,
+    "latitude": 47.7704277,
+    "longitude": 8.9857194,
+    "raw": "HHkwVQVbHKonDwC2",
+    "siv": 0,
+    "time": "2019-12-16T09:34:31.168383196Z",
+    "transbat": 4.37
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 5.04,
+    "latitude": 47.7705727,
+    "longitude": 8.9861091,
+    "raw": "HHk1/wVbK+MB+Ae1",
+    "siv": 7,
+    "time": "2019-12-16T09:35:04.244005088Z",
+    "transbat": 4.36
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 6.16,
+    "latitude": 47.770724,
+    "longitude": 8.9865791,
+    "raw": "HHk76AVbPj8CaAa1",
+    "siv": 6,
+    "time": "2019-12-16T09:35:37.215230015Z",
+    "transbat": 4.36
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 6.1,
+    "latitude": 47.7709869,
+    "longitude": 8.9872427,
+    "raw": "HHlGLQVbWCsCYga0",
+    "siv": 6,
+    "time": "2019-12-16T09:36:10.215444549Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 4.51,
+    "latitude": 47.7710271,
+    "longitude": 8.987779,
+    "raw": "HHlHvwVbbR4Bwwe0",
+    "siv": 7,
+    "time": "2019-12-16T09:36:43.156895471Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.06,
+    "latitude": 47.7713025,
+    "longitude": 8.9883202,
+    "raw": "HHlSgQVbgkIAzgq0",
+    "siv": 10,
+    "time": "2019-12-16T09:37:16.20249646Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.07,
+    "latitude": 47.771561,
+    "longitude": 8.9888676,
+    "raw": "HHlcmgVbl6QAzwq0",
+    "siv": 10,
+    "time": "2019-12-16T09:37:49.159645332Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.06,
+    "latitude": 47.7713322,
+    "longitude": 8.9899626,
+    "raw": "HHlTqgVbwmoAzgq0",
+    "siv": 10,
+    "time": "2019-12-16T09:38:55.176415547Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.06,
+    "latitude": 47.7710521,
+    "longitude": 8.9904198,
+    "raw": "HHlIuQVb1EYAzgq0",
+    "siv": 10,
+    "time": "2019-12-16T09:39:28.241169119Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.06,
+    "latitude": 47.7706891,
+    "longitude": 8.9907332,
+    "raw": "HHk6iwVb4IQAzgq0",
+    "siv": 10,
+    "time": "2019-12-16T09:40:01.195537305Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.06,
+    "latitude": 47.7702708,
+    "longitude": 8.9909949,
+    "raw": "HHkqNAVb6r0Azgqz",
+    "siv": 10,
+    "time": "2019-12-16T09:40:34.236031812Z",
+    "transbat": 4.34
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.06,
+    "latitude": 47.769854,
+    "longitude": 8.991286,
+    "raw": "HHkZ7AVb9hwAzgq0",
+    "siv": 10,
+    "time": "2019-12-16T09:41:07.185838812Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.27,
+    "latitude": 47.7694373,
+    "longitude": 8.9915534,
+    "raw": "HHkJpQVcAI4A4wm0",
+    "siv": 9,
+    "time": "2019-12-16T09:41:40.15165986Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.03,
+    "latitude": 47.7690194,
+    "longitude": 8.9919027,
+    "raw": "HHj5UgVcDjMAywu0",
+    "siv": 11,
+    "time": "2019-12-16T09:42:13.217002487Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.03,
+    "latitude": 47.76856,
+    "longitude": 8.992233,
+    "raw": "HHjnYAVcGxoAywu0",
+    "siv": 11,
+    "time": "2019-12-16T09:42:46.182624536Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.02,
+    "latitude": 47.7681504,
+    "longitude": 8.992647,
+    "raw": "HHjXYAVcK0YAyguz",
+    "siv": 11,
+    "time": "2019-12-16T09:43:19.156619558Z",
+    "transbat": 4.34
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.02,
+    "latitude": 47.7677891,
+    "longitude": 8.9932401,
+    "raw": "HHjJQwVcQnEAygu0",
+    "siv": 11,
+    "time": "2019-12-16T09:43:52.138107456Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.01,
+    "latitude": 47.7676725,
+    "longitude": 8.9938506,
+    "raw": "HHjEtQVcWkoAyQu0",
+    "siv": 11,
+    "time": "2019-12-16T09:44:25.240814263Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.01,
+    "latitude": 47.7675867,
+    "longitude": 8.994553,
+    "raw": "HHjBWwVcdboAyQu0",
+    "siv": 11,
+    "time": "2019-12-16T09:44:58.224322354Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2.01,
+    "latitude": 47.7676098,
+    "longitude": 8.9953099,
+    "raw": "HHjCQgVck0sAyQu0",
+    "siv": 11,
+    "time": "2019-12-16T09:45:31.211314334Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2,
+    "latitude": 47.767586,
+    "longitude": 8.9960449,
+    "raw": "HHjBVAVcsAEAyAu0",
+    "siv": 11,
+    "time": "2019-12-16T09:46:04.192669032Z",
+    "transbat": 4.35
+  },
+  {
+    "device_id": "868_test_radio_node",
+    "hdop": 2,
+    "latitude": 47.7676147,
+    "longitude": 8.9967724,
+    "raw": "HHjCcwVczGwAyAu0",
+    "siv": 11,
+    "time": "2019-12-16T09:46:37.176409422Z",
+    "transbat": 4.35
+  }
+  ]
