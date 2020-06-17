@@ -136,9 +136,6 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="no"/>
-<layer number="160" name="FAB" color="7" fill="1" visible="no" active="yes"/>
-<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
@@ -184,7 +181,6 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="252" name="RM45" color="7" fill="1" visible="no" active="yes"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
@@ -1891,57 +1887,6 @@ Remark: SOT883B has the same footprint, package is lower</description>
 </package>
 </packages>
 </library>
-<library name="STM-SPV1050_V2">
-<packages>
-<package name="SPV1050">
-<smd name="P$1" x="-1.35" y="0.8" dx="0.7" dy="0.2" layer="1" roundness="100"/>
-<wire x1="-1.5" y1="1.5" x2="-1.2" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.2" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.2" x2="-1.2" y2="1.5" width="0.127" layer="21"/>
-<smd name="P$2" x="-1.35" y="0.4" dx="0.7" dy="0.2" layer="1" roundness="100"/>
-<smd name="P$3" x="-1.35" y="0" dx="0.7" dy="0.2" layer="1" roundness="100"/>
-<smd name="P$4" x="-1.35" y="-0.4" dx="0.7" dy="0.2" layer="1" roundness="100"/>
-<smd name="P$5" x="-1.35" y="-0.8" dx="0.7" dy="0.2" layer="1" roundness="100"/>
-<smd name="P$6" x="-0.8" y="-1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R90"/>
-<smd name="P$7" x="-0.4" y="-1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R90"/>
-<smd name="P$8" x="0" y="-1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R90"/>
-<smd name="P$9" x="0.4" y="-1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R90"/>
-<smd name="P$10" x="0.8" y="-1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R90"/>
-<smd name="P$11" x="1.35" y="-0.8" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R180"/>
-<smd name="P$12" x="1.35" y="-0.4" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R180"/>
-<smd name="P$13" x="1.35" y="0" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R180"/>
-<smd name="P$14" x="1.35" y="0.4" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R180"/>
-<smd name="P$15" x="1.35" y="0.8" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R180"/>
-<smd name="P$16" x="0.8" y="1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R270"/>
-<smd name="P$17" x="0.4" y="1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R270"/>
-<smd name="P$18" x="0" y="1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R270"/>
-<smd name="P$19" x="-0.4" y="1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R270"/>
-<smd name="P$20" x="-0.8" y="1.35" dx="0.7" dy="0.2" layer="1" roundness="100" rot="R270"/>
-<smd name="P$21" x="0" y="0" dx="1.6" dy="1.6" layer="1" roundness="20" cream="no"/>
-<wire x1="-1.5" y1="1.5" x2="-1.2" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.2" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="1.2" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="1.2" x2="-1.2" y2="1.5" width="0.127" layer="51"/>
-<text x="-3" y="2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.4" y="-3.4" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.5842" y1="0.1016" x2="-0.0762" y2="0.5842" layer="31"/>
-<rectangle x1="0.0762" y1="0.1016" x2="0.5842" y2="0.5842" layer="31"/>
-<rectangle x1="-0.5842" y1="-0.5842" x2="-0.0762" y2="-0.1016" layer="31"/>
-<rectangle x1="0.0762" y1="-0.5842" x2="0.5842" y2="-0.1016" layer="31"/>
-<wire x1="-1.5" y1="-1.49" x2="-1.5" y2="-1.19" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.4924" y1="-1.5" x2="1.1924" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.4972" y1="-1.4924" x2="1.4972" y2="-1.1924" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.2" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.2" y2="1.5" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2308,10 +2253,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="21.5" y="-0.961" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="NDUC-13076" x="21.5" y="-1.85" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.5" y="-2.739" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="U4" library="STM-SPV1050_V2" package="SPV1050" value="SPV1050" x="2.65" y="-7.4" smashed="yes">
-<attribute name="NAME" x="-0.35" y="-5.4" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-0.75" y="-10.8" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -3017,15 +2958,6 @@ design rules under a new name.</description>
 <contactref element="U2" pad="26"/>
 <contactref element="L1" pad="2"/>
 <wire x1="22.4" y1="-1.85" x2="19.34661875" y2="8.750540625" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="IN_LV">
-<contactref element="U4" pad="P$16"/>
-</signal>
-<signal name="IN_HV">
-<contactref element="U4" pad="P$20"/>
-</signal>
-<signal name="L_HV">
-<contactref element="U4" pad="P$19"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
