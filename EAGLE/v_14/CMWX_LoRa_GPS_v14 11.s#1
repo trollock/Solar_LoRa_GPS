@@ -11497,10 +11497,11 @@ Remark: SOT883B has the same footprint, package is lower</description>
 </library>
 <library name="Antenna_mounts">
 <packages>
-<package name="ICARUS_NITINOL_ANTENNA_SHORT">
-<smd name="1" x="0" y="0" dx="1.4" dy="4" layer="1" rot="R90"/>
-<pad name="2" x="-1" y="0" drill="0.6"/>
-<pad name="3" x="1" y="0" drill="0.6"/>
+<package name="ICARUS_NITINOL_ANTENNA">
+<smd name="P$1" x="0" y="0" dx="1.4" dy="6.5" layer="1" rot="R90"/>
+<pad name="P$2" x="0" y="0" drill="0.6"/>
+<pad name="P$3" x="1.9" y="0" drill="0.6"/>
+<pad name="P$4" x="-1.9" y="0" drill="0.6"/>
 </package>
 </packages>
 <symbols>
@@ -11516,14 +11517,14 @@ Remark: SOT883B has the same footprint, package is lower</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NITINOL_ANTENNA_SHORT">
+<deviceset name="NITINOL_ANTENNA">
 <gates>
 <gate name="G$1" symbol="ANTENNA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ICARUS_NITINOL_ANTENNA_SHORT">
+<device name="" package="ICARUS_NITINOL_ANTENNA">
 <connects>
-<connect gate="G$1" pin="SIGNAL" pad="1 2 3"/>
+<connect gate="G$1" pin="SIGNAL" pad="P$1 P$2 P$3 P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11957,7 +11958,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="10nF"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="47uF"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="U$2" library="Antenna_mounts" deviceset="NITINOL_ANTENNA_SHORT" device=""/>
+<part name="U$2" library="Antenna_mounts" deviceset="NITINOL_ANTENNA" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="4.7 uF"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
