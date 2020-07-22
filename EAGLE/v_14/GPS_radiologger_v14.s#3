@@ -12817,14 +12817,20 @@ Created by Upverter.com</description>
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.15" layer="51"/>
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.15" layer="51"/>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.15" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="-1" width="0.15" layer="21"/>
 <wire x1="-1" y1="-1" x2="1" y2="-1" width="0.15" layer="21"/>
+<wire x1="1" y1="-1" x2="1" y2="-1" width="0.15" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="1" width="0.15" layer="21"/>
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.15" layer="21"/>
+<wire x1="1" y1="1" x2="1" y2="1" width="0.15" layer="21"/>
 <wire x1="-1.5" y1="-1.125" x2="-1.5" y2="1.125" width="0.1" layer="39"/>
 <wire x1="-1.5" y1="1.125" x2="1.5" y2="1.125" width="0.1" layer="39"/>
 <wire x1="1.5" y1="1.125" x2="1.5" y2="-1.125" width="0.1" layer="39"/>
 <wire x1="1.5" y1="-1.125" x2="-1.5" y2="-1.125" width="0.1" layer="39"/>
 <text x="-1.436" y="1.375" size="1" layer="25">&gt;NAME</text>
 <circle x="-1.961" y="0.75" radius="0.25" width="0" layer="21"/>
+<pad name="PAD_1" x="0" y="0.5" drill="0.3" diameter="0.6"/>
+<pad name="PAD_2" x="0" y="-0.5" drill="0.3" diameter="0.6"/>
 <smd name="1" x="-1.05" y="0.75" dx="0.7" dy="0.3" layer="1"/>
 <smd name="2" x="-1.05" y="0.25" dx="0.7" dy="0.3" layer="1"/>
 <smd name="3" x="-1.05" y="-0.25" dx="0.7" dy="0.3" layer="1"/>
@@ -13957,8 +13963,8 @@ by exp-lbrs.ulp</description>
 </class>
 <class number="1" name="power" width="0" drill="0">
 </class>
-<class number="2" name="antenna" width="0.3556" drill="0">
-<clearance class="2" value="0.1778"/>
+<class number="2" name="antenna" width="0.9144" drill="0">
+<clearance class="2" value="0.4318"/>
 </class>
 </classes>
 <parts>
@@ -14035,7 +14041,7 @@ by exp-lbrs.ulp</description>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="1M"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="3M"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="10nF"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100 uF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="100 uF"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
 <part name="U$2" library="Antenna_mounts" deviceset="NITINOL_ANTENNA_SHORT" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="4.7 uF"/>
@@ -15289,7 +15295,7 @@ and matching network</text>
 <junction x="91.44" y="245.11"/>
 </segment>
 </net>
-<net name="N$2" class="2">
+<net name="N$2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="ANT"/>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -15300,7 +15306,7 @@ and matching network</text>
 <junction x="193.04" y="27.94"/>
 </segment>
 </net>
-<net name="N$11" class="2">
+<net name="N$11" class="0">
 <segment>
 <pinref part="L4" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="25.4" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
