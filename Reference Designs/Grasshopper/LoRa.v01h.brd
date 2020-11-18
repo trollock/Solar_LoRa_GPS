@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2422,10 +2423,14 @@ Please make sure your boards conform to these design rules.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2526,52 +2531,168 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="JP3" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="1.3335" y="1.3335" rot="R90"/>
-<element name="JP5" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="16.5735" y="14.0335" rot="R270"/>
-<element name="J1" library="con-usb" package="1981584-1" value="1981584-1" x="8.9535" y="0" rot="MR0">
+<element name="JP3" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="1.3335" y="1.3335" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.4953" y="-0.0127" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="4.5085" y="0.0635" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="JP5" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="16.5735" y="14.0335" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.4023" y="15.3797" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="13.3985" y="15.3035" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="J1" library="con-usb" package="1981584-1" value="1981584-1" x="8.9535" y="0" smashed="yes" rot="MR0">
 <attribute name="MF" value="Hirose" x="8.9535" y="1.778" size="0.8128" layer="28" font="vector" ratio="16" rot="MR0" display="off"/>
 <attribute name="MPN" value="ZX62-AB-5PA(11) " x="8.9535" y="1.778" size="0.8128" layer="28" font="vector" ratio="16" rot="MR0" display="off"/>
+<attribute name="NAME" x="13.4435" y="2.6" size="1.016" layer="26" ratio="18" rot="MR90"/>
+<attribute name="VALUE" x="3.7535" y="2.6" size="0.8128" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="L3" library="inductors" package="0402" value="BLM15HB121SN1" x="14.351" y="4.318" rot="MR180"/>
-<element name="RA1" library="Kris" package="EXB24V" value="EXB24V" x="9.271" y="6.35" rot="MR0"/>
-<element name="D4" library="Kris" package="USBULC6-2N4" value="USBULC6-2N4" x="9.271" y="8.128" rot="MR270"/>
-<element name="C17" library="SparkFun-Capacitors" package="0402-CAP" value="1 uF" x="5.842" y="8.89"/>
-<element name="C18" library="SparkFun-Capacitors" package="0402-CAP" value="1 uF" x="5.842" y="5.842"/>
-<element name="U$4" library="Kris" package="0402LED" value="GREEN" x="4.064" y="7.9502" rot="R90"/>
-<element name="R2" library="SparkFun-Resistors" package="0402-RES" value="4K7" x="4.064" y="6.096" rot="R90"/>
-<element name="D1" library="Kris" package="CDSQR4148-HF" value="CDSQR4148-HF" x="7.366" y="8.763" rot="R180"/>
-<element name="D2" library="Kris" package="CDSQR4148-HF" value="CDSQR4148-HF" x="7.366" y="6.9088"/>
-<element name="JP2" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="M02-JST-2-PTH-NO_SILK" x="4.8514" y="11.8364" rot="R270"/>
-<element name="U5" library="Kris" package="NCP161" value="NCP161" x="5.842" y="7.366"/>
-<element name="SJ1" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="3.81" y="7.62" rot="MR90"/>
-<element name="U$2" library="Kris" package="C&amp;KTACTILESWITCH" value="C&amp;KTACTILESWITCH" x="5.969" y="2.032"/>
-<element name="U$3" library="Kris" package="C&amp;KTACTILESWITCH" value="C&amp;KTACTILESWITCH" x="11.938" y="2.032"/>
-<element name="R6" library="SparkFun-Resistors" package="0402-RES" value="10 K" x="13.462" y="4.445"/>
-<element name="C3" library="SparkFun-Capacitors" package="0402-CAP" value="100 nF" x="4.445" y="4.445"/>
-<element name="C4" library="SparkFun-Capacitors" package="0402-CAP" value="1 uF" x="7.2136" y="31.8008" rot="R180"/>
-<element name="C5" library="SparkFun-Capacitors" package="0402-CAP" value="10 uF" x="9.5504" y="14.1478" rot="R180"/>
-<element name="C6" library="SparkFun-Capacitors" package="0402-CAP" value="10 uF" x="5.842" y="15.3162"/>
-<element name="C7" library="SparkFun-Capacitors" package="0402-CAP" value="100 nF" x="5.842" y="16.4846"/>
-<element name="C8" library="SparkFun-Capacitors" package="0402-CAP" value="10 nF 25V" x="7.2136" y="30.607"/>
-<element name="C9" library="SparkFun-Capacitors" package="0402-CAP" value="1 uF" x="9.5504" y="15.3162" rot="R180"/>
-<element name="L1" library="inductors" package="0402" value="BLM15HB121SN1" x="5.6388" y="31.1912" rot="R90"/>
-<element name="U1" library="Kris" package="TYPEABZ" value="TYPEABZ" x="8.9535" y="23.5712" rot="R90"/>
-<element name="C1" library="SparkFun-Capacitors" package="0402-CAP" value="0.1 uF" x="9.5504" y="16.4846" rot="R180"/>
-<element name="U$1" library="Kris" package="0402LED" value="RED" x="1.2446" y="30.9372" rot="R180"/>
-<element name="R1" library="SparkFun-Resistors" package="0402-RES" value="1K" x="1.2954" y="32.004" rot="R180"/>
-<element name="JP6" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="1.3335" y="16.5735" rot="R90"/>
-<element name="JP8" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="16.5735" y="21.6535" rot="R270"/>
-<element name="L2" library="inductors" package="0402" value="BLM15HB121SN1" x="12.0142" y="30.6832" rot="R180"/>
-<element name="L4" library="inductors" package="0402" value="BLM15HB121SN1" x="12.0142" y="33.7312" rot="R180"/>
-<element name="C2" library="SparkFun-Capacitors" package="0402-CAP" value="0.1 uF" x="12.5603" y="32.2072" rot="R270"/>
-<element name="JP10" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="1.3335" y="24.1935" rot="R90"/>
-<element name="JP1" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="16.5735" y="29.2735" rot="R270"/>
-<element name="C10" library="SparkFun-Capacitors" package="0402-CAP" value="10 uF" x="7.6962" y="15.3162"/>
-<element name="C11" library="SparkFun-Capacitors" package="0402-CAP" value="100 nF" x="7.6962" y="16.4846"/>
-<element name="U$5" library="Kris" package="JOHANSON0900AT43A0070" value="JOHANSON0900AT43A0070" x="12.562" y="39.79" rot="R90"/>
-<element name="U$6" library="Kris" package="GRASSHOPPER" value="" x="0.5842" y="34.6202"/>
-<element name="CONN1" library="Kris" package="U.FL-R-SMT-1" value="U.FL-R-SMT-1" x="16.383" y="32.4358" rot="R270"/>
-<element name="SJ2" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="6.2738" y="31.1912" rot="MR270"/>
+<element name="L3" library="inductors" package="0402" value="BLM15HB121SN1" x="14.351" y="4.318" smashed="yes" rot="MR180">
+<attribute name="NAME" x="13.716" y="3.683" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="13.716" y="6.223" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="RA1" library="Kris" package="EXB24V" value="EXB24V" x="9.271" y="6.35" smashed="yes" rot="MR0">
+<attribute name="NAME" x="9.771" y="7.35" size="0.254" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="9.771" y="5.15" size="0.254" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="D4" library="Kris" package="USBULC6-2N4" value="USBULC6-2N4" x="9.271" y="8.128" smashed="yes" rot="MR270">
+<attribute name="NAME" x="8.371" y="8.628" size="0.254" layer="26" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="10.471" y="8.628" size="0.254" layer="28" font="vector" rot="MR270"/>
+</element>
+<element name="C17" library="SparkFun-Capacitors" package="0402-CAP" value="1 uF" x="5.842" y="8.89" smashed="yes">
+<attribute name="NAME" x="4.953" y="9.5885" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="4.7625" y="7.747" size="0.4064" layer="27"/>
+</element>
+<element name="C18" library="SparkFun-Capacitors" package="0402-CAP" value="1 uF" x="5.842" y="5.842" smashed="yes">
+<attribute name="NAME" x="4.953" y="6.5405" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="4.7625" y="4.699" size="0.4064" layer="27"/>
+</element>
+<element name="U$4" library="Kris" package="0402LED" value="GREEN" x="4.064" y="7.9502" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.604" y="7.4802" size="0.254" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="4.754" y="7.4402" size="0.254" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R2" library="SparkFun-Resistors" package="0402-RES" value="4K7" x="4.064" y="6.096" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.3655" y="5.207" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="5.207" y="5.0165" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D1" library="Kris" package="CDSQR4148-HF" value="CDSQR4148-HF" x="7.366" y="8.763" smashed="yes" rot="R180"/>
+<element name="D2" library="Kris" package="CDSQR4148-HF" value="CDSQR4148-HF" x="7.366" y="6.9088" smashed="yes"/>
+<element name="JP2" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="M02-JST-2-PTH-NO_SILK" x="4.8514" y="11.8364" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.1214" y="13.1064" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="8.8514" y="13.1064" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="U5" library="Kris" package="NCP161" value="NCP161" x="5.842" y="7.366" smashed="yes">
+<attribute name="NAME" x="5.212" y="8.356" size="0.3048" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.122" y="6.056" size="0.3048" layer="27" font="vector"/>
+</element>
+<element name="SJ1" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="3.81" y="7.62" smashed="yes" rot="MR90">
+<attribute name="NAME" x="5.08" y="6.6675" size="0.4064" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="2.159" y="6.6675" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="U$2" library="Kris" package="C&amp;KTACTILESWITCH" value="C&amp;KTACTILESWITCH" x="5.969" y="2.032" smashed="yes">
+<attribute name="NAME" x="4.859" y="3.842" size="0.6096" layer="25" font="vector"/>
+<attribute name="VALUE" x="4.699" y="-0.348" size="0.6096" layer="27" font="vector"/>
+</element>
+<element name="U$3" library="Kris" package="C&amp;KTACTILESWITCH" value="C&amp;KTACTILESWITCH" x="11.938" y="2.032" smashed="yes">
+<attribute name="NAME" x="10.828" y="3.842" size="0.6096" layer="25" font="vector"/>
+<attribute name="VALUE" x="10.668" y="-0.348" size="0.6096" layer="27" font="vector"/>
+</element>
+<element name="R6" library="SparkFun-Resistors" package="0402-RES" value="10 K" x="13.462" y="4.445" smashed="yes">
+<attribute name="NAME" x="12.573" y="5.1435" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="12.3825" y="3.302" size="0.4064" layer="27"/>
+</element>
+<element name="C3" library="SparkFun-Capacitors" package="0402-CAP" value="100 nF" x="4.445" y="4.445" smashed="yes">
+<attribute name="NAME" x="3.556" y="5.1435" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="3.3655" y="3.302" size="0.4064" layer="27"/>
+</element>
+<element name="C4" library="SparkFun-Capacitors" package="0402-CAP" value="1 uF" x="7.2136" y="31.8008" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.1026" y="31.1023" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="8.2931" y="32.9438" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="C5" library="SparkFun-Capacitors" package="0402-CAP" value="10 uF" x="9.5504" y="14.1478" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.4394" y="13.4493" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="10.6299" y="15.2908" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="C6" library="SparkFun-Capacitors" package="0402-CAP" value="10 uF" x="5.842" y="15.3162" smashed="yes">
+<attribute name="NAME" x="4.953" y="16.0147" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="4.7625" y="14.1732" size="0.4064" layer="27"/>
+</element>
+<element name="C7" library="SparkFun-Capacitors" package="0402-CAP" value="100 nF" x="5.842" y="16.4846" smashed="yes">
+<attribute name="NAME" x="4.953" y="17.1831" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="4.7625" y="15.3416" size="0.4064" layer="27"/>
+</element>
+<element name="C8" library="SparkFun-Capacitors" package="0402-CAP" value="10 nF 25V" x="7.2136" y="30.607" smashed="yes">
+<attribute name="NAME" x="6.3246" y="31.3055" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="6.1341" y="29.464" size="0.4064" layer="27"/>
+</element>
+<element name="C9" library="SparkFun-Capacitors" package="0402-CAP" value="1 uF" x="9.5504" y="15.3162" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.4394" y="14.6177" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="10.6299" y="16.4592" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="L1" library="inductors" package="0402" value="BLM15HB121SN1" x="5.6388" y="31.1912" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.0038" y="30.5562" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="7.5438" y="30.5562" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U1" library="Kris" package="TYPEABZ" value="TYPEABZ" x="8.9535" y="23.5712" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.6535" y="31.3712" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="15.5535" y="31.1712" size="0.6096" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="C1" library="SparkFun-Capacitors" package="0402-CAP" value="0.1 uF" x="9.5504" y="16.4846" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.4394" y="15.7861" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="10.6299" y="17.6276" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="U$1" library="Kris" package="0402LED" value="RED" x="1.2446" y="30.9372" smashed="yes" rot="R180">
+<attribute name="NAME" x="1.7146" y="30.4772" size="0.254" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="1.7546" y="31.6272" size="0.254" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R1" library="SparkFun-Resistors" package="0402-RES" value="1K" x="1.2954" y="32.004" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.1844" y="31.3055" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="2.3749" y="33.147" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="JP6" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="1.3335" y="16.5735" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.4953" y="15.2273" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="4.5085" y="15.3035" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="JP8" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="16.5735" y="21.6535" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.4023" y="22.9997" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="13.3985" y="22.9235" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="L2" library="inductors" package="0402" value="BLM15HB121SN1" x="12.0142" y="30.6832" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.6492" y="30.0482" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="12.6492" y="32.5882" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="L4" library="inductors" package="0402" value="BLM15HB121SN1" x="12.0142" y="33.7312" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.6492" y="33.0962" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="12.6492" y="35.6362" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C2" library="SparkFun-Capacitors" package="0402-CAP" value="0.1 uF" x="12.5603" y="32.2072" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.2588" y="33.0962" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="11.4173" y="33.2867" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="JP10" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="1.3335" y="24.1935" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.4953" y="22.8473" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="4.5085" y="22.9235" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="JP1" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="16.5735" y="29.2735" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.4023" y="30.6197" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="13.3985" y="30.5435" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C10" library="SparkFun-Capacitors" package="0402-CAP" value="10 uF" x="7.6962" y="15.3162" smashed="yes">
+<attribute name="NAME" x="6.8072" y="16.0147" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="6.6167" y="14.1732" size="0.4064" layer="27"/>
+</element>
+<element name="C11" library="SparkFun-Capacitors" package="0402-CAP" value="100 nF" x="7.6962" y="16.4846" smashed="yes">
+<attribute name="NAME" x="6.8072" y="17.1831" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="6.6167" y="15.3416" size="0.4064" layer="27"/>
+</element>
+<element name="U$5" library="Kris" package="JOHANSON0900AT43A0070" value="JOHANSON0900AT43A0070" x="12.562" y="39.79" smashed="yes" rot="R90"/>
+<element name="U$6" library="Kris" package="GRASSHOPPER" value="" x="0.5842" y="34.6202" smashed="yes"/>
+<element name="CONN1" library="Kris" package="U.FL-R-SMT-1" value="U.FL-R-SMT-1" x="16.383" y="32.4358" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.883" y="33.1358" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="18.283" y="33.1358" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="SJ2" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="6.2738" y="31.1912" smashed="yes" rot="MR270">
+<attribute name="NAME" x="5.0038" y="32.1437" size="0.4064" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="7.9248" y="32.1437" size="0.4064" layer="28" rot="MR270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3306,6 +3427,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.1148" y1="26.3398" x2="4.5212" y2="25.9334" width="0.254" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 <errors>
 <approved hash="19,1,33f9fbf1fac432cc"/>
 <approved hash="19,1,ae1ccc14cfc2adca"/>
