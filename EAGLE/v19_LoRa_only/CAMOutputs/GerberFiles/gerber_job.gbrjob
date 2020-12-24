@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-11-25T11:44:57Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.56,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "GPS_radiologger_v19_LoRa_only"
+        },
+        "Owner": "Ryan Shipley <jrs566@cornell.edu>",
+        "Size": {
+            "X": 33.5,
+            "Y": 16.5
+        }
+    }
+}
