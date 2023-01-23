@@ -1,0 +1,103 @@
+---
+title: "R JSON GPS Read Data"
+author: "Ryan Shipley"
+date: "12/16/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#require(curl)
+require(rjson)
+#require(purrr)
+require(c("cowplot", "googleway", "ggplot2", "ggrepel", "ggspatial", "libwgeom", "sf", "rnaturalearth", "rnaturalearthdata"))
+```
+
+```{r Authentification and JSON Extraction}
+library(httr)
+apiKey <- 'ttn-account-v2.5oyRzOIEVRgCIS7Fv16K19u6pveX_QqArH-T4Nz2tiU'
+
+result <- GET('https://lora_testnode_1.data.thethingsnetwork.org/api/v2/query?last=21d', accept_json(), verbose(), add_headers(Accept = 'application/json', Authorization = paste('key', apiKey)))
+
+result <- httr::content(result)
+
+result <- as.data.frame(t(matrix(unlist(result), nrow=length(unlist(result[1])))))
+
+colnames(result) <- c("volts", "date", "id", "hdop", "latitude", "longitude", "raw_data", "siv", "timestamp")
+
+result$latitude <- as.numeric(result$latitude)
+result$longitude <- as.numeric(result$longitude)
+
+result$timestamp <- ymd_hms(result$timestamp)
+
+result <- result[ result$timestamp > as.Date("2021-08-09"),]
+
+result$volts <- as.numeric(result$volts)
+
+result <- result[ which(result$volts >3),]
+
+ggplot(result, aes(timestamp, volts))+
+  geom_point()+
+  geom_smooth()+
+  theme_cowplot() +
+  geom_hline(yintercept=3.7)+
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-09 20:48:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-10 06:18:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-10 20:46:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-11 06:20:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-11 20:44:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-12 06:22:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-12 20:41:00"))) +
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-13 06:24:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-13 20:39:00"))) +
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-14 06:25:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-14 20:37:00"))) +
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-15 06:25:00"))) + 
+  geom_vline(xintercept=as.integer(as.POSIXct("2021-08-15 20:37:00")))
+
+write.csv(result, "test_json.csv")
+```
+
+```{r, fig.width=5, fig.height=5}
+#install the osmdata, sf, tidyverse and ggmap package
+if(!require("osmdata")) install.packages("osmdata")
+if(!require("tidyverse")) install.packages("tidyverse")
+if(!require("sf")) install.packages("sf")
+if(!require("ggmap")) install.packages("ggmap")
+
+#load packages
+library(tidyverse)
+library(osmdata)
+library(sf)
+library(ggmap)
+
+# load data
+x_diff <- max(result$latitude) - min(result$latitude)
+y_diff <- max(result$longitude) - min(result$longitude)
+
+map_scalar <- 2
+
+x_max <- max(result$longitude) + (x_diff * map_scalar)
+x_min <- min(result$longitude) - (x_diff * map_scalar)
+y_max <- max(result$latitude) + (y_diff * map_scalar)
+y_min <- min(result$latitude) - (y_diff * map_scalar)
+
+#rado_map <- get_map(c(left = x_min, bottom = y_min, right = x_max, top = y_max), maptype ="toner-background", zoom=18)
+rado_map <- get_map(getbb("Radolfzell"), maptype = "watercolor")
+#world <- ne_countries(scale = "medium", returnclass = "sf")
+# gene world map
+# ggplot(data = world) +
+#   geom_sf() +
+#   coord_sf(xlim = c(x_min, x_max), ylim = c(y_min, y_max), expand = FALSE) +
+#   geom_point(data=result, aes(x=longitude, y=latitude))+
+#   labs( x = "Longitude", y = "Latitude") +
+#   ggtitle("World map")
+
+ggmap(rado_map)+
+  #geom_sf() +
+  #coord_sf(xlim = c(x_min, x_max), ylim = c(y_min, y_max), expand = FALSE) +
+  geom_point(data=result, aes(x=longitude, y=latitude))+
+  labs( x = "Longitude", y = "Latitude") +
+  ggtitle("World map")
+```
+

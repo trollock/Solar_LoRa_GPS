@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "GPS_radiologger_v24_L70_CMWX_MAX-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/GPS_radiologger_v24_L70_CMWX_MAX-eagle-import.kicad_sym")(options "")(descr ""))
+)

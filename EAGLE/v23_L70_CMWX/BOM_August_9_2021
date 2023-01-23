@@ -1,0 +1,44 @@
+Partlist
+
+Exported from GPS_radiologger_v22_L70_CMWX.brd at 8/9/21 8:55 AM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                 Package                      Library                      Position (mm)         Orientation
+
+C1       0.1 uF                C0201                        rcl                          (1.455 5.06)          R270
+C2       1 uF                  C0201                        rcl                          (24.85 2.65)          R270
+C4       10nF                  C0201                        rcl                          (5.8 2.46)            R180
+C7       0.1 uF                C0201                        rcl                          (20.125 2.345)        R270
+C9       1 uF                  C0201                        rcl                          (1.49738125 12.455)   R270
+C13      47 uF                 C0603                        rcl                          (14.8 1.71)           R270
+C14      4.7 uF                C0201                        rcl                          (2.05 2.31)           R180
+C17      1 uF                  0402-CAP                     SparkFun-Capacitors          (19.35 2.5)           R270
+C18      1 uF                  0402-CAP                     SparkFun-Capacitors          (16.55 2.5)           R270
+IC4      CAT24M01HU5I-GT3      SON50P300X200X55-9N          CAT24M01HU5I-GT3-CorrectedV2 (4.048 2.4326)        R270
+J1                             1X01_SMALL                   SparkFun-Connectors          (16.25 15.55)         R0
+J3                             1X01_SMALL                   SparkFun-Connectors          (16.25 0.8)           R0
+R1       4.7 k                 R0201                        rcl                          (2.05 1)              R180
+R2       4.7 k                 R0201                        rcl                          (2.05 1.7)            R180
+R3       10k                   R0201                        rcl                          (1.425 6.555)         R90
+R6       300 K                 R0201                        rcl                          (20.78 2.345)         R90
+R7       150 K                 R0201                        rcl                          (21.445 2.345)        R270
+R8       3M                    R0201                        rcl                          (5.8 3.85)            R0
+R9       9.1M                  R0201                        rcl                          (5.8 3.05)            R0
+R10      6.2M                  R0201                        rcl                          (14.59 3.59)          R0
+R11      1M                    R0201                        rcl                          (6.05 0.9)            R90
+R12      3M                    R0201                        rcl                          (5.8 1.64)            R180
+U$1      LPS3015               LPS_3015                     coilcraft_custom             (12.2 2.185)          R90
+U$2      NITINOL_ANTENNA_SHORT ICARUS_NITINOL_ANTENNA_SHORT Antenna_mounts               (27.8 5.7)            R0
+U$3      ICARUS_FULL           ICARUS_FULL                  TrisolX_Solar_Cells          (14.35 8.2)           MR90
+U$4      NITINOL_ANTENNA_SHORT ICARUS_NITINOL_ANTENNA_SHORT Antenna_mounts               (27.8 10.7)           R180
+U$5      CASTELLATED_7_PIN     CASTELLATED_7_PIN            castellated_programmers      (0.4 3.8)             R0
+U$6      ICARUS_V4_FOOTPRINT   ICARUS_FULL_FOOTPRINT        TrisolX_Solar_Cells          (14.05 8.2)           MR270
+U1       TYPEABZ               TYPEABZ                      Kris                         (8.236734375 10.15)   R0
+U2       L70                   XCVR_L70                     L70                          (20.05 8.9)           R90
+U3       TPS22907YZT           YFP0004-DSBGA                TPS22916                     (22.25 2.6)           R270
+U4       SPV1050               SPV1050                      STM-SPV1050_V2               (8.02 2.39)           R0
+U5       NCP161                NCP161                       Kris                         (17.95 2.6)           R270
+U6       TPS22907YZT           YFP0004-DSBGA                TPS22916                     (23.4 2.6)            R180

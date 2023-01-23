@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-12-29T12:37:16Z",
+        "GenerationSoftware": {
+            "Application": "Fusion 360 Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.43,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "GPS_radiologger_v24_L70_CMWX_MAX v14"
+        },
+        "Owner": "Ryan Shipley <jrs566@cornell.edu>",
+        "Size": {
+            "X": 24.4,
+            "Y": 14
+        }
+    }
+}

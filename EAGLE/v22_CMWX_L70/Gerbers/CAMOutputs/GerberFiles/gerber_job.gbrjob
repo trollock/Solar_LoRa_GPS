@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-06-01T15:12:26Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.41,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "GPS_radiologger_v22_L70_CMWX"
+        },
+        "Owner": "Ryan Shipley <jrs566@cornell.edu>",
+        "Size": {
+            "X": 31,
+            "Y": 16.45
+        }
+    }
+}

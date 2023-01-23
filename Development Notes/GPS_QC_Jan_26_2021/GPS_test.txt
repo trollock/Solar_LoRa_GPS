@@ -1,0 +1,2324 @@
+[
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.39,
+    "latitude": 47.7705015,
+    "longitude": 8.9855949,
+    "raw": "BVsXzRx5MzcA7wg=",
+    "siv": 8,
+    "time": "2021-01-25T08:23:02.060769232Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.63,
+    "latitude": 47.7705198,
+    "longitude": 8.9855832,
+    "raw": "BVsXWBx5M+4BBwc=",
+    "siv": 7,
+    "time": "2021-01-25T08:28:07.073191192Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.56,
+    "latitude": 47.7705274,
+    "longitude": 8.9856088,
+    "raw": "BVsYWBx5NDoBAAc=",
+    "siv": 7,
+    "time": "2021-01-25T08:33:12.086063853Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.59,
+    "latitude": 47.7704342,
+    "longitude": 8.9855854,
+    "raw": "BVsXbhx5MJYBZwc=",
+    "siv": 7,
+    "time": "2021-01-25T08:38:17.070773911Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.65,
+    "latitude": 47.7704691,
+    "longitude": 8.9855918,
+    "raw": "BVsXrhx5MfMBCQc=",
+    "siv": 7,
+    "time": "2021-01-25T08:43:22.068250174Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.17,
+    "latitude": 47.7704375,
+    "longitude": 8.9856408,
+    "raw": "BVsZmBx5MLcBPQc=",
+    "siv": 7,
+    "time": "2021-01-25T08:48:27.041974848Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.62,
+    "latitude": 47.7703273,
+    "longitude": 8.9857387,
+    "raw": "BVsdaxx5LGkBzgY=",
+    "siv": 6,
+    "time": "2021-01-25T08:53:32.049269046Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.13,
+    "latitude": 47.7705535,
+    "longitude": 8.9855579,
+    "raw": "BVsWWxx5NT8BnQc=",
+    "siv": 7,
+    "time": "2021-01-25T08:58:37.010612022Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.56,
+    "latitude": 47.7704757,
+    "longitude": 8.9855959,
+    "raw": "BVsX1xx5MjUBAAY=",
+    "siv": 6,
+    "time": "2021-01-25T09:03:42.09988972Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.41,
+    "latitude": 47.7703611,
+    "longitude": 8.9855957,
+    "raw": "BVsX1Rx5LbsA8Qc=",
+    "siv": 7,
+    "time": "2021-01-25T09:08:47.085222937Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.7,
+    "latitude": 47.7704367,
+    "longitude": 8.9856322,
+    "raw": "BVsZQhx5MK8BDgc=",
+    "siv": 7,
+    "time": "2021-01-25T09:13:52.080821892Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.56,
+    "latitude": 47.7703235,
+    "longitude": 8.9856079,
+    "raw": "BVsYTxx5LEMBZAg=",
+    "siv": 8,
+    "time": "2021-01-25T09:18:57.044398578Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.19,
+    "latitude": 47.7703838,
+    "longitude": 8.9855793,
+    "raw": "BVsXMRx5Lp4A2wk=",
+    "siv": 9,
+    "time": "2021-01-25T09:24:02.008174874Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.47,
+    "latitude": 47.7702993,
+    "longitude": 8.9856049,
+    "raw": "BVsYMRx5K1EA9wg=",
+    "siv": 8,
+    "time": "2021-01-25T09:29:07.02368966Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.59,
+    "latitude": 47.7703951,
+    "longitude": 8.9856563,
+    "raw": "BVsaMxx5Lw8Anwo=",
+    "siv": 10,
+    "time": "2021-01-25T09:34:12.016656019Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.74,
+    "latitude": 47.7703189,
+    "longitude": 8.9855402,
+    "raw": "BVsVqhx5LBUArgg=",
+    "siv": 8,
+    "time": "2021-01-25T09:39:16.99052931Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 14.73,
+    "latitude": 47.7700982,
+    "longitude": 8.9860053,
+    "raw": "BVsn1Rx5I3YFwQQ=",
+    "siv": 4,
+    "time": "2021-01-25T09:44:18.041944898Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.18,
+    "latitude": 47.7704136,
+    "longitude": 8.9855505,
+    "raw": "BVsWERx5L8gBogY=",
+    "siv": 6,
+    "time": "2021-01-25T09:49:23.025927919Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.17,
+    "latitude": 47.7703575,
+    "longitude": 8.9855219,
+    "raw": "BVsU8xx5LZcBoQY=",
+    "siv": 6,
+    "time": "2021-01-25T09:54:27.997627056Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 58.7,
+    "latitude": 47.7723416,
+    "longitude": 8.9796175,
+    "raw": "BVouTxx5exgW7gQ=",
+    "siv": 4,
+    "time": "2021-01-25T09:59:32.040908084Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.94,
+    "latitude": 47.7705209,
+    "longitude": 8.985535,
+    "raw": "BVsVdhx5M/kBigc=",
+    "siv": 7,
+    "time": "2021-01-25T10:04:37.013443125Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.86,
+    "latitude": 47.7704224,
+    "longitude": 8.9855869,
+    "raw": "BVsXfRx5MCABggc=",
+    "siv": 7,
+    "time": "2021-01-25T10:09:42.084151919Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.75,
+    "latitude": 47.7704765,
+    "longitude": 8.9855543,
+    "raw": "BVsWNxx5Mj0Bdwc=",
+    "siv": 7,
+    "time": "2021-01-25T10:14:47.050502651Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.4,
+    "latitude": 47.7705412,
+    "longitude": 8.9855799,
+    "raw": "BVsXNxx5NMQBVAg=",
+    "siv": 8,
+    "time": "2021-01-25T10:19:52.023629808Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.27,
+    "latitude": 47.7704657,
+    "longitude": 8.9856084,
+    "raw": "BVsYVBx5MdEBRwg=",
+    "siv": 8,
+    "time": "2021-01-25T10:24:56.085686179Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 5.31,
+    "latitude": 47.7705139,
+    "longitude": 8.9856485,
+    "raw": "BVsZ5Rx5M7MCEwc=",
+    "siv": 7,
+    "time": "2021-01-25T10:30:01.042256894Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.19,
+    "latitude": 47.7704523,
+    "longitude": 8.9856051,
+    "raw": "BVsYMxx5MUsBPwk=",
+    "siv": 9,
+    "time": "2021-01-25T10:35:05.040715987Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.33,
+    "latitude": 47.7704559,
+    "longitude": 8.9856112,
+    "raw": "BVsYcBx5MW8BsQg=",
+    "siv": 8,
+    "time": "2021-01-25T10:40:09.059034894Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 11.1,
+    "latitude": 47.770517,
+    "longitude": 8.9856669,
+    "raw": "BVsanRx5M9IEVgY=",
+    "siv": 6,
+    "time": "2021-01-25T10:45:14.072491877Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.15,
+    "latitude": 47.7705442,
+    "longitude": 8.985589,
+    "raw": "BVsXkhx5NOIBOwc=",
+    "siv": 7,
+    "time": "2021-01-25T10:50:18.084980762Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.12,
+    "latitude": 47.7706504,
+    "longitude": 8.9855294,
+    "raw": "BVsVPhx5OQgBOAc=",
+    "siv": 7,
+    "time": "2021-01-25T10:55:22.983926222Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 27.26,
+    "latitude": 47.7705022,
+    "longitude": 8.9854689,
+    "raw": "BVsS4Rx5Mz4KpgQ=",
+    "siv": 4,
+    "time": "2021-01-25T11:00:28.016960784Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.35,
+    "latitude": 47.7705263,
+    "longitude": 8.9855458,
+    "raw": "BVsV4hx5NC8BswY=",
+    "siv": 6,
+    "time": "2021-01-25T11:05:33.033771756Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.64,
+    "latitude": 47.7704375,
+    "longitude": 8.9856252,
+    "raw": "BVsY/Bx5MLcBbAY=",
+    "siv": 6,
+    "time": "2021-01-25T11:10:38.02933445Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.9,
+    "latitude": 47.7705122,
+    "longitude": 8.9855524,
+    "raw": "BVsWJBx5M6IBIgg=",
+    "siv": 8,
+    "time": "2021-01-25T11:15:42.080416124Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.47,
+    "latitude": 47.7703795,
+    "longitude": 8.9856149,
+    "raw": "BVsYlRx5LnMBWwY=",
+    "siv": 6,
+    "time": "2021-01-25T11:20:47.025099505Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.14,
+    "latitude": 47.7704525,
+    "longitude": 8.9855228,
+    "raw": "BVsU/Bx5MU0BOgc=",
+    "siv": 7,
+    "time": "2021-01-25T11:25:52.04158125Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.04,
+    "latitude": 47.7703641,
+    "longitude": 8.9856541,
+    "raw": "BVsaHRx5LdkBMAc=",
+    "siv": 7,
+    "time": "2021-01-25T11:30:57.079646274Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.35,
+    "latitude": 47.7704212,
+    "longitude": 8.9855958,
+    "raw": "BVsX1hx5MBQA6wg=",
+    "siv": 8,
+    "time": "2021-01-25T11:36:02.041628287Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.79,
+    "latitude": 47.7704357,
+    "longitude": 8.9855898,
+    "raw": "BVsXmhx5MKUBFwc=",
+    "siv": 7,
+    "time": "2021-01-25T11:41:07.056709188Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.24,
+    "latitude": 47.7704953,
+    "longitude": 8.9856047,
+    "raw": "BVsYLxx5MvkA4Ak=",
+    "siv": 9,
+    "time": "2021-01-25T11:46:12.009963961Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.68,
+    "latitude": 47.7703563,
+    "longitude": 8.9855797,
+    "raw": "BVsXNRx5LYsBDAc=",
+    "siv": 7,
+    "time": "2021-01-25T11:51:17.061739877Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.97,
+    "latitude": 47.770373,
+    "longitude": 8.9855312,
+    "raw": "BVsVUBx5LjIBKQc=",
+    "siv": 7,
+    "time": "2021-01-25T11:56:22.023402406Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.29,
+    "latitude": 47.7703915,
+    "longitude": 8.9855668,
+    "raw": "BVsWtBx5LusA5Qk=",
+    "siv": 9,
+    "time": "2021-01-25T12:01:27.019522162Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.16,
+    "latitude": 47.7703993,
+    "longitude": 8.9855688,
+    "raw": "BVsWyBx5LzkA2Ag=",
+    "siv": 8,
+    "time": "2021-01-25T12:06:32.075779082Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.82,
+    "latitude": 47.770394,
+    "longitude": 8.9855859,
+    "raw": "BVsXcxx5LwQBGgg=",
+    "siv": 8,
+    "time": "2021-01-25T12:11:37.037516322Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2,
+    "latitude": 47.7704618,
+    "longitude": 8.9856155,
+    "raw": "BVsYmxx5MaoAyAo=",
+    "siv": 10,
+    "time": "2021-01-25T12:16:42.089218692Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.96,
+    "latitude": 47.7704477,
+    "longitude": 8.9856213,
+    "raw": "BVsY1Rx5MR0AxAk=",
+    "siv": 9,
+    "time": "2021-01-25T12:21:47.030756857Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.84,
+    "latitude": 47.7704271,
+    "longitude": 8.9856036,
+    "raw": "BVsYJBx5ME8AuAs=",
+    "siv": 11,
+    "time": "2021-01-25T12:26:52.071265228Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.24,
+    "latitude": 47.7703355,
+    "longitude": 8.985511,
+    "raw": "BVsUhhx5LLsA4Ag=",
+    "siv": 8,
+    "time": "2021-01-25T12:31:57.046867043Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.83,
+    "latitude": 47.77045,
+    "longitude": 8.9855959,
+    "raw": "BVsX1xx5MTQAtwk=",
+    "siv": 9,
+    "time": "2021-01-25T12:37:02.024593965Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.1,
+    "latitude": 47.7704695,
+    "longitude": 8.9856235,
+    "raw": "BVsY6xx5MfcA0go=",
+    "siv": 10,
+    "time": "2021-01-25T12:42:07.061931053Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.15,
+    "latitude": 47.7704528,
+    "longitude": 8.9855889,
+    "raw": "BVsXkRx5MVAA1wk=",
+    "siv": 9,
+    "time": "2021-01-25T12:47:12.023690423Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.75,
+    "latitude": 47.7704655,
+    "longitude": 8.9855864,
+    "raw": "BVsXeBx5Mc8Arww=",
+    "siv": 12,
+    "time": "2021-01-25T12:52:16.99011391Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.51,
+    "latitude": 47.7704678,
+    "longitude": 8.9856267,
+    "raw": "BVsZCxx5MeYA+wg=",
+    "siv": 8,
+    "time": "2021-01-25T12:57:22.042086606Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.26,
+    "latitude": 47.7704235,
+    "longitude": 8.9856114,
+    "raw": "BVsYchx5MCsA4gk=",
+    "siv": 9,
+    "time": "2021-01-25T13:02:27.021679983Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.52,
+    "latitude": 47.7704561,
+    "longitude": 8.9855919,
+    "raw": "BVsXrxx5MXEA/Ag=",
+    "siv": 8,
+    "time": "2021-01-25T13:07:29.990174786Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.45,
+    "latitude": 47.7704426,
+    "longitude": 8.9856183,
+    "raw": "BVsYtxx5MOoBvQg=",
+    "siv": 8,
+    "time": "2021-01-25T13:12:35.04088365Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.93,
+    "latitude": 47.7704445,
+    "longitude": 8.9856131,
+    "raw": "BVsYgxx5MP0BJQo=",
+    "siv": 10,
+    "time": "2021-01-25T13:17:39.005187032Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.98,
+    "latitude": 47.7704757,
+    "longitude": 8.9856029,
+    "raw": "BVsYHRx5MjUAxgk=",
+    "siv": 9,
+    "time": "2021-01-25T13:22:44.092153108Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.75,
+    "latitude": 47.770462,
+    "longitude": 8.9855908,
+    "raw": "BVsXpBx5MawBEwo=",
+    "siv": 10,
+    "time": "2021-01-25T13:27:49.017177695Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.5,
+    "latitude": 47.7704313,
+    "longitude": 8.985683,
+    "raw": "BVsbPhx5MHkBwgc=",
+    "siv": 7,
+    "time": "2021-01-25T13:32:54.073416838Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.49,
+    "latitude": 47.7704682,
+    "longitude": 8.9856401,
+    "raw": "BVsZkRx5MeoA+Qc=",
+    "siv": 7,
+    "time": "2021-01-25T13:37:59.058752657Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.46,
+    "latitude": 47.7704633,
+    "longitude": 8.9855882,
+    "raw": "BVsXihx5MbkA9gc=",
+    "siv": 7,
+    "time": "2021-01-25T13:43:03.025862659Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.43,
+    "latitude": 47.7704357,
+    "longitude": 8.9856113,
+    "raw": "BVsYcRx5MKUA8wc=",
+    "siv": 7,
+    "time": "2021-01-25T13:48:07.999216334Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.39,
+    "latitude": 47.770508,
+    "longitude": 8.9855805,
+    "raw": "BVsXPRx5M3gA7wc=",
+    "siv": 7,
+    "time": "2021-01-25T13:53:13.072391207Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.6,
+    "latitude": 47.7704562,
+    "longitude": 8.9855622,
+    "raw": "BVsWhhx5MXIBBAc=",
+    "siv": 7,
+    "time": "2021-01-25T13:58:18.027788844Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.81,
+    "latitude": 47.7704445,
+    "longitude": 8.985639,
+    "raw": "BVsZhhx5MP0BGQU=",
+    "siv": 5,
+    "time": "2021-01-25T14:03:22.086920307Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.32,
+    "latitude": 47.7704064,
+    "longitude": 8.9856995,
+    "raw": "BVsb4xx5L4AA6Ac=",
+    "siv": 7,
+    "time": "2021-01-25T14:08:27.014666028Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.13,
+    "latitude": 47.7703855,
+    "longitude": 8.9856745,
+    "raw": "BVsa6Rx5Lq8A1Qg=",
+    "siv": 8,
+    "time": "2021-01-25T14:13:32.035488441Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.52,
+    "latitude": 47.7703948,
+    "longitude": 8.9855962,
+    "raw": "BVsX2hx5LwwA/Ag=",
+    "siv": 8,
+    "time": "2021-01-25T14:18:37.039015991Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.46,
+    "latitude": 47.7703759,
+    "longitude": 8.9856972,
+    "raw": "BVsbzBx5Lk8A9gg=",
+    "siv": 8,
+    "time": "2021-01-25T14:23:42.051484074Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.33,
+    "latitude": 47.7704288,
+    "longitude": 8.9856299,
+    "raw": "BVsZKxx5MGAA6Qc=",
+    "siv": 7,
+    "time": "2021-01-25T14:28:47.058188361Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.58,
+    "latitude": 47.7705002,
+    "longitude": 8.9856215,
+    "raw": "BVsY1xx5MyoBZgc=",
+    "siv": 7,
+    "time": "2021-01-25T14:33:52.066983846Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.14,
+    "latitude": 47.770449,
+    "longitude": 8.9856581,
+    "raw": "BVsaRRx5MSoBOgg=",
+    "siv": 8,
+    "time": "2021-01-25T14:38:57.080670249Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.27,
+    "latitude": 47.770628,
+    "longitude": 8.9856766,
+    "raw": "BVsa/hx5OCgBRwg=",
+    "siv": 8,
+    "time": "2021-01-25T14:44:02.005328413Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.01,
+    "latitude": 47.7704616,
+    "longitude": 8.9856581,
+    "raw": "BVsaRRx5MagAyQo=",
+    "siv": 10,
+    "time": "2021-01-25T14:49:07.030838562Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.11,
+    "latitude": 47.7704188,
+    "longitude": 8.9856749,
+    "raw": "BVsa7Rx5L/wA0wg=",
+    "siv": 8,
+    "time": "2021-01-25T14:54:12.084721118Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.19,
+    "latitude": 47.7704198,
+    "longitude": 8.9856548,
+    "raw": "BVsaJBx5MAYA2wg=",
+    "siv": 8,
+    "time": "2021-01-25T14:59:17.044334884Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.23,
+    "latitude": 47.7705753,
+    "longitude": 8.9856678,
+    "raw": "BVsaphx5NhkA3wc=",
+    "siv": 7,
+    "time": "2021-01-25T15:04:22.024685958Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.03,
+    "latitude": 47.7704135,
+    "longitude": 8.985601,
+    "raw": "BVsYChx5L8cAywk=",
+    "siv": 9,
+    "time": "2021-01-25T15:09:27.08519573Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.22,
+    "latitude": 47.7704924,
+    "longitude": 8.9857021,
+    "raw": "BVsb/Rx5MtwA3gg=",
+    "siv": 8,
+    "time": "2021-01-25T15:14:32.066395207Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.56,
+    "latitude": 47.7704374,
+    "longitude": 8.9857609,
+    "raw": "BVseSRx5MLYBAAc=",
+    "siv": 7,
+    "time": "2021-01-25T15:19:37.046756361Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.21,
+    "latitude": 47.7704758,
+    "longitude": 8.9856411,
+    "raw": "BVsZmxx5MjYA3Qk=",
+    "siv": 9,
+    "time": "2021-01-25T15:24:42.005202374Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.19,
+    "latitude": 47.7704837,
+    "longitude": 8.985657,
+    "raw": "BVsaOhx5MoUBPwY=",
+    "siv": 6,
+    "time": "2021-01-25T15:29:46.002028744Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.98,
+    "latitude": 47.7705193,
+    "longitude": 8.9856094,
+    "raw": "BVsYXhx5M+kBKgc=",
+    "siv": 7,
+    "time": "2021-01-25T15:34:50.062793673Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.42,
+    "latitude": 47.7704989,
+    "longitude": 8.985655,
+    "raw": "BVsaJhx5Mx0A8gc=",
+    "siv": 7,
+    "time": "2021-01-25T15:39:55.041840661Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.29,
+    "latitude": 47.77043,
+    "longitude": 8.9856207,
+    "raw": "BVsYzxx5MGwA5Qg=",
+    "siv": 8,
+    "time": "2021-01-25T15:45:00.032543592Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.06,
+    "latitude": 47.7704306,
+    "longitude": 8.9855706,
+    "raw": "BVsW2hx5MHIBMgg=",
+    "siv": 8,
+    "time": "2021-01-25T15:50:04.016956709Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.34,
+    "latitude": 47.7705037,
+    "longitude": 8.9856213,
+    "raw": "BVsY1Rx5M00BsgU=",
+    "siv": 5,
+    "time": "2021-01-25T15:55:09.082915329Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.48,
+    "latitude": 47.7703848,
+    "longitude": 8.9856365,
+    "raw": "BVsZbRx5LqgA+Ag=",
+    "siv": 8,
+    "time": "2021-01-25T16:00:14.042754507Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.38,
+    "latitude": 47.7703741,
+    "longitude": 8.9856374,
+    "raw": "BVsZdhx5Lj0A7gg=",
+    "siv": 8,
+    "time": "2021-01-25T16:05:19.010330913Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.05,
+    "latitude": 47.7704411,
+    "longitude": 8.9856452,
+    "raw": "BVsZxBx5MNsAzQk=",
+    "siv": 9,
+    "time": "2021-01-25T16:10:24.015379279Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.08,
+    "latitude": 47.7705276,
+    "longitude": 8.9856135,
+    "raw": "BVsYhxx5NDwBmAY=",
+    "siv": 6,
+    "time": "2021-01-25T16:15:27.992319219Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.8,
+    "latitude": 47.7704829,
+    "longitude": 8.9856207,
+    "raw": "BVsYzxx5Mn0AtAo=",
+    "siv": 10,
+    "time": "2021-01-25T16:20:33.088996186Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.33,
+    "latitude": 47.7704698,
+    "longitude": 8.9856324,
+    "raw": "BVsZRBx5MfoA6Qk=",
+    "siv": 9,
+    "time": "2021-01-25T16:25:38.058261755Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.5,
+    "latitude": 47.7704549,
+    "longitude": 8.9856572,
+    "raw": "BVsaPBx5MWUA+gg=",
+    "siv": 8,
+    "time": "2021-01-25T16:30:43.019830799Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.44,
+    "latitude": 47.7703898,
+    "longitude": 8.98567,
+    "raw": "BVsavBx5LtoBWAY=",
+    "siv": 6,
+    "time": "2021-01-25T16:35:46.98570327Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.62,
+    "latitude": 47.7703708,
+    "longitude": 8.9856561,
+    "raw": "BVsaMRx5LhwBBgc=",
+    "siv": 7,
+    "time": "2021-01-25T16:40:52.071860974Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.39,
+    "latitude": 47.7704454,
+    "longitude": 8.9856305,
+    "raw": "BVsZMRx5MQYA7wc=",
+    "siv": 7,
+    "time": "2021-01-25T16:45:57.024740564Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.74,
+    "latitude": 47.7704738,
+    "longitude": 8.9856227,
+    "raw": "BVsY4xx5MiIB2gY=",
+    "siv": 6,
+    "time": "2021-01-25T16:51:01.002637896Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.97,
+    "latitude": 47.7704521,
+    "longitude": 8.9856327,
+    "raw": "BVsZRxx5MUkB8QY=",
+    "siv": 6,
+    "time": "2021-01-25T16:56:05.062050029Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.61,
+    "latitude": 47.7704606,
+    "longitude": 8.9856311,
+    "raw": "BVsZNxx5MZ4BBQc=",
+    "siv": 7,
+    "time": "2021-01-25T17:01:09.018529991Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 5.55,
+    "latitude": 47.7705208,
+    "longitude": 8.9855177,
+    "raw": "BVsUyRx5M/gCKwY=",
+    "siv": 6,
+    "time": "2021-01-25T17:06:14.005102238Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.32,
+    "latitude": 47.7704666,
+    "longitude": 8.985641,
+    "raw": "BVsZmhx5MdoA6Ac=",
+    "siv": 7,
+    "time": "2021-01-25T17:11:19.080281212Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.31,
+    "latitude": 47.7705138,
+    "longitude": 8.9855621,
+    "raw": "BVsWhRx5M7IBSwc=",
+    "siv": 7,
+    "time": "2021-01-25T17:16:24.077370898Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.66,
+    "latitude": 47.7704252,
+    "longitude": 8.9856471,
+    "raw": "BVsZ1xx5MDwApgg=",
+    "siv": 8,
+    "time": "2021-01-25T17:21:28.04607773Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.65,
+    "latitude": 47.7704789,
+    "longitude": 8.9856271,
+    "raw": "BVsZDxx5MlUApQg=",
+    "siv": 8,
+    "time": "2021-01-25T17:26:33.026880655Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.59,
+    "latitude": 47.7704346,
+    "longitude": 8.9856085,
+    "raw": "BVsYVRx5MJoAnwk=",
+    "siv": 9,
+    "time": "2021-01-25T17:31:38.028214256Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.73,
+    "latitude": 47.7704634,
+    "longitude": 8.9855828,
+    "raw": "BVsXVBx5MboArQk=",
+    "siv": 9,
+    "time": "2021-01-25T17:36:42.99794208Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.52,
+    "latitude": 47.7705479,
+    "longitude": 8.9856218,
+    "raw": "BVsY2hx5NQcBxAc=",
+    "siv": 7,
+    "time": "2021-01-25T17:41:48.077970376Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.09,
+    "latitude": 47.7705138,
+    "longitude": 8.9856337,
+    "raw": "BVsZURx5M7IA0Qk=",
+    "siv": 9,
+    "time": "2021-01-25T17:46:52.058513091Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 23.42,
+    "latitude": 47.7695408,
+    "longitude": 8.9859537,
+    "raw": "BVsl0Rx5DbAJJgU=",
+    "siv": 5,
+    "time": "2021-01-25T17:51:57.021698601Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.47,
+    "latitude": 47.7704147,
+    "longitude": 8.985623,
+    "raw": "BVsY5hx5L9MA9wg=",
+    "siv": 8,
+    "time": "2021-01-25T17:57:02.075286214Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.04,
+    "latitude": 47.7705172,
+    "longitude": 8.9856647,
+    "raw": "BVsahxx5M9QAzAg=",
+    "siv": 8,
+    "time": "2021-01-25T18:02:07.054833949Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.07,
+    "latitude": 47.7705024,
+    "longitude": 8.9856343,
+    "raw": "BVsZVxx5M0AAzwg=",
+    "siv": 8,
+    "time": "2021-01-25T18:07:12.023282643Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.12,
+    "latitude": 47.7705195,
+    "longitude": 8.9856288,
+    "raw": "BVsZIBx5M+sBOAg=",
+    "siv": 8,
+    "time": "2021-01-25T18:12:17.001562578Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 7.07,
+    "latitude": 47.7704339,
+    "longitude": 8.9856435,
+    "raw": "BVsZsxx5MJMCwwc=",
+    "siv": 7,
+    "time": "2021-01-25T18:17:22.082668403Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.81,
+    "latitude": 47.7704562,
+    "longitude": 8.9856471,
+    "raw": "BVsZ1xx5MXIAtQo=",
+    "siv": 10,
+    "time": "2021-01-25T18:22:27.086859332Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.51,
+    "latitude": 47.7704065,
+    "longitude": 8.9856595,
+    "raw": "BVsaUxx5L4EA+wg=",
+    "siv": 8,
+    "time": "2021-01-25T18:27:32.067452835Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.88,
+    "latitude": 47.7704163,
+    "longitude": 8.9856841,
+    "raw": "BVsbSRx5L+MBIAc=",
+    "siv": 7,
+    "time": "2021-01-25T18:32:37.043140779Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.88,
+    "latitude": 47.770434,
+    "longitude": 8.985632,
+    "raw": "BVsZQBx5MJQBIAc=",
+    "siv": 7,
+    "time": "2021-01-25T18:37:42.045273124Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.61,
+    "latitude": 47.7704676,
+    "longitude": 8.9855715,
+    "raw": "BVsW4xx5MeQBBQg=",
+    "siv": 8,
+    "time": "2021-01-25T18:42:45.995843898Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.94,
+    "latitude": 47.7704242,
+    "longitude": 8.9856223,
+    "raw": "BVsY3xx5MDIBJgc=",
+    "siv": 7,
+    "time": "2021-01-25T18:47:51.042723792Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 8.48,
+    "latitude": 47.7704995,
+    "longitude": 8.9856695,
+    "raw": "BVsatxx5MyMDUAc=",
+    "siv": 7,
+    "time": "2021-01-25T18:52:55.997806118Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 5.93,
+    "latitude": 47.7704276,
+    "longitude": 8.9856167,
+    "raw": "BVsYpxx5MFQCUQY=",
+    "siv": 6,
+    "time": "2021-01-25T18:58:01.070587983Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 5.1,
+    "latitude": 47.7704503,
+    "longitude": 8.9856295,
+    "raw": "BVsZJxx5MTcB/gc=",
+    "siv": 7,
+    "time": "2021-01-25T19:03:06.035189022Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.45,
+    "latitude": 47.7704377,
+    "longitude": 8.9855938,
+    "raw": "BVsXwhx5MLkA9Qk=",
+    "siv": 9,
+    "time": "2021-01-25T19:08:11.015725029Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.59,
+    "latitude": 47.7704795,
+    "longitude": 8.985638,
+    "raw": "BVsZfBx5MlsBywc=",
+    "siv": 7,
+    "time": "2021-01-25T19:13:16.08341616Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.68,
+    "latitude": 47.7704543,
+    "longitude": 8.9856225,
+    "raw": "BVsY4Rx5MV8BDAk=",
+    "siv": 9,
+    "time": "2021-01-25T19:18:21.07172274Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.7,
+    "latitude": 47.7704444,
+    "longitude": 8.985607,
+    "raw": "BVsYRhx5MPwBDgk=",
+    "siv": 9,
+    "time": "2021-01-25T19:23:26.029248689Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.22,
+    "latitude": 47.770476,
+    "longitude": 8.9856525,
+    "raw": "BVsaDRx5MjgBQgc=",
+    "siv": 7,
+    "time": "2021-01-25T19:28:30.007990402Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.97,
+    "latitude": 47.7704389,
+    "longitude": 8.9856393,
+    "raw": "BVsZiRx5MMUBKQk=",
+    "siv": 9,
+    "time": "2021-01-25T19:33:34.996606667Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.93,
+    "latitude": 47.7704268,
+    "longitude": 8.9856281,
+    "raw": "BVsZGRx5MEwBJQg=",
+    "siv": 8,
+    "time": "2021-01-25T19:38:40.04044724Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.08,
+    "latitude": 47.7703927,
+    "longitude": 8.9856471,
+    "raw": "BVsZ1xx5LvcBNAg=",
+    "siv": 8,
+    "time": "2021-01-25T19:43:43.013933313Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.86,
+    "latitude": 47.7704528,
+    "longitude": 8.9856745,
+    "raw": "BVsa6Rx5MVABHgg=",
+    "siv": 8,
+    "time": "2021-01-25T19:48:46.984162875Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.82,
+    "latitude": 47.7704608,
+    "longitude": 8.9856414,
+    "raw": "BVsZnhx5MaABGgg=",
+    "siv": 8,
+    "time": "2021-01-25T19:53:52.061285233Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.67,
+    "latitude": 47.7704588,
+    "longitude": 8.9855493,
+    "raw": "BVsWBRx5MYwBbwg=",
+    "siv": 8,
+    "time": "2021-01-25T19:58:57.034261985Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.85,
+    "latitude": 47.770418,
+    "longitude": 8.9856072,
+    "raw": "BVsYSBx5L/QBHQg=",
+    "siv": 8,
+    "time": "2021-01-25T20:04:01.997431102Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.28,
+    "latitude": 47.7704031,
+    "longitude": 8.9855874,
+    "raw": "BVsXghx5L18A5Ao=",
+    "siv": 10,
+    "time": "2021-01-25T20:09:07.006713781Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.75,
+    "latitude": 47.7704454,
+    "longitude": 8.9856002,
+    "raw": "BVsYAhx5MQYArwo=",
+    "siv": 10,
+    "time": "2021-01-25T20:14:12.093421604Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.64,
+    "latitude": 47.7704515,
+    "longitude": 8.9856238,
+    "raw": "BVsY7hx5MUMApAs=",
+    "siv": 11,
+    "time": "2021-01-25T20:19:17.075901843Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.73,
+    "latitude": 47.770449,
+    "longitude": 8.9856162,
+    "raw": "BVsYohx5MSoArQo=",
+    "siv": 10,
+    "time": "2021-01-25T20:24:22.067824216Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.78,
+    "latitude": 47.7704404,
+    "longitude": 8.9856087,
+    "raw": "BVsYVxx5MNQAsgo=",
+    "siv": 10,
+    "time": "2021-01-25T20:29:27.077142644Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.78,
+    "latitude": 47.7704569,
+    "longitude": 8.9856099,
+    "raw": "BVsYYxx5MXkAsgw=",
+    "siv": 12,
+    "time": "2021-01-25T20:34:32.069322753Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.1,
+    "latitude": 47.7704353,
+    "longitude": 8.9856213,
+    "raw": "BVsY1Rx5MKEA0gg=",
+    "siv": 8,
+    "time": "2021-01-25T20:39:37.044786501Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.31,
+    "latitude": 47.7704692,
+    "longitude": 8.9856318,
+    "raw": "BVsZPhx5MfQA5wg=",
+    "siv": 8,
+    "time": "2021-01-25T20:44:42.100699024Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.35,
+    "latitude": 47.7705187,
+    "longitude": 8.9856375,
+    "raw": "BVsZdxx5M+MA6wk=",
+    "siv": 9,
+    "time": "2021-01-25T20:49:47.061994905Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.42,
+    "latitude": 47.7704227,
+    "longitude": 8.985651,
+    "raw": "BVsZ/hx5MCMBugc=",
+    "siv": 7,
+    "time": "2021-01-25T20:54:52.02985081Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.13,
+    "latitude": 47.7704917,
+    "longitude": 8.9856135,
+    "raw": "BVsYhxx5MtUBOQo=",
+    "siv": 10,
+    "time": "2021-01-25T20:59:56.996896313Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.51,
+    "latitude": 47.7704518,
+    "longitude": 8.9856288,
+    "raw": "BVsZIBx5MUYA+wo=",
+    "siv": 10,
+    "time": "2021-01-25T21:05:02.031769985Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.2,
+    "latitude": 47.7705088,
+    "longitude": 8.9856336,
+    "raw": "BVsZUBx5M4AA3As=",
+    "siv": 11,
+    "time": "2021-01-25T21:10:07.004335906Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.39,
+    "latitude": 47.7704877,
+    "longitude": 8.9856217,
+    "raw": "BVsY2Rx5Mq0A7ws=",
+    "siv": 11,
+    "time": "2021-01-25T21:15:12.039405957Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.59,
+    "latitude": 47.7704674,
+    "longitude": 8.985648,
+    "raw": "BVsZ4Bx5MeIBAwg=",
+    "siv": 8,
+    "time": "2021-01-25T21:20:17.087510336Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.66,
+    "latitude": 47.7704758,
+    "longitude": 8.9856401,
+    "raw": "BVsZkRx5MjYApgs=",
+    "siv": 11,
+    "time": "2021-01-25T21:25:21.043918084Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.73,
+    "latitude": 47.7704667,
+    "longitude": 8.9856246,
+    "raw": "BVsY9hx5MdsArQo=",
+    "siv": 10,
+    "time": "2021-01-25T21:30:26.088959142Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.78,
+    "latitude": 47.7704921,
+    "longitude": 8.9856581,
+    "raw": "BVsaRRx5MtkAsgk=",
+    "siv": 9,
+    "time": "2021-01-25T21:35:30.062467287Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.76,
+    "latitude": 47.7704904,
+    "longitude": 8.9856065,
+    "raw": "BVsYQRx5MsgAsAo=",
+    "siv": 10,
+    "time": "2021-01-25T21:40:35.042067117Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.63,
+    "latitude": 47.7704724,
+    "longitude": 8.9856278,
+    "raw": "BVsZFhx5MhQAoww=",
+    "siv": 12,
+    "time": "2021-01-25T21:45:39.008881308Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.17,
+    "latitude": 47.7704666,
+    "longitude": 8.985588,
+    "raw": "BVsXiBx5MdoA2Qs=",
+    "siv": 11,
+    "time": "2021-01-25T21:50:44.088725008Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.94,
+    "latitude": 47.7704284,
+    "longitude": 8.985643,
+    "raw": "BVsZrhx5MFwBJgg=",
+    "siv": 8,
+    "time": "2021-01-25T21:55:48.036981165Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.27,
+    "latitude": 47.7704355,
+    "longitude": 8.9855846,
+    "raw": "BVsXZhx5MKMA4wk=",
+    "siv": 9,
+    "time": "2021-01-25T22:00:52.996431526Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.63,
+    "latitude": 47.7704313,
+    "longitude": 8.9856101,
+    "raw": "BVsYZRx5MHkBBwk=",
+    "siv": 9,
+    "time": "2021-01-25T22:05:58.052707245Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.93,
+    "latitude": 47.7704052,
+    "longitude": 8.9857159,
+    "raw": "BVschxx5L3QAwQk=",
+    "siv": 9,
+    "time": "2021-01-25T22:11:03.014327812Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.85,
+    "latitude": 47.7704462,
+    "longitude": 8.9856418,
+    "raw": "BVsZohx5MQ4AuQs=",
+    "siv": 11,
+    "time": "2021-01-25T22:16:07.088682494Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.25,
+    "latitude": 47.7704693,
+    "longitude": 8.9856105,
+    "raw": "BVsYaRx5MfUA4Qk=",
+    "siv": 9,
+    "time": "2021-01-25T22:21:12.060594697Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.83,
+    "latitude": 47.77044,
+    "longitude": 8.9856276,
+    "raw": "BVsZFBx5MNABGwg=",
+    "siv": 8,
+    "time": "2021-01-25T22:26:17.011889703Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.3,
+    "latitude": 47.7704343,
+    "longitude": 8.9856379,
+    "raw": "BVsZexx5MJcA5go=",
+    "siv": 10,
+    "time": "2021-01-25T22:31:22.04914888Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.76,
+    "latitude": 47.7704148,
+    "longitude": 8.9855958,
+    "raw": "BVsX1hx5L9QBFAc=",
+    "siv": 7,
+    "time": "2021-01-25T22:36:27.0441818Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.44,
+    "latitude": 47.7704457,
+    "longitude": 8.9856378,
+    "raw": "BVsZehx5MQkBWAc=",
+    "siv": 7,
+    "time": "2021-01-25T22:41:32.008113806Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.03,
+    "latitude": 47.7705051,
+    "longitude": 8.9856481,
+    "raw": "BVsZ4Rx5M1sBLwg=",
+    "siv": 8,
+    "time": "2021-01-25T22:46:36.997111353Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.11,
+    "latitude": 47.770543,
+    "longitude": 8.985669,
+    "raw": "BVsashx5NNYBNwc=",
+    "siv": 7,
+    "time": "2021-01-25T22:51:42.048391074Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.65,
+    "latitude": 47.7704652,
+    "longitude": 8.985626,
+    "raw": "BVsZBBx5McwApQo=",
+    "siv": 10,
+    "time": "2021-01-25T22:56:47.035623359Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.62,
+    "latitude": 47.7704667,
+    "longitude": 8.9856292,
+    "raw": "BVsZJBx5MdsAogo=",
+    "siv": 10,
+    "time": "2021-01-25T23:01:52.008068622Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.99,
+    "latitude": 47.7704838,
+    "longitude": 8.9856064,
+    "raw": "BVsYQBx5MoYBKwg=",
+    "siv": 8,
+    "time": "2021-01-25T23:06:57.079363524Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.9,
+    "latitude": 47.7704654,
+    "longitude": 8.985571,
+    "raw": "BVsW3hx5Mc4BIgg=",
+    "siv": 8,
+    "time": "2021-01-25T23:12:02.069759328Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.33,
+    "latitude": 47.7704796,
+    "longitude": 8.9856481,
+    "raw": "BVsZ4Rx5MlwBTQc=",
+    "siv": 7,
+    "time": "2021-01-25T23:17:07.025753705Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.64,
+    "latitude": 47.770419,
+    "longitude": 8.9856261,
+    "raw": "BVsZBRx5L/4BCAg=",
+    "siv": 8,
+    "time": "2021-01-25T23:22:11.985483833Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.79,
+    "latitude": 47.7704492,
+    "longitude": 8.985575,
+    "raw": "BVsXBhx5MSwBFwc=",
+    "siv": 7,
+    "time": "2021-01-25T23:27:17.070501477Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.29,
+    "latitude": 47.7704567,
+    "longitude": 8.9856502,
+    "raw": "BVsZ9hx5MXcBSQY=",
+    "siv": 6,
+    "time": "2021-01-25T23:32:21.999052446Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.63,
+    "latitude": 47.7704136,
+    "longitude": 8.9856442,
+    "raw": "BVsZuhx5L8gBBwk=",
+    "siv": 9,
+    "time": "2021-01-25T23:37:27.098847101Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.05,
+    "latitude": 47.7703629,
+    "longitude": 8.9856247,
+    "raw": "BVsY9xx5Lc0BMQc=",
+    "siv": 7,
+    "time": "2021-01-25T23:42:31.031136723Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.9,
+    "latitude": 47.7704399,
+    "longitude": 8.9856357,
+    "raw": "BVsZZRx5MM8BIgk=",
+    "siv": 9,
+    "time": "2021-01-25T23:47:36.012548212Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.05,
+    "latitude": 47.7704182,
+    "longitude": 8.9856123,
+    "raw": "BVsYexx5L/YAzQo=",
+    "siv": 10,
+    "time": "2021-01-25T23:52:41.086557791Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.27,
+    "latitude": 47.7704538,
+    "longitude": 8.98555,
+    "raw": "BVsWDBx5MVoA4wk=",
+    "siv": 9,
+    "time": "2021-01-25T23:57:46.045273341Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.2,
+    "latitude": 47.7704465,
+    "longitude": 8.9855542,
+    "raw": "BVsWNhx5MREA3Ak=",
+    "siv": 9,
+    "time": "2021-01-26T00:02:51.014068728Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.17,
+    "latitude": 47.7705006,
+    "longitude": 8.9855835,
+    "raw": "BVsXWxx5My4A2Qg=",
+    "siv": 8,
+    "time": "2021-01-26T00:07:56.009917615Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.3,
+    "latitude": 47.7704876,
+    "longitude": 8.9856186,
+    "raw": "BVsYuhx5MqwA5gg=",
+    "siv": 8,
+    "time": "2021-01-26T00:13:01.07174144Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.98,
+    "latitude": 47.7704363,
+    "longitude": 8.9856238,
+    "raw": "BVsY7hx5MKsBKgc=",
+    "siv": 7,
+    "time": "2021-01-26T00:18:06.02454406Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.03,
+    "latitude": 47.7704481,
+    "longitude": 8.9855853,
+    "raw": "BVsXbRx5MSEBLwc=",
+    "siv": 7,
+    "time": "2021-01-26T00:23:10.07138513Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.08,
+    "latitude": 47.7704987,
+    "longitude": 8.9856194,
+    "raw": "BVsYwhx5MxsBNAg=",
+    "siv": 8,
+    "time": "2021-01-26T00:28:15.073132191Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.43,
+    "latitude": 47.770439,
+    "longitude": 8.9855999,
+    "raw": "BVsX/xx5MMYA8wc=",
+    "siv": 7,
+    "time": "2021-01-26T00:33:20.023543381Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.54,
+    "latitude": 47.7704252,
+    "longitude": 8.9855983,
+    "raw": "BVsX7xx5MDwBYgY=",
+    "siv": 6,
+    "time": "2021-01-26T00:38:25.008935901Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.85,
+    "latitude": 47.7704405,
+    "longitude": 8.9856478,
+    "raw": "BVsZ3hx5MNUBHQc=",
+    "siv": 7,
+    "time": "2021-01-26T00:43:30.055975349Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.51,
+    "latitude": 47.7704294,
+    "longitude": 8.9855906,
+    "raw": "BVsXohx5MGYA+wk=",
+    "siv": 9,
+    "time": "2021-01-26T00:48:35.066795316Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.4,
+    "latitude": 47.7704323,
+    "longitude": 8.9856443,
+    "raw": "BVsZuxx5MIMBVAg=",
+    "siv": 8,
+    "time": "2021-01-26T00:53:40.051958039Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.52,
+    "latitude": 47.7704292,
+    "longitude": 8.9856189,
+    "raw": "BVsYvRx5MGQA/Ak=",
+    "siv": 9,
+    "time": "2021-01-26T00:58:44.054716533Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.78,
+    "latitude": 47.7704784,
+    "longitude": 8.9856506,
+    "raw": "BVsZ+hx5MlABFgg=",
+    "siv": 8,
+    "time": "2021-01-26T01:03:49.007048867Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 5.04,
+    "latitude": 47.7704473,
+    "longitude": 8.9855927,
+    "raw": "BVsXtxx5MRkB+Ac=",
+    "siv": 7,
+    "time": "2021-01-26T01:08:53.991575888Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.32,
+    "latitude": 47.7704642,
+    "longitude": 8.9856104,
+    "raw": "BVsYaBx5McIA6Ak=",
+    "siv": 9,
+    "time": "2021-01-26T01:13:59.048906278Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.34,
+    "latitude": 47.7704523,
+    "longitude": 8.9856237,
+    "raw": "BVsY7Rx5MUsA6gk=",
+    "siv": 9,
+    "time": "2021-01-26T01:19:04.040333353Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.93,
+    "latitude": 47.7704542,
+    "longitude": 8.9855836,
+    "raw": "BVsXXBx5MV4BJQg=",
+    "siv": 8,
+    "time": "2021-01-26T01:24:09.042311958Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.32,
+    "latitude": 47.770475,
+    "longitude": 8.9856054,
+    "raw": "BVsYNhx5Mi4A6Ag=",
+    "siv": 8,
+    "time": "2021-01-26T01:29:14.007139725Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.1,
+    "latitude": 47.7704336,
+    "longitude": 8.9856274,
+    "raw": "BVsZEhx5MJABmgc=",
+    "siv": 7,
+    "time": "2021-01-26T01:34:18.995195278Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.94,
+    "latitude": 47.7704708,
+    "longitude": 8.9855954,
+    "raw": "BVsX0hx5MgQBigc=",
+    "siv": 7,
+    "time": "2021-01-26T01:39:24.071695297Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.29,
+    "latitude": 47.7704406,
+    "longitude": 8.9856346,
+    "raw": "BVsZWhx5MNYBSQc=",
+    "siv": 7,
+    "time": "2021-01-26T01:44:29.045348056Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.62,
+    "latitude": 47.7704702,
+    "longitude": 8.985548,
+    "raw": "BVsV+Bx5Mf4Bagc=",
+    "siv": 7,
+    "time": "2021-01-26T01:49:34.024902636Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.99,
+    "latitude": 47.770413,
+    "longitude": 8.9856486,
+    "raw": "BVsZ5hx5L8IBjwc=",
+    "siv": 7,
+    "time": "2021-01-26T01:54:38.991680916Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 5.54,
+    "latitude": 47.77042,
+    "longitude": 8.9856223,
+    "raw": "BVsY3xx5MAgCKgY=",
+    "siv": 6,
+    "time": "2021-01-26T01:59:43.987889215Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.23,
+    "latitude": 47.7704374,
+    "longitude": 8.9856018,
+    "raw": "BVsYEhx5MLYBQwc=",
+    "siv": 7,
+    "time": "2021-01-26T02:04:49.076480658Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 16.35,
+    "latitude": 47.7705194,
+    "longitude": 8.9856189,
+    "raw": "BVsYvRx5M+oGYwU=",
+    "siv": 5,
+    "time": "2021-01-26T02:09:54.050836076Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 8.47,
+    "latitude": 47.7704904,
+    "longitude": 8.9856209,
+    "raw": "BVsY0Rx5MsgDTwc=",
+    "siv": 7,
+    "time": "2021-01-26T02:14:59.023302934Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.2,
+    "latitude": 47.7704485,
+    "longitude": 8.9855971,
+    "raw": "BVsX4xx5MSUA3Ag=",
+    "siv": 8,
+    "time": "2021-01-26T02:20:03.026149221Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.73,
+    "latitude": 47.7704081,
+    "longitude": 8.9856366,
+    "raw": "BVsZbhx5L5EBdQc=",
+    "siv": 7,
+    "time": "2021-01-26T02:25:08.089023239Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.27,
+    "latitude": 47.7704509,
+    "longitude": 8.9856265,
+    "raw": "BVsZCRx5MT0A4wk=",
+    "siv": 9,
+    "time": "2021-01-26T02:30:13.071586884Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.43,
+    "latitude": 47.770431,
+    "longitude": 8.9856367,
+    "raw": "BVsZbxx5MHYA8wg=",
+    "siv": 8,
+    "time": "2021-01-26T02:35:17.065155998Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 16.1,
+    "latitude": 47.7704557,
+    "longitude": 8.9856672,
+    "raw": "BVsaoBx5MW0GSgU=",
+    "siv": 5,
+    "time": "2021-01-26T02:40:22.035538752Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.43,
+    "latitude": 47.7703497,
+    "longitude": 8.9855486,
+    "raw": "BVsV/hx5LUkBVwc=",
+    "siv": 7,
+    "time": "2021-01-26T02:45:27.026617307Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.07,
+    "latitude": 47.7703781,
+    "longitude": 8.985588,
+    "raw": "BVsXiBx5LmUBMwg=",
+    "siv": 8,
+    "time": "2021-01-26T02:50:32.077883158Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.35,
+    "latitude": 47.7704822,
+    "longitude": 8.9855878,
+    "raw": "BVsXhhx5MnYA6wk=",
+    "siv": 9,
+    "time": "2021-01-26T02:55:37.062820963Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.22,
+    "latitude": 47.7704932,
+    "longitude": 8.9856222,
+    "raw": "BVsY3hx5MuQA3gg=",
+    "siv": 8,
+    "time": "2021-01-26T03:00:42.058797709Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.52,
+    "latitude": 47.7704533,
+    "longitude": 8.9855998,
+    "raw": "BVsX/hx5MVUBYAc=",
+    "siv": 7,
+    "time": "2021-01-26T03:05:47.012984699Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.77,
+    "latitude": 47.7705105,
+    "longitude": 8.9856582,
+    "raw": "BVsaRhx5M5EBeQY=",
+    "siv": 6,
+    "time": "2021-01-26T03:10:52.037163307Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.62,
+    "latitude": 47.7704689,
+    "longitude": 8.9855612,
+    "raw": "BVsWfBx5MfEBagc=",
+    "siv": 7,
+    "time": "2021-01-26T03:15:57.005769812Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 4.88,
+    "latitude": 47.7704303,
+    "longitude": 8.9855966,
+    "raw": "BVsX3hx5MG8B6AY=",
+    "siv": 6,
+    "time": "2021-01-26T03:21:02.076041007Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.15,
+    "latitude": 47.7703966,
+    "longitude": 8.985599,
+    "raw": "BVsX9hx5Lx4BOwY=",
+    "siv": 6,
+    "time": "2021-01-26T03:26:07.068027172Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.19,
+    "latitude": 47.7704106,
+    "longitude": 8.9856032,
+    "raw": "BVsYIBx5L6oA2wg=",
+    "siv": 8,
+    "time": "2021-01-26T03:31:12.016951378Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.98,
+    "latitude": 47.7704278,
+    "longitude": 8.9856034,
+    "raw": "BVsYIhx5MFYAxgg=",
+    "siv": 8,
+    "time": "2021-01-26T03:36:17.057202121Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.86,
+    "latitude": 47.7704408,
+    "longitude": 8.9855931,
+    "raw": "BVsXuxx5MNgAugk=",
+    "siv": 9,
+    "time": "2021-01-26T03:41:22.016663582Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.41,
+    "latitude": 47.770481,
+    "longitude": 8.9855226,
+    "raw": "BVsU+hx5MmoBVQY=",
+    "siv": 6,
+    "time": "2021-01-26T03:46:26.999312092Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.48,
+    "latitude": 47.770438,
+    "longitude": 8.985608,
+    "raw": "BVsYUBx5MLwA+Ak=",
+    "siv": 9,
+    "time": "2021-01-26T03:51:32.049547153Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.91,
+    "latitude": 47.7704568,
+    "longitude": 8.985574,
+    "raw": "BVsW/Bx5MXgBIwg=",
+    "siv": 8,
+    "time": "2021-01-26T03:56:37.029212252Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.77,
+    "latitude": 47.7704557,
+    "longitude": 8.9855868,
+    "raw": "BVsXfBx5MW0BFQg=",
+    "siv": 8,
+    "time": "2021-01-26T04:01:41.015288517Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.38,
+    "latitude": 47.7704201,
+    "longitude": 8.9855792,
+    "raw": "BVsXMBx5MAkA7go=",
+    "siv": 10,
+    "time": "2021-01-26T04:06:46.007471702Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.42,
+    "latitude": 47.7704347,
+    "longitude": 8.9856165,
+    "raw": "BVsYpRx5MJsA8gk=",
+    "siv": 9,
+    "time": "2021-01-26T04:11:51.005066798Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.94,
+    "latitude": 47.7704214,
+    "longitude": 8.985592,
+    "raw": "BVsXsBx5MBYAwgo=",
+    "siv": 10,
+    "time": "2021-01-26T04:16:56.066318868Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.58,
+    "latitude": 47.7704441,
+    "longitude": 8.985619,
+    "raw": "BVsYvhx5MPkBZgg=",
+    "siv": 8,
+    "time": "2021-01-26T04:22:01.02012533Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.19,
+    "latitude": 47.7704619,
+    "longitude": 8.9856078,
+    "raw": "BVsYThx5MasBPwg=",
+    "siv": 8,
+    "time": "2021-01-26T04:27:06.005230111Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.76,
+    "latitude": 47.7704207,
+    "longitude": 8.9856551,
+    "raw": "BVsaJxx5MA8BFAk=",
+    "siv": 9,
+    "time": "2021-01-26T04:32:10.990991111Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.7,
+    "latitude": 47.7704072,
+    "longitude": 8.9856131,
+    "raw": "BVsYgxx5L4gBDgk=",
+    "siv": 9,
+    "time": "2021-01-26T04:37:16.063063671Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.65,
+    "latitude": 47.7704559,
+    "longitude": 8.9856131,
+    "raw": "BVsYgxx5MW8BCQk=",
+    "siv": 9,
+    "time": "2021-01-26T04:42:21.032156346Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.04,
+    "latitude": 47.7704782,
+    "longitude": 8.9856237,
+    "raw": "BVsY7Rx5Mk4BMAk=",
+    "siv": 9,
+    "time": "2021-01-26T04:47:26.001453497Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.76,
+    "latitude": 47.7705017,
+    "longitude": 8.9855895,
+    "raw": "BVsXlxx5MzkBFAg=",
+    "siv": 8,
+    "time": "2021-01-26T04:52:30.989596205Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.74,
+    "latitude": 47.7705045,
+    "longitude": 8.9855765,
+    "raw": "BVsXFRx5M1UBEgg=",
+    "siv": 8,
+    "time": "2021-01-26T04:57:36.050853364Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.08,
+    "latitude": 47.7704202,
+    "longitude": 8.9856134,
+    "raw": "BVsYhhx5MAoBNAc=",
+    "siv": 7,
+    "time": "2021-01-26T05:02:41.007440853Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.01,
+    "latitude": 47.7704189,
+    "longitude": 8.9856148,
+    "raw": "BVsYlBx5L/0BLQg=",
+    "siv": 8,
+    "time": "2021-01-26T05:07:46.091918939Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.57,
+    "latitude": 47.7704713,
+    "longitude": 8.98561,
+    "raw": "BVsYZBx5MgkBAQk=",
+    "siv": 9,
+    "time": "2021-01-26T05:12:51.060812875Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.68,
+    "latitude": 47.7704441,
+    "longitude": 8.9856287,
+    "raw": "BVsZHxx5MPkBDAg=",
+    "siv": 8,
+    "time": "2021-01-26T05:17:56.056135613Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.54,
+    "latitude": 47.7704254,
+    "longitude": 8.9856509,
+    "raw": "BVsZ/Rx5MD4A/gk=",
+    "siv": 9,
+    "time": "2021-01-26T05:23:01.030850787Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.55,
+    "latitude": 47.7704818,
+    "longitude": 8.9855971,
+    "raw": "BVsX4xx5MnIA/wk=",
+    "siv": 9,
+    "time": "2021-01-26T05:28:06.003788516Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.38,
+    "latitude": 47.7704446,
+    "longitude": 8.9856155,
+    "raw": "BVsYmxx5MP4A7gg=",
+    "siv": 8,
+    "time": "2021-01-26T05:33:11.078889433Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.22,
+    "latitude": 47.7704582,
+    "longitude": 8.9856252,
+    "raw": "BVsY/Bx5MYYA3gk=",
+    "siv": 9,
+    "time": "2021-01-26T05:38:16.047244029Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.28,
+    "latitude": 47.7704348,
+    "longitude": 8.9856179,
+    "raw": "BVsYsxx5MJwA5Ak=",
+    "siv": 9,
+    "time": "2021-01-26T05:43:21.010497574Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.15,
+    "latitude": 47.7704699,
+    "longitude": 8.9856161,
+    "raw": "BVsYoRx5MfsBOwc=",
+    "siv": 7,
+    "time": "2021-01-26T05:48:26.091151164Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 3.12,
+    "latitude": 47.7704146,
+    "longitude": 8.9856289,
+    "raw": "BVsZIRx5L9IBOAc=",
+    "siv": 7,
+    "time": "2021-01-26T05:53:31.062152738Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 1.97,
+    "latitude": 47.7705068,
+    "longitude": 8.9856193,
+    "raw": "BVsYwRx5M2wAxQk=",
+    "siv": 9,
+    "time": "2021-01-26T05:58:36.025330966Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.99,
+    "latitude": 47.7703814,
+    "longitude": 8.9856387,
+    "raw": "BVsZgxx5LoYBKwY=",
+    "siv": 6,
+    "time": "2021-01-26T06:03:41.013134444Z"
+  },
+  {
+    "device_id": "murata_test_module",
+    "hdop": 2.22,
+    "latitude": 47.7704939,
+    "longitude": 8.9855948,
+    "raw": "BVsXzBx5MusA3gg=",
+    "siv": 8,
+    "time": "2021-01-26T06:08:46.01630458Z"
+  }
+]

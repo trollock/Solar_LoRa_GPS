@@ -1,0 +1,71 @@
+---
+title: "movement_tracks"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+require(ggplot2)
+require(moveVis)
+require(move)
+require(sf)
+```
+
+## R Markdown
+```{r}
+setwd("//Users/ryanshipley/Documents/Github/Solar_LoRa_GPS/API_Integration/Stored_Data/compiled_records")
+
+#result <- read.csv("compiled_2021-09-12-GPS-records.csv")
+
+result <- read.csv("exported_POINTS.csv")
+
+result$volts <- as.numeric(result$volts)
+result$volts <- as.numeric(result$volts)
+
+result$time_stamp <- lubridate::ymd_hms(result$message_ti)
+
+result$id_6 <- stringr::str_sub(result$id, -6, -1)
+
+result <- result[which(result$id_6 == "04476c" | result$id_6 == "04476d" | result$id_6 == "04476e" |
+                       result$id_6 == "04476f" | result$id_6 == "044770" | result$id_6 == "044a2a" |
+                       result$id_6 == "044a2b" | result$id_6 == "044a2c" | result$id_6 == "044a2d" |
+                       result$id_6 == "044a2e" | result$id_6 == "044a2f"),]
+
+ggplot2::ggplot(data=result[ which(result$volts > 3.10),], aes(time_stamp, volts))+
+                annotate(geom="rect", ymin=3.95, ymax=4.3, xmin = min(result$time_stamp), xmax = max(result$time_stamp), fill="#CAFFBF", alpha=0.8)+
+                annotate(geom="rect", ymin=3.68, ymax=3.95, xmin = min(result$time_stamp), xmax = max(result$time_stamp), fill="#FDFFB6", alpha=0.8)+
+                annotate(geom="rect", ymin=3.58, ymax=3.68, xmin = min(result$time_stamp), xmax = max(result$time_stamp), fill="#FFD6A5", alpha=0.8)+
+                annotate(geom="rect", ymin=-Inf, ymax=3.58, xmin = min(result$time_stamp), xmax = max(result$time_stamp), fill="#FFADAD", alpha=0.8)+
+                geom_point(data=result[ which(result$volts > 3.10),], aes(time_stamp, volts, color=id))+
+                geom_line(data=result[ which(result$volts > 3.10),], aes(time_stamp, volts, color=id))+
+                cowplot::theme_cowplot()+
+                scale_y_continuous(breaks=c(3.2, 3.4, 3.6, 3.8, 4.0, 4.2), limits=c(3.2,4.4))
+
+result <- result %>%
+            dplyr::distinct(time_stamp, .keep_all=TRUE) %>%
+            dplyr::filter(latitude > 0)
+
+result <- st_as_sf(result, coords = c("longitude", "latitude"),  crs = 4326)
+result <- st_jitter(result, amount=0.0001)
+
+result_jitter <- cbind(st_coordinates(result), result)
+
+move_data <- df2move(result_jitter,
+        proj =CRS("+proj=longlat +ellps=WGS84 +datum=WGS84"),
+        x = "X", y = "Y", time = "time_stamp", track_id = "id_6")
+
+move_data <- align_move(move_data, res = 30, unit = "mins")
+
+ext <- extent(8.9875,9.007,47.761285, 47.770)
+
+frames <- frames_spatial(move_data,
+                         map_service = "osm", map_type = "toner_lite", ext=ext, alpha = 0.5, map_res = 1, path_size=0.5)
+
+frames <- frames_spatial(move_data,
+                         map_service = "mapbox",
+                          map_token = "pk.eyJ1IjoiYnl0b3IyMDA2IiwiYSI6ImNrdHc0YWdzZzJnOWgzMW8zYmR1enk3M2oifQ.XNKB45FGsPSTrBILzjnoyQ",
+                          map_type = "satellite", ext=ext, alpha = 0.85, map_res = 1, path_size=0.75)
+
+animate_frames(frames, out_file = "example_2.gif")
+```
+

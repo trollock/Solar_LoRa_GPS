@@ -1,0 +1,206 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+library(readr)
+library(lubridate)
+library(sf)
+library(ggplot2)
+set.seed(1984)
+
+df <- list.files(path="//Users/ryanshipley/Documents/Github/Solar_LoRa_GPS/API_Integration/Stored_Data", full.names = TRUE) %>% 
+  lapply(read_csv) %>% 
+  bind_rows %>%
+  dplyr::mutate(time_stamp = lubridate::ymd_hms(message_time)) %>%
+  dplyr::distinct(time_stamp, .keep_all=TRUE) %>%
+  dplyr::filter(latitude > 0) %>%
+  dplyr::mutate(id_6 = stringr::str_sub(id, -6, -1))
+
+df <- st_as_sf(df, coords = c("longitude", "latitude"),  crs = 4326)
+df <- st_jitter(df, amount=0.0001)
+
+df <- cbind(df, st_coordinates(df))
+
+df$X[df$d.m.y == 999] <- 0
+df$Y[df$d.m.y == 999] <- 0
+
+df <- df[which(df$id_6 == "04476c" | df$id_6 == "04476d" | df$id_6 == "04476e" | 
+                 df$id_6 == "04476f" | df$id_6 == "044770" | df$id_6 == "044a2b" | 
+                 df$id_6 == "044a2c" | df$id_6 == "044a2d" | df$id_6 == "044a2e" | 
+                 df$id_6 == "044a2f" | df$id_6 == "044a30" | df$id_6 == "044a31" | 
+                 df$id_6 == "044a32" | df$id_6 == "044a33" | df$id_6 == "044a34" |
+                 df$id_6 == "044a35" | df$id_6 == "044a36" | df$id_6 == "044a37" | 
+                 df$id_6 == "044a38" | df$id_6 == "044a39" | df$id_6 == "044a3a" | 
+                 df$id_6 == "044a3b" | df$id_6 == "044a3c" | df$id_6 == "044a3d" |
+                 df$id_6 == "044a3e" | df$id_6 == "044a3f" | df$id_6 == "044a40" | 
+                 df$id_6 == "044a41" | df$id_6 == "044a42" | df$id_6 == "044a43" |
+                 df$id_6 == "044a44" | df$id_6 == "044a45" | df$id_6 == "044a46" |
+                 df$id_6 == "044a47" | df$id_6 == "044a48" | df$id_6 == "044a49" | 
+                 df$id_6 == "044a4a" | df$id_6 == "044a4b" | df$id_6 == "044a4c" | 
+                 df$id_6 == "044a4d" | df$id_6 == "044a4e" | df$id_6 == "044a4f" | 
+                 df$id_6 == "044a50" | df$id_6 == "044a51" | df$id_6 == "044a52" | 
+                 df$id_6 == "044a53" | df$id_6 == "044a54" | df$id_6 == "044a55"),]
+
+df <- df[, -1]
+
+setwd("//Users/ryanshipley/Documents/Github/Solar_LoRa_GPS/API_Integration/Output_Data")
+
+write.csv(df, "Compiled_records_clean.csv")  
+
+```
+
+```{r, fig.width = 12, fig.height = 12}
+df <- dplyr::arrange(df, time_stamp)
+
+df <- df %>%
+        dplyr::filter(X > 0) %>%
+        dplyr::filter(message_time > "2021-9-10")
+
+ggplot(data=df, aes(X, Y, color=id)) +
+  geom_path()+
+  facet_wrap(.~id, scales = "free") +
+  theme_cowplot()
+```
+
+
+```{r, fig.width=9, fig.height=9}
+#df <- df[which(df$id_6 == "04476d" | df$id_6 == "044a31" |
+#                 df$id_6 == "044a36" | df$id_6 == "044a3a" | df$id_6 == "044a46" | 
+#                 df$id_6 == "044a49" | df$id_6 == "044a52" | df$id_6 == "044a53"),]
+
+dates_vline <- lubridate::ymd_hms("2021-09-14 00:00:00", "2021-09-24 00:00:00") 
+
+ggplot2::ggplot(data=df[ which(df$volts > 3.10),], aes(time_stamp, volts, color=id_6))+
+  annotate(geom="rect", ymin=3.95, ymax=4.3, xmin = min(df$time_stamp), xmax = max(df$time_stamp), fill="#CAFFBF", alpha=0.8)+
+  annotate(geom="rect", ymin=3.68, ymax=3.95, xmin = min(df$time_stamp), xmax = max(df$time_stamp), fill="#FDFFB6", alpha=0.8)+
+  annotate(geom="rect", ymin=3.58, ymax=3.68, xmin = min(df$time_stamp), xmax = max(df$time_stamp), fill="#FFD6A5", alpha=0.8)+
+  annotate(geom="rect", ymin=-Inf, ymax=3.58, xmin = min(df$time_stamp), xmax = max(df$time_stamp), fill="#FFADAD", alpha=0.8)+
+  geom_point(data=df[ which(df$volts > 3.10),], aes(time_stamp, volts), size=0.25)+
+  geom_line(data=df[ which(df$volts > 3.10),], aes(time_stamp, volts), size=0.25)+
+  cowplot::theme_cowplot()+
+  scale_y_continuous(breaks=c(3.2, 3.4, 3.6, 3.8, 4.0, 4.2), limits=c(3.2,4.4))+
+  geom_vline(xintercept=dates_vline)+
+  facet_wrap(.~id_6) +
+  theme(legend.position = "none")
+  
+```
+
+```{r}
+library(rayshader)
+library(geoviz)
+library(raster)
+library(rgdal)
+#47.76602104842484, 8.996303909895765
+#46.855973914414584, 8.188006549878368
+#0.3977031496620628, 36.874072505235105
+lat <- 0.3977031496620628
+long <- 36.874072505235105
+square_km <- 9
+
+##~Set max tiles. This sets the resolution of your DEM. 
+##The max is 60, but the image will be slower in R (TEST ON 10)
+max_tiles <- 60
+
+#DEM data from Mapzen
+dem <- mapzen_dem(lat, long, square_km, max_tiles = max_tiles)
+
+# If you want to put satellite imagery on, first get a mapkey
+# MapKey: https://docs.mapbox.com/help/glossary/access-token
+mapbox_key <- "pk.eyJ1IjoiYnl0b3IyMDA2IiwiYSI6ImNrdHc0YWdzZzJnOWgzMW8zYmR1enk3M2oifQ.XNKB45FGsPSTrBILzjnoyQ"
+
+overlay_image <-
+  slippy_overlay(
+    dem,
+    max_tiles=24,
+    api_key = mapbox_key,
+    image_source = "mapbox",
+    image_type = "satellite",
+  )
+
+sunangle <- 0
+
+#Draw the rayshader scene
+elmat = matrix(
+  raster::extract(dem, raster::extent(dem), method = 'bilinear'),
+  nrow = ncol(dem),
+  ncol = nrow(dem) )
+
+#plot map with overlay image and shadows
+#elmat %>%
+#  sphere_shade(texture = "bw") %>%
+#  add_overlay(overlay_image,alphalayer = 0.8) %>%
+#  add_overlay(generate_point_overlay(df, color="red", size=12, 
+#                                   attr(dem,"extent"), heightmap = dem)) %>%
+  #dd_shadow(ray_shade(elmat, zscale=50, maxsearch = 500)) %>%
+#  plot_map()
+
+#elmat %>%
+#  sphere_shade() %>%
+#  add_water(detect_water(elmat)) %>%
+#  add_shadow(ray_shade(elmat,lambert=FALSE)) %>%
+#  add_shadow(lamb_shade(elmat)) %>%
+#  add_shadow(ambient_shade(elmat)) %>%
+#  plot_map()
+
+nColors <-
+   with(df,
+        data.frame(id_6 = levels(as.factor(df$id_6)),
+                   plot_color = I(topo.colors(nlevels(as.factor(df$id_6))))))
+
+df <- merge(df, nColors, by=c("id_6"))
+```
+
+
+
+```{r}
+#render in 3d
+elmat %>%
+  sphere_shade(texture = "bw") %>%
+  add_overlay(overlay_image,alphalayer = 0.65) %>%
+  add_water(detect_water(elmat), color = "lightblue") %>%
+  #add_shadow(ray_shade(elmat), 0.5)  %>%
+  #add_shadow(ambient_shade(elmat), 0) %>%
+  #add_overlay(generate_point_overlay(df, color=df$plot_color, size=12, 
+  #                                 attr(dem,"extent"), heightmap = dem)) %>%
+  plot_3d(elmat, soliddepth = 1, zscale = 1.5, fov = 0, theta = -15, zoom = 0.58, phi = 38, windowsize = c(800, 600))
+render_highquality(point_radius = 1,sample_method="stratified")
+```
+
+```{r}
+require(rayshader)
+##Lat, long of the area you want(Tahoe Center)
+lat <- 39.087018
+long <- -120.036400
+square_km <- 30
+
+##~Set max tiles. This sets the resolution of your DEM. 
+##The max is 60, but the image will be slower in R (TEST ON 10)
+max_tiles <- 30
+
+#DEM data from Mapzen
+dem <- mapzen_dem(lat, long, square_km, max_tiles = max_tiles)
+
+sunangle <-45
+
+#Draw the rayshader scene
+elmat = matrix(
+  raster::extract(dem, raster::extent(dem), method = 'bilinear'),
+  nrow = ncol(dem),
+  ncol = nrow(dem) )
+
+elmat %>%
+  sphere_shade() %>%
+  add_water(detect_water(elmat)) %>%
+  add_shadow(ray_shade(elmat,lambert=FALSE)) %>%
+  add_shadow(lamb_shade(elmat)) %>%
+  add_shadow(ambient_shade(elmat)) %>%
+  plot_map()
+```
+
