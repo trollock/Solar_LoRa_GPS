@@ -1,2 +1,2 @@
 # Solar_LoRa_GPS
- related files to the development of the Solar LoRa GPS radiotransceiver
+files related to the development of the Solar LoRa GPS radiotransceiver including information on the hardware and software
